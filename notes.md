@@ -1,9 +1,43 @@
 Omera Notes
 -----------
 
+Omega is about an ancient mythical magical kingdom that once existed thousands of years ago. It was more advanced than the current world which is in a decline, with few major cities and disparate settlements. No magic exists in the present, or so it appears.
 
 
 Players: 1-4 kids
+
+Modules
+
+The Escaped Pig
+-------------------
+*Tam has lost a pig. It ran off towards the river. You can have an old sword if you catch it. Just don't go near the caves...*
+
+The pig has gone into the cave, of course the kids will follow.
+
+Door puzzle requires a set of coloured stones to be inserted.
+
+
+The Hole
+-----------------
+*The bucket fell into the well again. Boab can make another one when he has the time. Just don't try to climb down and get it. Remember what happened to Kort...*
+
+
+Kids can climb down a rope. There is a crack in the wall leading to a ruined chamber. A set of magical rings can be found.
+
+The Boy who cried Wolf.
+---------------------------
+*Before he went missing, Boab's boy Jeth said he saw eyes watching him at night in the north field. Boab has been sad since. What happend to the boy?*
+
+The boy followed a wolf who was attacking his dad's cattle to kill it and earn his dad's respect. He got bit and became a werewolf. Urnst knows and keeps it a secret. Jeth comes on his human days for supplies and in return helps Urnst with his field. He keeps the other wolves from bothering the village.
+
+The Haunted Tower
+-----------------
+*The old watchtower has stood looking over the region for as long as people have lived here. No-one remember who built it or why. It's supposed to be haunted...*
+
+The Town
+--------
+*Tam says he'll take the kids to town for the first time. It's a long journey through the old forest road. Anything could happen...*
+
 
 
 NPCs
