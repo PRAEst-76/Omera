@@ -1,4 +1,4 @@
-![The Kingdom of Omera](https://github.com/PRAEst-76/Omera/blob/main/images/title.png)
+![The Kingdom of Omera](images/title.png)
 
 # The Kingdom of Omera
 
