@@ -73,3 +73,5 @@ AREA
 The ruins of the mythical lost city are actually under the enchanted forest. They are mostly underground as debris from the cataclysm 1200 years ago buried the city. Magic seeping through the ground has enhanted the forest. Even the bandits largely stick to the old trade road, cleared 500 years ago by King Ivreth IV and largely unused since the fall of the kingdom 150 years previously, the increse in bandit activity and the opening of the coastal routes.
 
 
+---
+The Lost Kingdom of Omera

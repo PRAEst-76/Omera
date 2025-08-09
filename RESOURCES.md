@@ -27,3 +27,6 @@
 [Pixlr Express](http://pixlr.com/express) - Used to draw over the AI art to make you feel less guilty about using AI art.
 
 [Krita](https://krita.org) - Used when you realise Pixlr Express is a bit crap and you need a proper art app if you want to make anything decent.
+
+---
+The Lost Kingdom of Omera
