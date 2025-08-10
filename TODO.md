@@ -5,9 +5,8 @@
 - [ ] Create NPCs
 - [ ] Flesh out game world
 - [ ] Replace all AI art with original art.
+- [ ] Create weapon and item cards
 
 ## Modules
 - [ ] The Escaped Pig
-
----
-The Lost Kingdom of Omera
+- [ ] The Well
