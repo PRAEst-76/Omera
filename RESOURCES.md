@@ -4,7 +4,7 @@ Most of these are here for my own guidence, though they may be of use to others 
 
 ## Kids RPG Advice
 
-[D&D Beyond: Play D&D with kids using the young adventurers](https://www.dndbeyond.com/posts/554-play-d-d-with-kids-using-the-young-adventurers)
+[D&D Beyond: Play D&D with kids using the Young Adventurers Guide](https://www.dndbeyond.com/posts/554-play-d-d-with-kids-using-the-young-adventurers)
 
 [D&D Compendium: DMing for kids](https://www.dnd-compendium.com/dm-resources/dming-for-kids)
 
