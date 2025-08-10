@@ -1,4 +1,4 @@
-# Notes
+# Background Notes
 
 The Lost Kingdom of Omera is about an ancient mythical magical kingdom that once existed thousands of years ago. It was more advanced than the current world which is in a decline, with few major cities and disparate settlements. No magic exists in the present, or so it appears.
 
@@ -7,6 +7,8 @@ A great cataclysm occured when the ancient land of Omera was buried under the re
 In Suriia, a great conclave of druids combined their strength to stop Lukhat taking the life-force from the land, but their power wasn't enough and the land of Suriia was destroyed. Meanwhile, in Omera, a group of heroes attacked Lukhat, he fought them off, but while weakened some Omerani mages were able to steal his scepter. While his guards searched for the scepter, he struggled to control the rift. A hero was able to injure him and he lost control. The conjuction broke and the rift closed and the primal magical life-force of Suriia and the dark energies of the dark realm were released and were drawn into Lukhat's scepter that had been taken from the city. The debris from the destroyed lands of Suuria fell upon Omera, burying it forever along with most of it's people and Lukhat, now trapped in the dead form of the kingdoms emperor.
 
 Suriia was left a desert and the survivng people scattered along with the remaining elves of Omera. Overtime a forest grew across the buried Omera, hiding it's secrets. The humans of Suriia built new kingdoms on the remains. The elves became reclusive, hiding in the forests and sticking to the old ways before Lukhat's corruption. The Lost Kingdom of Omera and it's magic became a myth. However, deep underground Lukhat lies buried, dreaming of escape.
+
+The players know none of this of course, they are more concerned with finding lost piglets.
 
 **Players:** 1-4
 
