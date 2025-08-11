@@ -6,6 +6,8 @@ An attempt to create a D&D campaign for very young players (ie, my six year old 
 
 Players will start with little knowledge of the world. Their village is largely isolated. They will learn lore as they go which will be a reward.
 
+![Desert ruins](images/Desert%20ruins.jpg)
+
 ## Synopsis
 
 _The lost kingdom of Omera has become a myth. A lost age of magic and enlightement before the dark era, before the clash of kings, before the great forest spread across the ruins.
