@@ -13,7 +13,7 @@ Players will start with little knowledge of the world. Their village is largely 
 _The lost kingdom of Omera has become a myth. A lost age of magic and enlightement before the dark era, before the clash of kings, before the great forest spread across the ruins.
 In the small village of Harwich a storyteller entertains the childtren with tales of these times and inspires in their minds hopes and dreams that may change the world forever._
 
-## HOW TO PLAY
+## How to Play
 
 Game is loosely based on D&D 5th Ed will heavily simplified rules.
 
