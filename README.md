@@ -21,6 +21,10 @@ Players will all start in the tiny village of Harwich. They are little more than
 
 They start will no weapons or armour initially and will do basic quests given by townsfolk to raise money and experience.
 
+### Limits
+
+Sometimes it's useful to impose restrictions on players, or guide them into a particular direction. Especially with young players. With the characters being poor young humans from a small village, their resources are limited. This keeps them in the area until they are ready to face the outside world.
+
 ### Encounters
 
 Monster encounters will be few and can be handled with problem solving. Any combat will be non-fatal. characters reaching 0 hit points will run away. Fleeing characters will drop 1d4 items and 1d4 X lvl gold. This applies to players and NPCs.
