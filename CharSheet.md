@@ -1,6 +1,8 @@
 # Character Sheet
 
-![Picture of the Character Sheet](SimpleCharacterSheetv0.4.png)
+![Picture of the Character Sheet](SimpleCharacterSheetv0.8.png)
+
+[Canva link](https://www.canva.com/design/DAGv13-wkcQ/S2VVCly5ge2DZzaMChZeAg/view?utm_content=DAGv13-wkcQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h29c8edf53f)
 
 I've tried to make the character sheet as simple as possible. Icons to make it easier to recognise what each entry reprisents. It has the basic ability scores and modifiers, HP and AC, Speed, and a box for the character name. There is also a blank space where the player can sketch their character.
 
