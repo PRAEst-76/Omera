@@ -2,7 +2,7 @@ name: The Lost Kingdom of Omera
 theme: minima
 lsi: false
 safe: true
-source: [your repo's top level directory]
+source: Omera
 incremental: false
 highlighter: rouge
 gist:
