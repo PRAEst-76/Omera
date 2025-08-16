@@ -3,10 +3,11 @@ title: Omera Ruleset
 permalink: /ruleset/
 ---
 
-<ul>
+# Ruleset
+
+
 {% for page in site.pages %}
-    <li><a href="{{ page.url }}">{{ page.title}}</a>
+    <p><a href="{{ page.url }}">{{ page.title}}</a>
     <span class="pageDate">{{ page.date | date: "%b %-d, %Y" }}</span>
-    </li>
+    </p>
 {% endfor %}
-</ul>
