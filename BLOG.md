@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  Blog
-permalink: /Omera/blog/
+permalink: /blog/
 ---
 
 {{ site.posts }}

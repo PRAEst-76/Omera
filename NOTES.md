@@ -1,3 +1,8 @@
+---
+title: Notes
+permalink: /notes/
+---
+
 # Background Notes
 
 The Lost Kingdom of Omera is about an ancient mythical magical kingdom that once existed thousands of years ago. It was more advanced than the current world which is in a decline, with few major cities and disparate settlements. No magic exists in the present, or so it appears.
