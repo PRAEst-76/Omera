@@ -11,6 +11,7 @@ safe: true
 source: Omera
 incremental: false
 highlighter: rouge
+permalink: pretty
 gist:
   noscript: false
 kramdown:

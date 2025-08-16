@@ -1,6 +1,5 @@
 ---
 title: Notes
-permalink: /notes/
 ---
 
 # Background Notes
