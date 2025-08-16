@@ -1,4 +1,7 @@
-# CREDITS
+layout: page
+title: "Credits"
+permalink: /Omera/CREDITS
+# Credits
 
 Story craft and world building by [PRAEst76](https://escapism.fi/PRAEst76) (Peter Adams)
 
