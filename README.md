@@ -35,4 +35,4 @@ Equipment will be on picture cards to limit the amount of text young players wil
 
 Characters can restore Health Points (HP) by resting or consuming a Health Potion. All the characters HP will be restored. Characters need to be in a friendly area to rest and need to rest overnight.
 
-{{ site.pages }}
+<p>{{ site.pages }}</p>
