@@ -13,7 +13,7 @@ safe: true
 source: Omera
 incremental: false
 highlighter: rouge
-permalink: /Omera/:categories/:year/:month/:day/:title:output_ext
+permalink: pretty
 gist:
   noscript: false
 kramdown:
