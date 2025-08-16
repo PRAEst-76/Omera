@@ -1,5 +1,6 @@
 name: The Lost Kingdom of Omera
 theme: minima
+markdown: GFM
 lsi: false
 safe: true
 source: [your repo's top level directory]
