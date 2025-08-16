@@ -1,5 +1,7 @@
+---
 layout: page
 title:  "Blog Posts"
+---
 # Posts
 
 <ul>

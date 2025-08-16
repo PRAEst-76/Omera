@@ -1,7 +1,6 @@
 ---
 layout: page
-title: "Credits"
-permalink: /Omera/credits
+title: Credits
 ---
 
 # Credits
