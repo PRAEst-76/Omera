@@ -1,0 +1,7 @@
+# Loot Cards
+
+![Loot Cards](images/cards.png)
+
+To make things more tactile I've oped to do away with a written inventory and create cards to reprisent items the players aquire during their game. These can also be shuffled by the DM to deal out random loot.
+
+[Canva Link](https://www.canva.com/design/DAGwKx_J5Fk/9ovlxCQ4nNbwwjjuS0yESw/view?utm_content=DAGwKx_J5Fk&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hfc4094d7dc)
