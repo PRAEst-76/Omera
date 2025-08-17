@@ -41,11 +41,11 @@
 	-->
 
         {% if site.github.is_project_page %}
-        <p class="view"><a href="{{ site.github.repository_url }}">GitHub Repository<small>{{ site.github.repository_nwo }}</small></a></p>
+        <p class="menu"><a href="{{ site.github.repository_url }}">GitHub Repository<small>{{ site.github.repository_nwo }}</small></a></p>
         {% endif %}
 
         {% if site.github.is_user_page %}
-        <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
+        <p class="menu"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
 
         {% if site.show_downloads %}
@@ -63,12 +63,13 @@
       </section>
       <footer>
 	<small><h4>Boilerplate:</h4>
+	<p>
         {% if site.github.is_project_page %}
-        <p><i>{{ site.name }}</i> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        <i>{{ site.name }}</i> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a><br />
         {% endif %}
-        <p>Hosted on GitHub Pages</p>
-	<p>Theme based on <a href="https://pages-themes.github.io/minimal/">Minimal</a> by <a href="https://github.com/orderedlist">orderedlist</a></p>
-	<p>Update: {{ site.time }}</p></small>
+        Hosted on GitHub Pages<br />
+	Theme based on <a href="https://pages-themes.github.io/minimal/">Minimal</a> by <a href="https://github.com/orderedlist">orderedlist</a><br />
+	Last update: {{ site.time }}</p></small>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
