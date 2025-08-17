@@ -1,6 +1,6 @@
 ---
 title: Lore
 categories: lore
-layout: page
+layout: lore
 ---
 

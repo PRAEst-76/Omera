@@ -1,5 +1,5 @@
 ---
 title: Modules
-layout: page
+layout: modules
 ---
 
