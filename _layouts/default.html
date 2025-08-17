@@ -20,16 +20,8 @@
         <a href="{{ "/" | absolute_url }}"><img src="{{site.logo | relative_url}}" alt="Logo" /></a>
         {% endif %}
 
-
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-
-<!-- 
-  	{% for category in site.categories %}
-	{% capture category_name %}{{ category | first }}{% endcapture %}
-  	<p class="menu"><a href="{{ site.baseurl }}/{{ category_name }}">{{ category_name }}</a></p>
-	{% endfor %}
--->
 	<h4 class="menu">
 	<a href="{{ site.baseurl }}/blog">Blog</a><br />
 	<a href="{{ site.baseurl }}/notes">Notes</a><br />
