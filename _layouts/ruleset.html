@@ -3,7 +3,7 @@ layout: default
 ---
 
 {{ content }}
-{% for page in site.pages %}
+{% for page in site.categories.ruleset %}
     <h3><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title}}</a>
     </h3>
 {% endfor %}

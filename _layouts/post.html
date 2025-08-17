@@ -2,19 +2,19 @@
 layout: default
 ---
 
-<h1>{{ page.categories ]]  {{ page.title }}</h1>
+<h1>{{ post.categories ]]  {{ post.title }}</h1>
 <small>{{ page.date | date: "%-d %B %Y" }}</small>
 
 {{content}}
 
 
-{% if page.author %}
-  <small><em>{{ page.author | join: "</em> - <em>" }}</em></small>
+{% if post.author %}
+  <p class="byline">{{ post.author | join: " - " }}</p>
 {% endif %}
 
 
-{% if page.tags %}
-  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+{% if post.tags %}
+  <p class="byline"><small>tags: <em>{{ post.tags | join: "</em> - <em>" }}</em></small></p>
 {% endif %}
 
 
