@@ -21,16 +21,16 @@
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
-
-	<h4 class="menu">
+	<div class="menu">
+	<h4>
 	<a href="{{ site.baseurl }}/blog">Blog</a><br />
 	<a href="{{ site.baseurl }}/notes">Notes</a><br />
 	<a href="{{ site.baseurl }}/ruleset">Ruleset</a><br />
 	<a href="{{ site.baseurl }}/modules">Modules</a><br />
-
 	<a href="{{ site.baseurl }}/lore">Lore</a><br />
 	<a href="{{ site.baseurl }}/faq">FAQ</a>
-</h4>
+	</h4>
+	</div>
 
         {% if site.github.is_project_page %}
         <p class="menu"><a href="{{ site.github.repository_url }}">GitHub Repository<small>{{ site.github.repository_nwo }}</small></a></p>
@@ -49,8 +49,9 @@
         {% endif %}
       </header>
       <section>
-
+	<div class="entry">
       {{ content }}
+	</div>
 
       </section>
       <footer>
