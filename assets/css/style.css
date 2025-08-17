@@ -3,6 +3,5 @@
 
 @import "{{ site.theme }}";
 .menu {
-margin-left: auto; 
-margin-right: 0;
+text-align: right; 
 }
