@@ -1,3 +1,7 @@
+---
+title: Character Sheet
+---
+
 # Character Sheet
 
 ![Picture of the Character Sheet](SimpleCharacterSheetv0.8.png)
