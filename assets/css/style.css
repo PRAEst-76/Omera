@@ -2,6 +2,9 @@
 ---
 
 @import "{{ site.theme }}";
+body {
+  background-color: #e2c582;
+}
 .menu {
-text-align: right; 
+  text-align: right; 
 }
