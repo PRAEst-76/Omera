@@ -16,6 +16,10 @@ source: Omera
 incremental: false
 highlighter: rouge
 permalink: pretty
+collections:
+  category:
+    output: true
+categories: [blog, ruleset, modules, lore]
 gist:
   noscript: false
 kramdown:
