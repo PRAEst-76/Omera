@@ -3,6 +3,11 @@ layout: default
 ---
 
 {{ content }}
+
+{% for category in site.categories %}
+    <li><a href="{{category.url}}"><strong>{{category|first}}</strong></a></li>
+{% endfor %}
+
 {% for page in site.categories.ruleset %}
     <h3><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
     </h3>
