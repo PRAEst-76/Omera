@@ -1,7 +1,7 @@
 name: The Lost Kingdom of Omera
 logo: /assets/img/logo.png
 description: A D&D campaign setting aimed at younger players.
-url: "https://praest-76.github.io"
+url: https://praest-76.github.io
 baseurl: /Omera
 show_downloads: false
 remote_theme: pages-themes/minimal@v0.2.0
