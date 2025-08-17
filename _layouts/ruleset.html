@@ -3,28 +3,10 @@ title: Ruleset
 layout: default
 ---
 {{ content }}
-<!--
-{% for page in site.categories.ruleset %}
-    <p><a href="{{ site.baseurl }}/{{ page.url }}">{{ page.title }}</a></p>
-{% endfor %}
-
-<div class="posts">
-  {% for post in site.categories.ruleset %}
-  <article class="post">
-      <h1 class="post-title">
-        <a href="{{ post.url | relative_url }}">
-          {{ post.title }}
-        </a>
-      </h1>
-      {{ post.content | markdownify | strip_html | truncatewords: 30 }}
-    </article>
-  {% endfor %}
-</div>
--->
 {% for page in site.pages %}
   {% if page.categories contains 'ruleset' %}
         <a href="{{ site.baseurl }}{{ page.url }}">
-      <h3>{{page.title}}</h3>
+      <p>{{page.title}}</p>
 </a>
       <p>{{page.description}}</p>
   {% endif %}
