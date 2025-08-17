@@ -46,6 +46,19 @@
   {% endfor %}
 </div>
 
+<div>
+  {% for category in site.categories %}
+    <h3>{{ category[0] }}</h3>
+    <ul>
+      {% for post in category[1] %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+</div>
+
         {% if site.github.is_project_page %}
         <p class="menu"><a href="{{ site.github.repository_url }}">GitHub Repository<small>{{ site.github.repository_nwo }}</small></a></p>
         {% endif %}
