@@ -25,7 +25,7 @@
 
  
   	{% for category in site.categories %}
-	{% capture category_name %}{{ category }}{% endcapture %}
+	{% capture category_name %}{{ category | first }}{% endcapture %}
   	<p class="menu"><a href="{{ site.baseurl }}/{{ category_name }}">{{ category_name }}</a></p>
 	{% endfor %}
 
