@@ -1,6 +1,7 @@
 ---
 title: Notes
 category: notes
+layout: page
 ---
 
 # Background Notes

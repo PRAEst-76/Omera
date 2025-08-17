@@ -1,6 +1,7 @@
 ---
 title: FAQ
 categories: faq
+layout: page
 ---
 # Frequently Asked Questions
 

@@ -1,3 +1,7 @@
+---
+title: Modules
+layout: page
+---
+
 # Modules
 
-The Escaped Pig

@@ -1,0 +1,14 @@
+---
+title: Omera Modules
+layout: page
+---
+
+{{ content }}
+{% for page in site.pages %}
+  {% if page.categories contains 'modules' %}
+        <a href="{{ site.baseurl }}{{ page.url }}">
+      <p>{{page.title}}</p>
+</a>
+      <p>{{page.description}}</p>
+  {% endif %}
+{% endfor %}
