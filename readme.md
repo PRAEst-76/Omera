@@ -1,3 +1,8 @@
+---
+title: Omera Introduction
+layout: page
+---
+
 ![Desert ruins](images/Desert%20ruins.jpg)
 
 # The Lost Kingdom of Omera
