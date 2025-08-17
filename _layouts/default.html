@@ -40,6 +40,12 @@
 	<a href="{{ site.baseurl }}/modules">Modules</a></h4>
 	-->
 
+<div>
+  {% for category in site.categories %}
+    <h3>{{ category[0] }}</h3>
+  {% endfor %}
+</div>
+
         {% if site.github.is_project_page %}
         <p class="menu"><a href="{{ site.github.repository_url }}">GitHub Repository<small>{{ site.github.repository_nwo }}</small></a></p>
         {% endif %}
