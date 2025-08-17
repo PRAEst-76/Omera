@@ -25,7 +25,8 @@
 
 
 	{% for category in site.categories %}
-    	<h4 class="menu"><a href="{{ site.baseurl }}{{ category.url }}">{{ category | first }}</a><br />
+    	<h4 class="menu">
+		<a href="{{ site.baseurl }}{{ category.url }}">{{ category|first }}</a><br />
     	</h4>
 	{% endfor %}
 
@@ -63,7 +64,7 @@
       </section>
       <footer>
 	<p>{{ site.time }}<br />
-	Version 0.7.14</p>
+	Version 0.7.15</p>
         {% if site.github.is_project_page %}
         <p><b>{{ site.name }}</b> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
