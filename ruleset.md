@@ -2,13 +2,8 @@
 title: Omera Ruleset
 layout: ruleset
 ---
-<h1 class="category">Ruleset</h1>
+# Ruleset
 
 (insert 90's "Under Construction" animated gif here)
-<!--
-{% for post in site.categories.ruleset %}
-        <p><a href="{{ site.baseurl }}{{ post.url }}">
-          {{ post.title }}
-        </a></p>
-  {% endfor %}
--->
+
+Eventually I will compile eveything into a rulebook or guide, but for the time being, barely cohesive scribbles on scraps of paper and sketches on beermats will have to suffice.
