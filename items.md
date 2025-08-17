@@ -1,3 +1,8 @@
+---
+title: Items
+category: ruleset
+---
+
 # ITEMS
 
 ## Tam's Mighty Hammer of Hitting

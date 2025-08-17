@@ -1,5 +1,6 @@
 ---
 title: Notes
+category: notes
 ---
 
 # Background Notes

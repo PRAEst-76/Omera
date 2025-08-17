@@ -1,3 +1,8 @@
+---
+title: Resources & Links
+category: ruleset
+---
+
 # RESOURCES
 
 Most of these are here for my own guidence, though they may be of use to others making RPG campaigns for kids.

@@ -1,3 +1,8 @@
+---
+title: Lootcards
+category: ruleset
+---
+
 # Loot Cards
 
 ![Loot Cards](images/cards.png)

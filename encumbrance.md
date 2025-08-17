@@ -1,6 +1,6 @@
 ---
 title: Encumbrance
-categories: ruleset
+category: ruleset
 ---
 # Encumbrance
 
