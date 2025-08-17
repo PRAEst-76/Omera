@@ -24,12 +24,12 @@
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
 
-
 	{% for category in site.categories %}
-	<h4 class="menu">
-    		{{ category }}
-	</h4>
+    	<h4 class="menu"><a href="{{ site.baseurl }}{{ category.url }}">{{ category | first }}</a><br />
+    	</h4>
 	{% endfor %}
+
+
 	<h4 class="menu"><a href="{{ site.baseurl }}/blog">Blog</a><br />
 
 
