@@ -1,3 +1,7 @@
+---
+title: Encumbrance
+categories: ruleset
+---
 # Encumbrance
 
 ![Card Wallet](images/CardWallet.png)

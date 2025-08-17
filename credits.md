@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Credits
+categories: ruleset
 ---
 
 # Credits

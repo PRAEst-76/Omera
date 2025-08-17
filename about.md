@@ -1,5 +1,7 @@
 ---
-tile: About Project
+title: About Project
+author: PRAEst76
+categories: ruleset
 ---
 
 # About
