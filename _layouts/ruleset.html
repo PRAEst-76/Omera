@@ -4,11 +4,11 @@ layout: default
 
 {{ content }}
 
-{% for category in site.categories.blog %}
-    <li><a href="{{ site.baseurl }}{{ post.url}}">{{ post.title }}</a></li>
+{% for post in site.categories.blog %}
+    <li><a href="{{ site.baseurl }}/{{ post.url}}">{{ post.title }}</a></li>
 {% endfor %}
 
 {% for page in site.categories.ruleset %}
-    <h3><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+    <h3><a href="{{ site.baseurl }}/{{ page.url }}">{{ page.title }}</a>
     </h3>
 {% endfor %}
