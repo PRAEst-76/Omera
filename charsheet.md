@@ -7,7 +7,7 @@ categories: ruleset
 
 # Character Sheet
 
-![Picture of the Character Sheet](images/simplecharactersheet.png)
+![Picture of the Character Sheet](images/SimpleCharacterSheet.png)
 
 [Canva link](https://www.canva.com/design/DAGv13-wkcQ/S2VVCly5ge2DZzaMChZeAg/view?utm_content=DAGv13-wkcQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h29c8edf53f)
 
