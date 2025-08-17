@@ -2,7 +2,8 @@
 layout: post
 title: "Opening the Repository"
 date: 2025-08-16 22:53:27 -0300
-categories: UPDATES
+category: general
+tags: updates
 ---
 
 # Opening the Repository
