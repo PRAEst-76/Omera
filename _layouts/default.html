@@ -23,7 +23,15 @@
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
+
+
+	{% for category in site.categories %}
+	<h4 class="menu">
+    		{{ category }}
+	</h4>
+	{% endfor %}
 	<h4 class="menu"><a href="{{ site.baseurl }}/blog">Blog</a><br />
+
 
 	<a href="{{ site.baseurl }}/notes">Notes</a><br />
 
@@ -55,7 +63,7 @@
       </section>
       <footer>
 	<p>{{ site.time }}<br />
-	Version 0.7.8</p>
+	Version 0.7.9</p>
         {% if site.github.is_project_page %}
         <p><b>{{ site.name }}</b> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
