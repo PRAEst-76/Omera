@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "Opening the Repository"
+author: Peter
 date: 2025-08-16 22:53:27 -0300
-category: general
+category: blog
 tags: updates
 ---
 
