@@ -2,12 +2,8 @@
 layout: default
 ---
 
-<h1>{{ page.categories | capitalize ]]  {{ page.slug }}</h1>
+<h1 class="category">{{ page.categories | capitalize ]]</h1>
 {{content}}
-
-{% if page.author %}
-  <p class="byline">{{ page.author | join: " - " }}</p>
-{% endif %}
 
 {% if page.tags %}
   <p class="byline"><small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small></p>

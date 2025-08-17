@@ -2,16 +2,14 @@
 layout: default
 ---
 
-<h1>{{ page.categories ]]{{ page.name }}</h1>
+<h1 class="category">{{ page.categories | capitalize }}</h1>
 
-<div class="entry">
 {{content}}
-</div>
 
 {% if page.author %}
-  <p class="byline">{{ page.author | join: " - " }}</p>
+  <p class="byline">{{ page.author | join: " - " }}
 {% endif %}
-<p class="byline"><small>{{ page.date | date: "%-d %B %Y" }}</small></p>
+<small>{{ page.date | date: "%-d %B %Y" }}</small></p>
 {% if page.tags %}
   <p><small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small></p>
 {% endif %}
