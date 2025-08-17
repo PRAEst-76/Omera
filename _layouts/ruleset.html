@@ -1,8 +1,9 @@
 ---
+title: Ruleset
 layout: default
 ---
-
 {{ content }}
+<!--
 {% for page in site.categories.ruleset %}
     <p><a href="{{ site.baseurl }}/{{ page.url }}">{{ page.title }}</a></p>
 {% endfor %}
@@ -19,7 +20,7 @@ layout: default
     </article>
   {% endfor %}
 </div>
-
+-->
 {% for page in site.pages %}
   {% if page.categories contains 'ruleset' %}
     <div class="item">
