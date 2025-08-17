@@ -23,7 +23,9 @@ layout: default
 {% for page in site.pages %}
   {% if page.categories contains 'ruleset' %}
     <div class="item">
+        <a href="{{ site.baseurl }}{{ page.url | relative_url }}">
       <h3>{{page.title}}</h3>
+</a>
       <p>{{page.description}}</p>
     </div>
   {% endif %}

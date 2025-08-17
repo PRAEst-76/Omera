@@ -1,6 +1,6 @@
 ---
 title: Resources & Links
-category: ruleset
+categories: ruleset
 ---
 
 # RESOURCES

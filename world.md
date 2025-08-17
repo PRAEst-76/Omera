@@ -1,6 +1,6 @@
 ---
 title: The World of Omera
-category: lore
+categories: lore
 ---
 
 # World

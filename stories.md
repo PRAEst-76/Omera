@@ -1,6 +1,6 @@
 ---
 title: The Storyteller's Book of Stories
-category: lore
+categories: lore
 ---
 
 # The Storyteller's Book of Stories

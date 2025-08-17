@@ -1,6 +1,6 @@
 ---
 title: To-Do
-category: todo
+categories: todo
 ---
 
 # To-Do

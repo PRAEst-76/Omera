@@ -2,7 +2,7 @@
 title: Character Sheet
 author: PRAEst76
 layout: page
-category: ruleset
+categories: ruleset
 ---
 
 # Character Sheet
