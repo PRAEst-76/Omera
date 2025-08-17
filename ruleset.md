@@ -2,7 +2,7 @@
 title: Omera Ruleset
 layout: ruleset
 ---
-# Ruleset
+<h1 class="category">Ruleset</h1>
 
 (insert 90's "Under Construction" animated gif here)
 <!--
