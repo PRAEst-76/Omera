@@ -4,8 +4,8 @@ layout: default
 
 {{ content }}
 
-{% for category in site.categories %}
-    <li><a href="{{category.url}}"><strong>{{category|first}}</strong></a></li>
+{% for category in site.categories.blog %}
+    <li><a href="{{ site.baseurl }}{{ post.url}}">{{ post.title }}</a></li>
 {% endfor %}
 
 {% for page in site.categories.ruleset %}
