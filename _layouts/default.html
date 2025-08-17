@@ -25,7 +25,7 @@
 
  
   	{% for category in site.categories %}
-	{% capture category_name %}{{ category | first }}{% endcapture %}
+	{% capture category_name %}{{ category | first | capitalize }}{% endcapture %}
   	<h4 class"menu"><a href="{{ site.baseurl }}/{{ category_name }}">{{ category_name }}</a></h4>
 	{% endfor %}
 
