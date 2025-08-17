@@ -23,14 +23,26 @@
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
+ 
+<div class="post-categories">
+  {% if post %}
+    {% assign categories = post.categories %}
+  {% else %}
+    {% assign categories = page.categories %}
+  {% endif %}
+  {% for category in categories %}
+  <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+  {% unless forloop.last %}&nbsp;{% endunless %}
+  {% endfor %}
+</div>
 
-	{% for category in site.categories %}
+<!--	{% for category in site.categories %}
     	<h4 class="menu">
 	{% capture category_name %}{{ category | first }}{% endcapture %}
       	<a href="{{site.baseurl}}/{{category_name}}">{{category_name}}</a>
     	</h4>
 	{% endfor %}
-
+-->
 <!--
 	<h4 class="menu"><a href="{{ site.baseurl }}/blog">Blog</a><br />
 
