@@ -1,13 +1,7 @@
 ---
-layout: post
 title: Opening the Repository
-author: PRAEst76
-date: 2025-08-16 22:53:27 -0300
-category: blog
-tags: updates
+category: updates
 ---
-
-# Opening the Repository
 
 I've been working on this for a while and as a "neuro-divergent" individual, it's hard sometimes to get motivation or see projects clearly.
 <!--more-->
