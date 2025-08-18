@@ -3,8 +3,10 @@ layout: default
 ---
 
 {{ content }}
+<ul>
 {% for post in site.posts %}
-    <p><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a>
+    <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a>
     <span class="postDate">{{ post.date | date: "%b %-d, %Y" }}</span>
-    </p>
+    </li>
 {% endfor %}
+</ul>

@@ -1,9 +1,10 @@
 ---
 title: Items
+layout: ruleset
 categories: ruleset
 ---
 
-# ITEMS
+# Items
 
 ## Tam's Mighty Hammer of Hitting
 

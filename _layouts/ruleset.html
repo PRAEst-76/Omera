@@ -5,9 +5,14 @@ layout: default
 {{ content }}
 {% for page in site.pages %}
   {% if page.categories contains 'ruleset' %}
-        <a href="{{ site.baseurl }}{{ page.url }}">
+  <!--
+    <a href="{{ site.baseurl }}{{ page.url }}">
       <p>{{page.title}}</p>
-</a>
+    </a>
       <p>{{page.description}}</p>
+  -->
+<h4>{{ page.title}}</h4>
+<div>{{ page.content }}</div>
+
   {% endif %}
 {% endfor %}
