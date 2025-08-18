@@ -2,6 +2,7 @@
 title: Frequently Asked Questions
 categories: FAQ
 ---
+# Frequently Asked Questions
 
 *Why D&D? Why not one of the other popular rules systems like Pathfinder?*
 
