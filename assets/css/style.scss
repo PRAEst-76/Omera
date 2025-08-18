@@ -10,11 +10,15 @@ body {
 section {
   background-image: url("{{ site.baseurl }}/assets/img/parchment.png");
   background-position: center;
-  background-size: 500px;
+  background-size: 520px;
   background-repeat: repeat-y;
 }
-
-
+header {
+  background-image: url("{{ site.baseurl }}/assets/img/smallscroll.png");
+  background-position: center;
+  background-size: 280px;
+  background-repeat: no-repeat;
+}
 .wrapper {
 	margin-top: 50px;
 	}
