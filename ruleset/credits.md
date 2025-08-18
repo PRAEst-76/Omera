@@ -1,6 +1,6 @@
 ---
-title: Credits
-categories: ruleset
+title: 9. Credits
+category: ruleset
 ---
 # Credits
 

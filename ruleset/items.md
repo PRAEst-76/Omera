@@ -1,7 +1,6 @@
 ---
-title: Items
-layout: ruleset
-categories: ruleset
+title: 5. Items
+category: ruleset
 ---
 
 # Items

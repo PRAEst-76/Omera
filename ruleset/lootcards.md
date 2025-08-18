@@ -1,8 +1,7 @@
 ---
-title: Lootcards
-categories: ruleset
+title: 6. Lootcards
+category: ruleset
 ---
-
 # Loot Cards
 
 ![Loot Cards](images/cards.png)
