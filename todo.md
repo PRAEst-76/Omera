@@ -1,8 +1,3 @@
----
-title: To-Do
-categories: todo
----
-
 # To-Do
 
 ## General
@@ -12,6 +7,8 @@ categories: todo
 - [ ] Replace all AI art with original art.
 - [ ] Replace all generic clip-art with original work.
 - [ ] Create weapon and item cards
+- [ ] NPC cards for modules with an image of the NPC on one side and information for the DM on the other?
+- [ ] A few nice maps
 
 ## Modules
 - [ ] The Escaped Pig
