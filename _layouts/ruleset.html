@@ -3,15 +3,13 @@ title: Ruleset
 layout: default
 ---
 {{ content }}
+
 {% for page in site.pages %}
   {% if page.categories contains 'ruleset' %}
-  <!--
     <a href="{{ site.baseurl }}{{ page.url }}">
-      <p>{{page.title}}</p>
+      <p>{{ page.title }}</p>
     </a>
-      <p>{{page.description}}</p>
-  -->
-<div class="menu">{{ page.content }}</div>
-
+    <p>{{ page.description }}</p>
   {% endif %}
 {% endfor %}
+
