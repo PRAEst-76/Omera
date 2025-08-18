@@ -6,17 +6,18 @@
 body {
   color: #493c33;
   background-color: #e2c582;
+  background-image: url("{{ site.baseurl }}/assets/img/texture-seamless-wood-5.jpg");
 }
 section {
   background-image: url("{{ site.baseurl }}/assets/img/parchment.png");
   background-position: center;
-  background-size: 600px;
+  background-size: 640px;
   background-repeat: repeat-y;
 }
 header {
   background-image: url("{{ site.baseurl }}/assets/img/smallscroll.png");
   background-position: center;
-  background-size: 340px;
+  background-size: 380px;
   background-repeat: no-repeat;
 }
 .wrapper {
