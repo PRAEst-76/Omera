@@ -1,7 +1,8 @@
 ---
-layout: blog
+layout: updates 
 title:  Project Updates
 author: PRAEst76
+category: Updates
 ---
 # Project Updates
 

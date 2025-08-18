@@ -3,12 +3,14 @@ title: Omera Lore
 layout: default
 ---
 <h1>{{ page.title }}</h1>
+
 {{ content }}
+
 {% for page in site.pages %}
-  {% if page.categories contains 'lore
-        <a href="{{ site.baseurl }}{{ page.url }}">
-      <p>{{page.title}}</p>
-</a>
-      <p>{{page.description}}</p>
+  {% if page.categories contains 'lore' %}
+    <a href="{{ site.baseurl }}{{ page.url }}">
+      <p>{{ page.title }}</p>
+    </a>
+    <p>{{ page.description }}</p>
   {% endif %}
 {% endfor %}
