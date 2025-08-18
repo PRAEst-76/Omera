@@ -1,8 +1,7 @@
 ---
 title: Character Sheet
 author: PRAEst76
-layout: page
-categories: ruleset
+category: ruleset
 ---
 
 # Character Sheet

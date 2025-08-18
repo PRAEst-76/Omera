@@ -1,4 +1,7 @@
-# Frequently Asked Questions
+---
+title: Frequently Asked Questions
+categories: FAQ
+---
 
 *Why D&D? Why not one of the other popular rules systems like Pathfinder?*
 

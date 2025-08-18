@@ -11,9 +11,19 @@ plugins:
 - jekyll-github-metadata
 markdown: GFM
 excerpt_separator: <!--more-->
-collections:
-    ruleset:
-      output: true
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+      author: "PRAEst76"
+  -
+    scope:
+      path: "updates"
+      type: "posts"
+    values:
+      layout: "post"
 lsi: false
 safe: true
 source: Omera
