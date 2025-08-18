@@ -1,10 +1,10 @@
 ---
-title: The World of Omera
+title: Elbae - The World of Omera
 categories: lore
 ---
 
-# The World
+# Elbae - The World of Omera
 
 The game starts in the outskirts of modern Suuria, in what used to be Omera. It is located on a world called Elbae, though few remember it as such.
 
-![Map of Elbae](maps/elbae.png)
+![Map of Elbae]({{ site.baseurl }}/maps/elbae.png)
