@@ -12,7 +12,6 @@ categories: todo
 - [ ] Replace all AI art with original art.
 - [ ] Replace all generic clip-art with original work.
 - [ ] Create weapon and item cards
-- [ ] Try to keep it light. It's for kids after all.
 
 ## Modules
 - [ ] The Escaped Pig
