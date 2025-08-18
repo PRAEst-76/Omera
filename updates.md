@@ -1,5 +1,5 @@
 ---
 layout: blog
-title:  Project Blog
+title:  Project Updates
 ---
 {{ page.title | capitalize }}
