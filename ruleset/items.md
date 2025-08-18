@@ -1,6 +1,6 @@
 ---
 title: 5. Items
-category: ruleset
+categories: ruleset
 ---
 
 # Items

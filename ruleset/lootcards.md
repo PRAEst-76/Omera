@@ -1,6 +1,6 @@
 ---
 title: 6. Lootcards
-category: ruleset
+categories: ruleset
 ---
 # Loot Cards
 

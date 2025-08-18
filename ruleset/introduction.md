@@ -1,6 +1,6 @@
 ---
 title: 1. Introduction
-category: ruleset
+categories: ruleset
 ---
 # Introduction
 

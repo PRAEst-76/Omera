@@ -1,6 +1,6 @@
 ---
 title: 2. Character Sheet
-category: ruleset
+categories: ruleset
 ---
 
 # Character Sheet
