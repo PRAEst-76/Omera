@@ -19,6 +19,7 @@ body {
 	height: 100px;
 	margin: 0px;
 	padding: 0px;
+	border: 1px dashed yellow;
 	background-image: url("{{ site.baseurl }}/assets/img/largescroll.png");
   	background-position: center top;
     	background-size: 500px;
