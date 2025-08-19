@@ -27,13 +27,13 @@ body {
 }
 section {
 	width: 500px;
-  margin: 0px;
-  padding: 0px;
-border: 1px dashed white;
-  background-image: url("{{ site.baseurl }}/assets/img/largescroll.png");
-  background-position: center;
-  background-size: 500px;
-  background-repeat: repeat-y;
+ 	margin: 0px;
+  	padding: 0px;
+  	border: 1px dashed white;
+  	background-image: url("{{ site.baseurl }}/assets/img/largescroll.png");
+  	background-position: center;
+  	background-size: 500px;
+  	background-repeat: repeat-y;
 }
 .side {
   margin: 0px;

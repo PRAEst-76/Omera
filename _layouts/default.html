@@ -52,7 +52,9 @@
 	</div>
       </header>
       <section>
-      {{ content }}
+<!--      {{ content }} -->
+<iframe src="{{ site.baseurl }}/content.md" width="480" height="600" style="border:1px solid black;">
+</iframe>
       </section>
     </div>
       <footer>
@@ -61,7 +63,7 @@
         <i>{{ site.name }}</i> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.
         {% endif %}
         Hosted on GitHub Pages.	Theme based on <a href="https://pages-themes.github.io/minimal/">Minimal</a> by <a href="https://github.com/orderedlist">orderedlist</a>
-	Last update: {{ site.time }}</p>
+	Last update: {{ site.time }}. Please raise an <a href="https://github.com/PRAEst-76/Omera/issues">issue</a> on the Github repository for any problems, suggestions or requests.</p>
       </footer>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
