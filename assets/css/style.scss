@@ -16,23 +16,23 @@ body {
 }
 .scrolltop {
 	width: 500px;
-	height: 156px;
+	height: 157px;
 	margin: 0px;
 	padding: 0px;
-	border: 1px dashed black;
+	border: 1px dashed yellow;
 	background-image: url("{{ site.baseurl }}/assets/img/largescrolltop.png");
   	background-position: center top;
-    	background-size: 500px;
+    	background-size: 500px 157px;
       	background-repeat: no-repeat;
 }
 .scrollmid {
 	width: 500px;
 	margin: 0px;
 	padding: 0px;
-	border: 1px dashed black;
+	border: 1px dashed brown;
 	background-image: url("{{ site.baseurl }}/assets/img/largescrollmiddle.png");
   	background-position: center;
-    	background-size: 500px;
+    	background-size: 500px auto;
       	background-repeat: repeat-y;
 }
 .scrollbot {
@@ -40,17 +40,17 @@ body {
 	height: 143px;	
 	margin: 0px;
 	padding: 0px;
-	border: 1px dashed black;
+	border: 1px dashed grey;
 	background-image: url("{{ site.baseurl }}/assets/img/largescrollbottom.png");
   	background-position: center bottom;
-    	background-size: 500px;
+    	background-size: 500px 143px;
       	background-repeat: no-repeat;
 }
 section {
 	width: 500px;
+	height: auto;
  	margin: 0px;
   	padding: 0px;
-  	border: 1px dashed white;
 }
 .side {
   margin: 0px;
@@ -89,7 +89,7 @@ h1, h2, h3, h4, h5, h6 {
 .boilerplate {
   border: 2px dashed white;
 	width: auto;
-  margin: 20px 0px;
+  margin: 40px 0px;
   padding: 0px;
   color: beige;
   font-size: small;
