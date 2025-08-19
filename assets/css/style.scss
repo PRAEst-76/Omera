@@ -7,7 +7,7 @@
 	    src: url({{ site.baseurl }}/assets/font/carolingia.ttf);
     }
 body {
-  margin: 0px 20px;
+  margin: 0px 0px;
   padding: 0px;
   color: #493c33;
   background-color: #e2c582;
@@ -56,7 +56,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin-top: 0px;
 	}
 .menu {
-  margin: 20px 30px; 
+  margin-left: 20px; 
 }
 
 .byline {
