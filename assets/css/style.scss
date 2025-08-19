@@ -13,17 +13,17 @@ body {
 section {
 	width: 500px;
   border: 2px dashed black;
-  margin: 0px 50px;
-  padding: 0px 50px;
+  margin: 0px;
+  padding: 0px;
   background-image: url("{{ site.baseurl }}/assets/img/parchment.png");
   background-position: center;
-  background-size: 460px;
+  background-size: 0px;
   background-repeat: repeat-y;
 }
 header {
   border: 2px dashed black;
-  margin: 50px;
-  padding: 100px 50px;
+  margin: 0px;
+  padding: 0px;
   width: 300px;
   background-image: url("{{ site.baseurl }}/assets/img/smallscroll.png");
   background-position: center;
