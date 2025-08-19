@@ -25,15 +25,15 @@ header {
   border: 2px dashed beige;
   margin: 20px 0px;
   padding: 0px;
-  width: 340px;
+  width: 360px;
   background-image: url("{{ site.baseurl }}/assets/img/smallscroll.png");
   background-position: center;
-  background-size: 340px;
+  background-size: 346px;
   background-repeat: no-repeat;
 }
 h1, h2, h3, h4, h5, h6, p, ul, ol {
 	  color:#222;
-	    margin:10px 40px;
+	    margin:20px 50px;
     }
 .wrapper {
 	margin-top: 0px;
