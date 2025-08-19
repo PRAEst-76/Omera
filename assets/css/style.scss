@@ -14,12 +14,22 @@ body {
   background-image: url("{{ site.baseurl }}/assets/img/texture-seamless-wood-5.jpg");
   background-attachment: fixed;
 }
+.scroll {
+	width: 500px;
+	height: 100px;
+	margin: 0px;
+	padding: 0px;
+	background-image: url("{{ site.baseurl }}/assets/img/largescroll.png");
+  	background-position: center top;
+    	background-size: 500px;
+      	background-repeat: no-repeat;
+}
 section {
 	width: 500px;
-  margin: 50px;
+  margin: 0px;
   padding: 0px;
   background-image: url("{{ site.baseurl }}/assets/img/largescroll.png");
-  background-position: center top;
+  background-position: center;
   background-size: 500px;
   background-repeat: repeat-y;
 }
