@@ -7,7 +7,7 @@
 	    src: url({{ site.baseurl }}/assets/font/carolingia.ttf);
     }
 body {
-  margin: 0px 0px;
+  margin: 0px;
   padding: 0px;
   color: #493c33;
   background-color: #e2c582;
@@ -65,9 +65,9 @@ section {
   margin: 0px;
   padding: 0px;
   width: 320px;
-  height: 440px;
+  height: 457px;
   border: 1px dashed white;
-  background-image: url("{{ site.baseurl }}/assets/img/smallscroll.png");
+  background-image: url("{{ site.baseurl }}/assets/img/map.png");
   background-position: center top;
   background-size: 320px;
   background-repeat: no-repeat;
