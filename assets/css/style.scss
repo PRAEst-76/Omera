@@ -10,8 +10,8 @@ body {
   background-image: url("{{ site.baseurl }}/assets/img/texture-seamless-wood-5.jpg");
 }
 section {
-  margin: 0px;
-  padding: 0px 50px;
+  margin: 0px 20px;
+  padding: 0px;
   background-image: url("{{ site.baseurl }}/assets/img/parchment.png");
   background-position: center;
   background-size: 500px;
@@ -19,7 +19,7 @@ section {
 }
 header {
   margin: 50px;
-  padding: 50px
+  padding: 0px;
   width: 300px;
   background-image: url("{{ site.baseurl }}/assets/img/smallscroll.png");
   background-position: center;
@@ -27,7 +27,7 @@ header {
   background-repeat: no-repeat;
 }
 .wrapper {
-	margin-top: 50px;
+	margin-top: 0px;
 	}
 .menu {
   margin-left: 20px; 
