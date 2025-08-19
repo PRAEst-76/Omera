@@ -18,7 +18,7 @@ body {
 	margin: 50px;
 {
 .scrolltop {
-  	position: absolute;
+  	position: relative;
   	top: 0px;
 	width: 500px;
 	height: 157px;
@@ -31,7 +31,7 @@ body {
       	background-repeat: no-repeat;
 }
 .scrollmid {
-  position: absolute;
+  position: relative;
 	top: 158px;
 	width: 500px;
 	margin: 0px;
@@ -43,6 +43,7 @@ body {
       	background-repeat: repeat-y;
 }
 .scrollbot {
+	position: relative;
 	width: 500px;
 	height: 143px;	
 	margin: 0px;
@@ -72,14 +73,14 @@ section {
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: Carolingia, "Eagle Lake", "Brush Script MT", cursive;  
-	margin: 20px 40px;
+	margin: 20px 60px;
     }
  p, ul, ol {
 
 	font-family:  Carolingia, "Eagle Lake", cursive;  
-	margin: 20px 50px;
+	margin: 20px 60px;
 }
-.wrapper {
+.wrapper {i
 	margin-top: 0px;
 	}
 .menu {
