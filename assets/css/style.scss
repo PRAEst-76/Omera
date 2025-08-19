@@ -16,6 +16,7 @@ body {
 }
 .scrolltop {
 	width: 500px;
+	height: 156px;
 	margin: 0px;
 	padding: 0px;
 	border: 1px dashed black;
@@ -36,6 +37,7 @@ body {
 }
 .scrollbot {
 	width: 500px;
+	height: 143px;	
 	margin: 0px;
 	padding: 0px;
 	border: 1px dashed black;
@@ -52,7 +54,7 @@ section {
 }
 .side {
   margin: 0px;
-  padding: 0px;
+  padding: 0px 20px;
   width: 320px;
   height: 440px;
   border: 1px dashed white;
