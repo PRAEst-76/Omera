@@ -12,23 +12,23 @@ body {
   background-attachment: fixed;
 }
 section {
-	width: 500px;
+	width: 600px;
   border: 2px dashed beige;
   margin: 0px;
   padding: 0px;
   background-image: url("{{ site.baseurl }}/assets/img/parchment.png");
   background-position: center;
-  background-size: 500px;
+  background-size: 600px;
   background-repeat: repeat-y;
 }
 header {
   border: 2px dashed beige;
   margin: 20px 0px;
   padding: 0px;
-  width: 360px;
+  width: 400px;
   background-image: url("{{ site.baseurl }}/assets/img/smallscroll.png");
   background-position: center;
-  background-size: 346px;
+  background-size: 400px;
   background-repeat: no-repeat;
 }
 h1, h2, h3, h4, h5, h6, p, ul, ol {
@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol {
 	margin-top: 0px;
 	}
 .menu {
-  margin: 10px 30px; 
+  margin: 5px 30px; 
 }
 
 .byline {
