@@ -7,7 +7,7 @@
 	    src: url({{ site.baseurl }}/assets/font/carolingia.ttf);
     }
 body {
-  margin: 0px;
+  margin: 0px 20px;
   padding: 0px;
   color: #493c33;
   background-color: #e2c582;
@@ -18,7 +18,7 @@ section {
 	width: 500px;
   border: 2px dashed beige;
   margin: 0px 20px;
-  padding: 0px;
+  padding: 0px 10px;
   background-image: url("{{ site.baseurl }}/assets/img/parchment.png");
   background-position: center;
   background-size: 500px;
@@ -27,7 +27,7 @@ section {
 .side {
   border: 2px dashed beige;
   margin: 0px 20px;
-  padding: 0px;
+  padding: 0px 10px;
   width: 300px;
   background-image: url("{{ site.baseurl }}/assets/img/smallscroll.png");
   background-position: center;
@@ -37,7 +37,7 @@ section {
 h1, h2, h3, h4, h5, h6, p, ul, ol {
 	font-family: Carolingia, "Eagle Lake", "Brush Script MT", cursive;  
 	color:#222;
-	margin:20px;
+	margin: 20px;
     }
 .wrapper {
 	margin-top: 0px;
