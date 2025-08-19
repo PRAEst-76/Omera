@@ -25,14 +25,13 @@ section {
   background-repeat: repeat-y;
 }
 .side {
-  border: 2px dashed beige;
   margin: 0px;
   padding: 0px;
   width: 320px;
   height: 440px;
   background-image: url("{{ site.baseurl }}/assets/img/smallscroll.png");
   background-position: center;
-  background-size: 300px;
+  background-size: 320px;
   background-repeat: no-repeat;
 }
 h1, h2, h3, h4, h5, h6 {
