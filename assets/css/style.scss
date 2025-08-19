@@ -13,7 +13,7 @@ body {
 }
 section {
 	width: 500px;
-  border: 2px dashed black;
+  border: 2px dashed beige;
   margin: 0px;
   padding: 0px;
   background-image: url("{{ site.baseurl }}/assets/img/parchment.png");
@@ -22,13 +22,13 @@ section {
   background-repeat: repeat-y;
 }
 header {
-  border: 2px dashed black;
+  border: 2px dashed beige;
   margin: 20px 0px;
   padding: 0px;
-  width: 300px;
+  width: 340px;
   background-image: url("{{ site.baseurl }}/assets/img/smallscroll.png");
   background-position: center;
-  background-size: 280px;
+  background-size: 340px;
   background-repeat: no-repeat;
 }
 h1, h2, h3, h4, h5, h6, p, ul, ol {
