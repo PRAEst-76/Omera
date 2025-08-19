@@ -14,14 +14,33 @@ body {
   background-image: url("{{ site.baseurl }}/assets/img/texture-seamless-wood-5.jpg");
   background-attachment: fixed;
 }
-.scroll {
+.scrolltop {
 	width: 500px;
-	height: 100px;
 	margin: 0px;
 	padding: 0px;
 	border: 1px dashed black;
-	background-image: url("{{ site.baseurl }}/assets/img/largescroll.png");
+	background-image: url("{{ site.baseurl }}/assets/img/largescrolltop.png");
   	background-position: center top;
+    	background-size: 500px;
+      	background-repeat: no-repeat;
+}
+.scrollmid {
+	width: 500px;
+	margin: 0px;
+	padding: 0px;
+	border: 1px dashed black;
+	background-image: url("{{ site.baseurl }}/assets/img/largescrollmiddle.png");
+  	background-position: center;
+    	background-size: 500px;
+      	background-repeat: repeat-y;
+}
+.scrollbot {
+	width: 500px;
+	margin: 0px;
+	padding: 0px;
+	border: 1px dashed black;
+	background-image: url("{{ site.baseurl }}/assets/img/largescrollbottom.png");
+  	background-position: center bottom;
     	background-size: 500px;
       	background-repeat: no-repeat;
 }
@@ -30,10 +49,6 @@ section {
  	margin: 0px;
   	padding: 0px;
   	border: 1px dashed white;
-  	background-image: url("{{ site.baseurl }}/assets/img/largescroll.png");
-  	background-position: center;
-  	background-size: 500px;
-  	background-repeat: repeat-y;
 }
 .side {
   margin: 0px;
