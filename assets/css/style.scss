@@ -2,7 +2,10 @@
 ---
 
 @import "{{ site.theme }}";
-
+@font-face {
+	  font-family: carolingia;
+	    src: url({{ site.baseurl }}/assets/font/carolingia.ttf);
+    }
 body {
   margin: 0px;
   padding: 0px;
