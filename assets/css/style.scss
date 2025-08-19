@@ -19,7 +19,7 @@ section {
   border: 2px dashed beige;
   margin: 0px 10px;
   padding: 0px;
-  background-image: url("{{ site.baseurl }}/assets/img/parchment.png");
+  background-image: url("{{ site.baseurl }}/assets/img/largescroll.png");
   background-position: center;
   background-size: 500px;
   background-repeat: repeat-y;
@@ -60,7 +60,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 .boilerplate {
   width: auto;
-  margin: 2px 0px; 
+  margin: 10px 0px;
+  padding: 0px;
   color: beige;
   font-size: small;
   text-float: left;
