@@ -18,7 +18,7 @@ body {
 	margin: 50px;
 }
 .scrolltop {
-  	position: fixed;
+  	position: relative;
   	top: 0px;
 	width: 500px;
 	height: 157px;
@@ -48,7 +48,7 @@ body {
 	width: 500px;
 	height: 143px;	
 	margin: 0px;
-	padding: 0px;
+	padding: 143px;
 	border: 1px dashed green;
 	background-image: url("{{ site.baseurl }}/assets/img/largescrollbottom.png");
   	background-position: center bottom;
