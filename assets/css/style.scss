@@ -4,19 +4,20 @@
 @import "{{ site.theme }}";
 
 body {
+  padding: 0 50px 50px 50px;
   color: #493c33;
   background-color: #e2c582;
   background-image: url("{{ site.baseurl }}/assets/img/texture-seamless-wood-5.jpg");
 }
 section {
-  margin: 0px 20px 20px 0px;
+  margin: 0px 50px 50px 0px;
   background-image: url("{{ site.baseurl }}/assets/img/parchment.png");
   background-position: center;
   background-size: 500px;
   background-repeat: repeat-y;
 }
 header {
-  margin: 20px;
+  margin: 50px;
   background-image: url("{{ site.baseurl }}/assets/img/smallscroll.png");
   background-position: center;
   background-size: 270px;
