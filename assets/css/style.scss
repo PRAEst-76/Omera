@@ -4,6 +4,7 @@
 @import "{{ site.theme }}";
 
 body {
+  margin: 0px;
   padding: 0px;
   color: #493c33;
   background-color: #e2c582;
@@ -19,7 +20,7 @@ section {
 }
 header {
   margin: 20px;
-  padding: 0px 50px;
+  padding: 100px 50px;
   width: 300px;
   background-image: url("{{ site.baseurl }}/assets/img/smallscroll.png");
   background-position: center;
