@@ -4,13 +4,14 @@
 @import "{{ site.theme }}";
 
 body {
-  padding: 0px 50px;
+  padding: 0px;
   color: #493c33;
   background-color: #e2c582;
   background-image: url("{{ site.baseurl }}/assets/img/texture-seamless-wood-5.jpg");
 }
 section {
-  margin: 0px 50px;
+  margin: 0px;
+  padding: 0px 50px;
   background-image: url("{{ site.baseurl }}/assets/img/parchment.png");
   background-position: center;
   background-size: 500px;
@@ -18,9 +19,11 @@ section {
 }
 header {
   margin: 50px;
+  padding: 50px
+  width: 300px;
   background-image: url("{{ site.baseurl }}/assets/img/smallscroll.png");
   background-position: center;
-  background-size: 270px;
+  background-size: 300px;
   background-repeat: no-repeat;
 }
 .wrapper {
