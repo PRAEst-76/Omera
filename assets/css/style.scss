@@ -20,7 +20,7 @@ section {
   margin: 0px 10px;
   padding: 0px;
   background-image: url("{{ site.baseurl }}/assets/img/largescroll.png");
-  background-position: center;
+  background-position: center top;
   background-size: 500px;
   background-repeat: repeat-y;
 }
@@ -30,7 +30,7 @@ section {
   width: 320px;
   height: 440px;
   background-image: url("{{ site.baseurl }}/assets/img/smallscroll.png");
-  background-position: center;
+  background-position: center top;
   background-size: 320px;
   background-repeat: no-repeat;
 }
@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .boilerplate {
   width: auto;
-  margin: 10px 0px;
+  margin: 0px 20px;
   padding: 0px;
   color: beige;
   font-size: small;
