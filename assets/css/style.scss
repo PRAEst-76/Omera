@@ -11,16 +11,16 @@ body {
   background-image: url("{{ site.baseurl }}/assets/img/texture-seamless-wood-5.jpg");
 }
 section {
-  margin: 0px 20px;
-  padding: 0px 50px;
+  margin: 0px 50px;
+  padding: 0px;
   background-image: url("{{ site.baseurl }}/assets/img/parchment.png");
   background-position: center;
   background-size: 500px;
   background-repeat: repeat-y;
 }
 header {
-  margin: 20px;
-  padding: 100px 50px;
+  margin: 50px;
+  padding: 10px;
   width: 300px;
   background-image: url("{{ site.baseurl }}/assets/img/smallscroll.png");
   background-position: center;
@@ -47,5 +47,5 @@ header {
   color: black;
   font-size: small;
   text-float: left;
-  writing-mode: vertical-rl;
+  writing-mode: vertical-lr;
   }
