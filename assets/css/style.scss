@@ -12,18 +12,18 @@ body {
   background-attachment: fixed;
 }
 section {
-	width: 600px;
+	width: 500px;
   border: 2px dashed beige;
   margin: 0px;
-  padding: 0px 20px;
+  padding: 0px;
   background-image: url("{{ site.baseurl }}/assets/img/parchment.png");
   background-position: center;
-  background-size: 600px;
+  background-size: 500px;
   background-repeat: repeat-y;
 }
 header {
   border: 2px dashed beige;
-  margin: 20px 0px;
+  margin: 0px;
   padding: 0px;
   width: 400px;
   background-image: url("{{ site.baseurl }}/assets/img/smallscroll.png");
@@ -34,7 +34,7 @@ header {
 h1, h2, h3, h4, h5, h6, p, ul, ol {
 	font-family: Carolingia, "Eagle Lake", "Brush Script MT", cursive;  
 	color:#222;
-	    margin:20px;
+	margin:20px;
     }
 .wrapper {
 	margin-top: 0px;
