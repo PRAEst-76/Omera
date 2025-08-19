@@ -34,14 +34,14 @@ body {
   background-size: 300px;
   background-repeat: no-repeat;
 }
-h1, h2, h3, h4, h5, h6, {
+h1, h2, h3, h4, h5, h6 {
 	font-family: Carolingia, "Eagle Lake", "Brush Script MT", cursive;  
 	color:#222;
 	margin: 20px;
     }
- p {
+ p, ul, ol {
 
-	font-family: Carolingia, "Eagle Lake", "Brush Script MT", cursive;  
+	font-family:  "Eagle Lake", "Brush Script MT", cursive;  
 	margin: 20px;
 }
 .wrapper {
