@@ -54,13 +54,13 @@
       {{ content }}
 
       </section>
-      <footer>
-	<p><small>
+      <footer class="boilerplate">
+	<p>
 	{% if site.github.is_project_page %}
         <i>{{ site.name }}</i> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.
         {% endif %}
         Hosted on GitHub Pages.	Theme based on <a href="https://pages-themes.github.io/minimal/">Minimal</a> by <a href="https://github.com/orderedlist">orderedlist</a>
-	Last update: {{ site.time }}</p></small>
+	Last update: {{ site.time }}</p>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
