@@ -18,7 +18,7 @@ body {
 	margin: 50px;
 }
 .scrolltop {
-  	position: relative;
+  	position: absolute;
   	top: 0px;
 	width: 500px;
 	height: 157px;
@@ -31,7 +31,7 @@ body {
       	background-repeat: no-repeat;
 }
 .scrollmid {
-  position: relative;
+  	position: relative;
 	top: 158px;
 	width: 500px;
 	margin: 0px;
@@ -73,12 +73,12 @@ section {
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: Carolingia, "Eagle Lake", "Brush Script MT", cursive;  
-	margin: 20px 60px;
+	margin: 20px 80px;
     }
  p, ul, ol {
 
 	font-family:  Carolingia, "Eagle Lake", cursive;  
-	margin: 20px 60px;
+	margin: 20px 80px;
 }
 .wrapper {
 	margin-top: 0px;
