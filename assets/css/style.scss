@@ -15,7 +15,6 @@ body {
   background-attachment: fixed;
 }
 .scrolltop {
-	position: fixed;
 	width: 500px;
 	height: 157px;
 	margin: 0px;
@@ -52,11 +51,11 @@ section {
 	width: 500px;
 	height: auto;
  	margin: 0px;
-  	padding: 0px 50px;
+  	padding: 0px;
 }
 .side {
   margin: 0px;
-  padding: 20px;
+  padding: 0px;
   width: 320px;
   height: 440px;
   border: 1px dashed white;
@@ -67,12 +66,12 @@ section {
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: Carolingia, "Eagle Lake", "Brush Script MT", cursive;  
-	margin: 10px 40px;
+	margin: 20px 40px;
     }
  p, ul, ol {
 
 	font-family:  Carolingia, "Eagle Lake", cursive;  
-	margin: 10 50px;
+	margin: 20 50px;
 }
 .wrapper {
 	margin-top: 0px;
