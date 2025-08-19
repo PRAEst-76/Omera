@@ -19,7 +19,7 @@
         <a href="{{ "/" | absolute_url }}"><img src="{{site.logo | relative_url}}" alt="Logo" /></a>
         {% endif %}
 	<div class="side">
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+        <p class="desc">{{ site.description | default: site.github.project_tagline }}</p>
 
 	<div class="menu">
 		<h4><a href="{{ site.baseurl }}/updates">Project Updates</a><br />
