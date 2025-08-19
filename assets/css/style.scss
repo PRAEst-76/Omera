@@ -36,7 +36,8 @@ section {
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: Carolingia, "Eagle Lake", "Brush Script MT", cursive;  
-	color:#222;
+	color: brown;
+	text-shadow: 2px 2px #ff0000;
 	margin: 20px;
     }
  p, ul, ol {
@@ -60,7 +61,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .boilerplate {
   width: auto;
-  margin-top: 20px; 
+  margin-left: 20px; 
   color: beige;
   font-size: small;
   text-float: left;
