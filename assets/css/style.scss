@@ -17,8 +17,8 @@ body {
 section {
 	width: 500px;
   border: 2px dashed beige;
-  margin: 20px;
-  padding: 0px 10px;
+  margin: 10px;
+  padding: 0px 20px;
   background-image: url("{{ site.baseurl }}/assets/img/parchment.png");
   background-position: center;
   background-size: 500px;
@@ -26,8 +26,8 @@ section {
 }
 .side {
   border: 2px dashed beige;
-  margin: 20px;
-  padding: 0px 10px;
+  margin: 10px;
+  padding: 20px;
   width: 300px;
   background-image: url("{{ site.baseurl }}/assets/img/smallscroll.png");
   background-position: center;
@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
     }
  p, ul, ol {
 
-	font-family:  "Eagle Lake", "Brush Script MT", cursive;  
+	font-family:  "Eagle Lake", cursive;  
 	margin: 20px;
 }
 .wrapper {
