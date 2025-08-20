@@ -7,10 +7,9 @@
 	    src: url({{ site.baseurl }}/assets/font/carolingia.ttf);
     }
 body {
-  margin: 0px;
-  padding: 0px;
   color: #493c33;
   background-color: #543e36;
+background-size: 800px;
 	background-image: url("[[ site.baseurl ]]/assets/img/parchment.png");
 	background-repeat: repeat-y;
 }
@@ -22,6 +21,7 @@ body {
 	height: 127px;
 	margin: 0px;
 	padding: 0px;
+	background-origin: content-box, padding-box;
 	background-image: url("{{ site.baseurl }}/assets/img/largescrolltop.png");
   	background-position: center bottom;
     	background-size: 500px 127px;
@@ -35,6 +35,7 @@ body {
 	height: auto;
 	margin: 0px;
 	padding: 0px;
+	background-origin: content-box, padding-box;
 	background-image: url("{{ site.baseurl }}/assets/img/largescrollmiddle.png");
   	background-position: center;
     	background-size: 500px auto;
@@ -48,6 +49,7 @@ body {
 	height: 143px;	
 	margin: 0px;
 	padding: 0px;
+	background-origin: content-box, padding-box;
 	background-image: url("{{ site.baseurl }}/assets/img/largescrollbottom.png");
   	background-position: center top;
     	background-size: 500px 143px;
