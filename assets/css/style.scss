@@ -19,7 +19,7 @@ body {
 	margin: 50px 50px 50px 20px;
 }
 .scrolltop {
-	position: relative;
+	position: absolute;
   	top: 0px;
 	width: 500px;
 	height: 127px;
@@ -31,8 +31,8 @@ body {
       	background-repeat: no-repeat;
 }
 .scrollmid {
-  	position: relative;
-	top: 0px;
+  	position: absolute;
+	top: 127px;
 	width: 500px;
 	height: auto;
 	margin: 0px;
@@ -44,6 +44,7 @@ body {
 }
 .scrollbot {
 	position: relative;
+	top: 0px;
 	width: 500px;
 	height: 143px;	
 	margin: 0px;
@@ -101,18 +102,18 @@ section {
 h1, h2, h3, h4, h5, h6 {
 	text-transform: capitalize;
 	font-family: Carolingia, "Eagle Lake", "Brush Script MT", cursive;  
-	margin: 20px 40px;
+	margin: 20px 50px;
     }
  p, ul, ol {
 
 	font-family: cursive;  
-	margin: 20px 40px;
+	margin: 20px 50px;
 }
 .wrapper {
 	margin-top: 0px;
 	}
 .menu {
-  margin-left: 60px; 
+  margin-left: 80px; 
 }
 
 .byline {
