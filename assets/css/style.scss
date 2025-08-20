@@ -15,11 +15,12 @@ body {	padding: 0px;
 	background-attachment: fixed;
 	background-repeat: repeat;
   	background-position: center;
-	background-blend-mode: lighten;
-	-webkit-backdrop-filter: blur(8pxi);
+	background-blend-mode: darken;
+	-webkit-backdrop-filter: blur(8px);
 	backdrop-filter: blur(8px);
 	border-color: transparent;
 }
+header {position: fixed;}
 .scrolltop {
 	border: 1px solid transparent;
 	position: relative;
