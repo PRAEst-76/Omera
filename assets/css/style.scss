@@ -52,6 +52,8 @@ body {
       	background-repeat: no-repeat;
 }
 section {
+	background-image: url("[[ site.baseurl ]]/assets/img/parchment.png");
+	background-repeat: repeat-y;
 	width: 500px;
 	height: auto;
  	margin: 0px;
