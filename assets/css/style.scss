@@ -37,7 +37,8 @@ body {
       	background-repeat: repeat-y;
 }
 .scrollbot {
-	position: absolute;
+	position: relative;
+	top: 0px;
 	width: 500px;
 	height: 143px;	
 	margin: 0px;
@@ -67,7 +68,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin-top: 0px;
 	}
 .box {
-	
+	background: #e6e6e6;
 	border: 2px solid #493c33;
  	border-radius: 25px;
 }
