@@ -14,7 +14,8 @@ background-size: 800px;
 	background-repeat: repeat-y;
 }
 .scrolltop {
-	border: 0px;
+	border: 1px;
+	border-color: transparent;
 	position: relative;
   	top: 0px;
 	width: 500px;
@@ -28,7 +29,8 @@ background-size: 800px;
       	background-repeat: no-repeat;
 }
 .scrollmid {
-	border: 0px;
+	border: 1px;
+	border-color: transparent;
   	position: relative;
 	top: 0px;
 	width: 500px;
@@ -42,7 +44,8 @@ background-size: 800px;
       	background-repeat: repeat-y;
 }
 .scrollbot {
-	border: 0px;
+	border: 1px;
+	border-color: transparent;
 	position: relative;
 	top: 0px;
 	width: 500px;
