@@ -7,10 +7,10 @@
 	    src: url({{ site.baseurl }}/assets/font/carolingia.ttf);
     }
 body {
-  color: #493c33;
-  background-color: #543e36;
-background-size: 800px;
-	background-image: url("[[ site.baseurl ]]/assets/img/parchment.png");
+  	color: #493c33;
+  	background-color: #543e36;
+	background-size: 800px;
+	background-image: url("{{ site.baseurl }}/assets/img/parchment.png");
 	background-repeat: repeat-y;
 }
 .scrolltop {
