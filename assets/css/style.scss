@@ -13,7 +13,7 @@ body {
   background-color: #543e36;
 }
 .scrolltop {
-	border: 2px dashed white;
+	border: 0px;
 	position: relative;
   	top: 0px;
 	width: 500px;
@@ -26,7 +26,7 @@ body {
       	background-repeat: no-repeat;
 }
 .scrollmid {
-	border: 2px dashed white;
+	border: 0px;
   	position: relative;
 	top: 0px;
 	width: 500px;
@@ -39,7 +39,7 @@ body {
       	background-repeat: repeat-y;
 }
 .scrollbot {
-	border: 2px dashed white;
+	border: 0px;
 	position: relative;
 	top: 0px;
 	width: 500px;
