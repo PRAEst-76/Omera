@@ -15,8 +15,9 @@ body {	padding: 0px;
 	background-attachment: fixed;
 	background-repeat: repeat;
   	background-position: center;
-	-webkit-backdrop-filter: blur(5px);
-	backdrop-filter: blur(5px);
+	background-blend-mode: lighten;
+	-webkit-backdrop-filter: blur(8pxi);
+	backdrop-filter: blur(8px);
 	border-color: transparent;
 }
 .scrolltop {
