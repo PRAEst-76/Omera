@@ -11,6 +11,8 @@ body {
   padding: 0px;
   color: #493c33;
   background-color: #543e36;
+	background-image: url("[[ site.baseurl ]]/assets/img/parchment.png");
+	background-repeat: repeat-y;
 }
 .scrolltop {
 	border: 0px;
@@ -52,8 +54,6 @@ body {
       	background-repeat: no-repeat;
 }
 section {
-	background-image: url("[[ site.baseurl ]]/assets/img/parchment.png");
-	background-repeat: repeat-y;
 	width: 500px;
 	height: auto;
  	margin: 0px;
