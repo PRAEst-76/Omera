@@ -26,7 +26,7 @@ body {
 	margin: 0px;
 	padding: 0px;
 	background-image: url("{{ site.baseurl }}/assets/img/largescrolltop.png");
-  	background-position: center;
+  	background-position: center bottom;
     	background-size: 500px 127px;
       	background-repeat: no-repeat;
 }
@@ -49,7 +49,7 @@ body {
 	margin: 0px;
 	padding: 0px;
 	background-image: url("{{ site.baseurl }}/assets/img/largescrollbottom.png");
-  	background-position: center;
+  	background-position: center top;
     	background-size: 500px 143px;
       	background-repeat: no-repeat;
 }
@@ -87,14 +87,14 @@ section {
   background-repeat: no-repeat;
 }
 .scroll {
-  margin: 0px;
-  padding: 0px;
+  margin: 0px 35px;
+  padding: 20px;
   left: 60px;
   width: 200px;
   height: 71px;
   vertical-align: middle;
   background-image: url("{{ site.baseurl }}/assets/img/scroll.png");
-  background-position: center;
+  background-position: center center;
   background-size: 200px;
   background-repeat: no-repeat;
 }
