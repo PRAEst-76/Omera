@@ -11,7 +11,7 @@ body {
   padding: 0px;
   color: #493c33;
   background-color: #e2c582;
-  background-image: url("{{ site.baseurl }}/assets/img/wall.jpg");
+  background-image: url("{{ site.baseurl }}/assets/img/desk.jpg");
   background-repeat: repeat;
   background-attachment: fixed;
 }
@@ -43,7 +43,7 @@ body {
       	background-repeat: repeat-y;
 }
 .scrollbot {
-	position: relative;
+	position: absolute;
 	width: 500px;
 	height: 143px;	
 	margin: 0px;
@@ -87,8 +87,8 @@ section {
   background-repeat: no-repeat;
 }
 .scroll {
-  margin: 0px;
-  padding: px;
+  margin: 0px 60px;
+  padding: 0px;
   left: 60px;
   width: 200px;
   height: 71px;
