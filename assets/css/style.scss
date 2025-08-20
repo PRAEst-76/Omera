@@ -58,6 +58,33 @@ section {
  	margin: 0px;
   	padding: 0px;
 }
+.book1 {
+  margin: 0px;
+  padding: 0px;
+  width: 200px;
+  background-image: url("{{ site.baseurl }}/assets/img/book1.png");
+  background-position: center;
+  background-size: 200px;
+  background-repeat: no-repeat;
+}
+.book2 {
+  margin: 0px;
+  padding: 0px;
+  width: 200px;
+  background-image: url("{{ site.baseurl }}/assets/img/book2.png");
+  background-position: center;
+  background-size: 200px;
+  background-repeat: no-repeat;
+}
+.book2 {
+  margin: 0px;
+  padding: 0px;
+  width: 200px;
+  background-image: url("{{ site.baseurl }}/assets/img/book2.png");
+  background-position: center;
+  background-size: 200px;
+  background-repeat: no-repeat;
+}
 .scroll {
   margin: 0px;
   padding: 0px;
