@@ -19,7 +19,7 @@
         <a href="{{ "/" | absolute_url }}"><img src="{{site.logo | relative_url}}" alt="Logo" /></a>
         {% endif %}
 	<div class="side">
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+		<!-- <p>{{ site.description | default: site.github.project_tagline }}</p>-->
 
 	<div class="menu">
 		<h4><a href="{{ site.baseurl }}/updates">Project Updates</a><br />
@@ -31,17 +31,16 @@
 		<h4><a href="{{ site.baseurl }}/todo">To-do</a><br/>
 		<a href="{{ site.baseurl }}/resources">Resources</a><br/>
 		<a href="{{ site.baseurl }}/faq">FAQ</a></h4>
-	</div>
 
         {% if site.github.is_project_page %}
-        <p class="menu"><a href="{{ site.github.repository_url }}">GitHub Repository</a>
-	<small>{{ site.github.repository_nwo }}</small></p>
+        <a href="{{ site.github.repository_url }}">GitHub Repository</a><br/>
         {% endif %}
 
         {% if site.github.is_user_page %}
-        <p class="menu"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
+        <a href="{{ site.github.owner_url }}">View My GitHub Profile</a><br/>
         {% endif %}
-
+	</h4>
+	</div>
         {% if site.show_downloads %}
         <ul class="downloads">
           <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
