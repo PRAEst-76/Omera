@@ -25,8 +25,8 @@ body {
 	margin: 0px;
 	padding: 0px;
 	background-image: url("{{ site.baseurl }}/assets/img/largescrolltop.png");
-  	background-position: center top;
-    	background-size: 500px 157px;
+  	background-position: center;
+    	background-size: 500px 127px;
       	background-repeat: no-repeat;
 }
 .scrollmid {
@@ -48,7 +48,7 @@ body {
 	margin: 0px;
 	padding: 0px;
 	background-image: url("{{ site.baseurl }}/assets/img/largescrollbottom.png");
-  	background-position: center bottom;
+  	background-position: center;
     	background-size: 500px 143px;
       	background-repeat: no-repeat;
 }
@@ -92,7 +92,7 @@ section {
   height: 71px;
   background-image: url("{{ site.baseurl }}/assets/img/scroll.png");
   background-position: center;
-  background-size: 320px;
+  background-size: 200px;
   background-repeat: no-repeat;
 }
 h1, h2, h3, h4, h5, h6 {
