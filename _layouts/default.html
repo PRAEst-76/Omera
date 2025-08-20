@@ -19,8 +19,7 @@
         <a href="{{ "/" | absolute_url }}"><img src="{{site.logo | relative_url}}" alt="Logo" /></a>
         {% endif %}
 	<div class="side">
-        <p class="desc">{{ site.description | default: site.github.project_tagline }}</p>
-
+		<!-- <p>{{ site.description | default: site.github.project_tagline }}</p>-->
 	<div class="menu">
 		<h4><a href="{{ site.baseurl }}/updates">Project Updates</a><br />
 
@@ -33,12 +32,11 @@
 		<a href="{{ site.baseurl }}/faq">FAQ</a></h4>
 
         {% if site.github.is_project_page %}
-        <p class="menu"><a href="{{ site.github.repository_url }}">GitHub Repository</a>
-	<small>{{ site.github.repository_nwo }}</small></p>
+	<h4><a href="{{ site.github.repository_url }}">GitHub Repository</a></h4>
         {% endif %}
 
         {% if site.github.is_user_page %}
-        <p class="menu"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
+	<h4><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></h4>
         {% endif %}
 	</div>
         {% if site.show_downloads %}

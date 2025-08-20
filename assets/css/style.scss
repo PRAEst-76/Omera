@@ -18,13 +18,12 @@ body {
 	margin: 50px 50px 50px 20px;
 }
 .scrolltop {
-  	position: relative;
+	position: relative;
   	top: 0px;
 	width: 500px;
 	height: 127px;
 	margin: 0px;
 	padding: 0px;
-	border: 1px dashed red;
 	background-image: url("{{ site.baseurl }}/assets/img/largescrolltop.png");
   	background-position: center top;
     	background-size: 500px 157px;
@@ -37,7 +36,6 @@ body {
 	height: auto;
 	margin: 0px;
 	padding: 0px;
-	border: 1px dashed white;
 	background-image: url("{{ site.baseurl }}/assets/img/largescrollmiddle.png");
   	background-position: center;
     	background-size: 500px auto;
@@ -49,7 +47,6 @@ body {
 	height: 143px;	
 	margin: 0px;
 	padding: 0px;
-	border: 1px dashed green;
 	background-image: url("{{ site.baseurl }}/assets/img/largescrollbottom.png");
   	background-position: center bottom;
     	background-size: 500px 143px;
@@ -66,7 +63,6 @@ section {
   padding: 0px;
   width: 320px;
   height: 457px;
-  border: 1px dashed white;
   background-image: url("{{ site.baseurl }}/assets/img/map.png");
   background-position: center top;
   background-size: 320px;
@@ -99,7 +95,6 @@ h1, h2, h3, h4, h5, h6 {
 .boilerplate {
 	position: relative;
 	top: 50px;
-  border: 2px dashed white;
 	width: auto;
   margin: 0px;
   padding: 0px;
