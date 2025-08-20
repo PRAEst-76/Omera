@@ -7,53 +7,80 @@
 	    src: url({{ site.baseurl }}/assets/font/carolingia.ttf);
     }
 body {
-  margin: 0px 0px;
+  margin: 0px;
   padding: 0px;
   color: #493c33;
   background-color: #e2c582;
   background-image: url("{{ site.baseurl }}/assets/img/texture-seamless-wood-5.jpg");
   background-attachment: fixed;
 }
-.scroll {
+.desc {
+	margin: 50px 50px 50px 20px;
+}
+.scrolltop {
+  	position: relative;
+  	top: 0px;
 	width: 500px;
-	height: 100px;
+	height: 157px;
 	margin: 0px;
 	padding: 0px;
-	border: 1px dashed yellow;
-	background-image: url("{{ site.baseurl }}/assets/img/largescroll.png");
+	border: 1px dashed red;
+	background-image: url("{{ site.baseurl }}/assets/img/largescrolltop.png");
   	background-position: center top;
-    	background-size: 500px;
+    	background-size: 500px 157px;
+      	background-repeat: no-repeat;
+}
+.scrollmid {
+  	position: relative;
+	top: 0px;
+	width: 500px;
+	height: auto;
+	margin: 0px;
+	padding: 0px;
+	border: 1px dashed white;
+	background-image: url("{{ site.baseurl }}/assets/img/largescrollmiddle.png");
+  	background-position: center;
+    	background-size: 500px auto;
+      	background-repeat: repeat-y;
+}
+.scrollbot {
+	position: relative;
+	width: 500px;
+	height: 143px;	
+	margin: 0px;
+	padding: 0px;
+	border: 1px dashed green;
+	background-image: url("{{ site.baseurl }}/assets/img/largescrollbottom.png");
+  	background-position: center bottom;
+    	background-size: 500px 143px;
       	background-repeat: no-repeat;
 }
 section {
 	width: 500px;
-  margin: 0px;
-  padding: 0px;
-border: 1px dashed white;
-  background-image: url("{{ site.baseurl }}/assets/img/largescroll.png");
-  background-position: center;
-  background-size: 500px;
-  background-repeat: repeat-y;
+	height: auto;
+ 	margin: 0px;
+  	padding: 0px;
 }
 .side {
   margin: 0px;
   padding: 0px;
   width: 320px;
-  height: 440px;
+  height: 457px;
   border: 1px dashed white;
-  background-image: url("{{ site.baseurl }}/assets/img/smallscroll.png");
+  background-image: url("{{ site.baseurl }}/assets/img/map.png");
   background-position: center top;
   background-size: 320px;
   background-repeat: no-repeat;
 }
 h1, h2, h3, h4, h5, h6 {
+	text-transform: capitalize;
 	font-family: Carolingia, "Eagle Lake", "Brush Script MT", cursive;  
-	margin: 10px 40px;
+	margin: 20px 80px;
     }
  p, ul, ol {
 
-	font-family:  Carolingia, "Eagle Lake", cursive;  
-	margin: 10 50px;
+	font-family: cursive;  
+	margin: 20px 80px;
 }
 .wrapper {
 	margin-top: 0px;
@@ -70,9 +97,11 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #e6e6e6;
 }
 .boilerplate {
+	position: relative;
+	top: 50px;
   border: 2px dashed white;
 	width: auto;
-  margin: 20px 0px;
+  margin: 0px;
   padding: 0px;
   color: beige;
   font-size: small;
