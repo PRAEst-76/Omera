@@ -31,7 +31,7 @@ body {
 .scrollmid {
 	border: 1px solid transparent;
   	position: relative;
-	top: 0px;
+	top: -1px;
 	width: 500px;
 	height: auto;
 	margin: 0px;
@@ -45,7 +45,7 @@ body {
 .scrollbot {
 	border: 1px solid transparent;
 	position: relative;
-	top: 0px;
+	top: -1px;
 	width: 500px;
 	height: 143px;	
 	margin: 0px;
@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
  	border-radius: 25px;
 }
 .menu {  
-  margin-left: 80px; 
+  margin-left: 40px; 
 }
 
 .byline {
