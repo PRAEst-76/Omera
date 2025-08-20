@@ -12,6 +12,7 @@ body {
 	background-size: 800px;
 	background-image: url("{{ site.baseurl }}/assets/img/parchment.png");
 	background-repeat: repeat-y;
+  	background-position: center;
 	border-color: transparent;
 }
 .scrolltop {
