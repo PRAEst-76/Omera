@@ -58,13 +58,12 @@ section {
  	margin: 0px;
   	padding: 0px;
 }
-.side {
+.scroll {
   margin: 0px;
   padding: 0px;
   width: 320px;
-  height: 457px;
-  background-image: url("{{ site.baseurl }}/assets/img/map.png");
-  background-position: center top;
+  background-image: url("{{ site.baseurl }}/assets/img/scroll.png");
+  background-position: center;
   background-size: 320px;
   background-repeat: no-repeat;
 }

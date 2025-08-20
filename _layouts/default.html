@@ -18,9 +18,7 @@
         {% if site.logo %}
         <a href="{{ "/" | absolute_url }}"><img src="{{site.logo | relative_url}}" alt="Logo" /></a>
         {% endif %}
-	<div class="side">
 		<!-- <p>{{ site.description | default: site.github.project_tagline }}</p>-->
-	<div class="menu">
 		<h4><a href="{{ site.baseurl }}/updates">Project Updates</a><br />
 
 		<h4><a href="{{ site.baseurl }}/ruleset">The Ruleset</a><br />
@@ -38,7 +36,6 @@
         {% if site.github.is_user_page %}
 	<h4><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></h4>
         {% endif %}
-	</div>
         {% if site.show_downloads %}
         <ul class="downloads">
           <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
@@ -46,7 +43,6 @@
           <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
         </ul>
         {% endif %}
-	</div>
       </header>
       <section>
 	<div class="scrolltop">
