@@ -25,12 +25,11 @@ header {
 	position: fixed;}
 .transparent_gradient {
     display: block;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+    position: fixed;
+    top: 500px;
+    width: 400;
     height: 13.0208333333vw;
-    background: linear-gradient(180deg, transparent 0, black 100%);
+    background: linear-gradient(180deg, transparent 0, beige 100%);
 }
 .scrolltop {
 	position: relative;
