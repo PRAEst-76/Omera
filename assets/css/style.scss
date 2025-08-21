@@ -27,6 +27,7 @@ header {
     display: block;
     position: fixed;
     top: 500px;
+    float: right;
     width: 400;
     height: 13.0208333333vw;
     background: linear-gradient(180deg, transparent 0, beige 100%);
@@ -73,7 +74,6 @@ header {
       	background-repeat: no-repeat;
 }
 section {
-	position: fixed;
 	width: 380px;
 	height: 500px;
  	margin: 0px;
