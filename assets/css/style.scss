@@ -37,7 +37,7 @@ header {border: 1px dashed white;
 .scrollmid {
 	border: 1px solid transparent;
   	position: relative;
-	top: -45px;
+	top: -40px;
 	width: 500px;
 	height: auto;
 	margin: 0px;
@@ -103,6 +103,7 @@ h1, h2, h3, h4, h5, h6 {
   	background-color: #e6e6e6;
 	}
 .boilerplate {
+	margin: 5px;
   	writing-mode: vertical-rl;
 	float: left;
 	opacity: 0.6;
