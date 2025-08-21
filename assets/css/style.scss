@@ -11,14 +11,10 @@ body {	padding: 0px;
   	color: #493c33;
   	background-color: #543e36;
 	background-size: 800px;
-	background-image: url("{{ site.baseurl }}/assets/img/wall.jpg");
+	background-image: url("{{ site.baseurl }}/assets/img/parchment.jpg");
 	background-attachment: fixed;
-	background-repeat: repeat;
+	background-repeat: repeat-y;
   	background-position: center;
-	background-blend-mode: darken;
-	-webkit-backdrop-filter: blur(8px);
-	backdrop-filter: blur(8px);
-	border-color: transparent;
 }
 header {position: fixed;}
 .scrolltop {
