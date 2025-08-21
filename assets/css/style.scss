@@ -37,7 +37,7 @@ header {position: fixed;}
 	top: -1px;
 	width: 500px;
 	height: auto;
-	margin: 20px;
+	margin: 0px;
 	padding: 0px;
 	background-origin: content-box, padding-box;
 	background-image: url("{{ site.baseurl }}/assets/img/largescrollmiddle.png");
@@ -75,6 +75,9 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: cursive;  
 	margin: 20px;
 }
+.content {
+	margin: 20px;
+	}
 .wrapper {
 	margin-top: 0px;
 	}
