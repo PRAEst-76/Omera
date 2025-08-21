@@ -16,7 +16,9 @@ body {	padding: 0px;
 	background-repeat: repeat-y;
   	background-position: center;
 }
-header {position: fixed;}
+header {margin: 0px;
+	padding: 0px;
+	position: fixed;}
 .scrolltop {
 	border: 1px solid transparent;
 	position: relative;
