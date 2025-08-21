@@ -10,7 +10,7 @@ body {	padding: 0px;
 	margin: 0px;
   	color: #493c33;
   	background-color: #543e36;
-	background-size: 800px;
+	background-size: 900px;
 	background-image: url("{{ site.baseurl }}/assets/img/parchment.png");
 	background-attachment: fixed;
 	background-repeat: repeat-y;
@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
   	background-color: #e6e6e6;
 	}
 .boilerplate {
-	backdrop-filter: opacity(0.4);
+	opacity: 0.6;
  	border: 4px solid #493c33;
  	border-radius: 25px;
   	background: #e6e6e6;
