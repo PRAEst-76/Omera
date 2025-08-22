@@ -3,7 +3,7 @@ layout: default
 ---
 
 <h1>{{ page.categories | capitalize }}</h1>
-{{content}}
+{{ content }}
 
 {% if page.tags %}
   <p class="byline"><small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small></p>

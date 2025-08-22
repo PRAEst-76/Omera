@@ -1,6 +1,5 @@
 
-# The Lost Kingdom of Omera
-
+## The Lost Kingdom of Omera
 
 An attempt to create a D&D campaign for very young players (ie, my six year old daughter and her friends). Simple text and aids, child-friendly storylines, focus on puzzle solving and lateral thinking and little combat. Combat should be largly avoidable. Players should receive XP for puzzle solving and completing quests and not combat.
 

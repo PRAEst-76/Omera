@@ -1,6 +1,7 @@
 ---
 title: Character Sheet
 categories: ruleset
+layout: page
 ---
 ## Character Sheet
 
