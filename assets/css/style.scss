@@ -32,13 +32,6 @@ section {
 	margin: 0px;
   	padding: 0px;
 	}
-.transparent_gradient {
-    display: block;
-    top: 0px;
-    width: 400;
-    height: 13.0208333333vw;
-    background: linear-gradient(180deg, transparent 0, beige 100%);
-}
 .scrolltop {
 	position: relative;
   	top: 150px;
@@ -95,16 +88,16 @@ h1, h2, h3, h4, h5, h6 {
 	top: 80px;
 	width: 320px;
 	height: 460px;
-	margin: 0 20px;
-	-webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
-	mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+	padding: 0 30px;
+	-webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+	mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
 	overflow-y: scroll;
 	}
 .menu {
 	position: absolute;
 	width: 320px;
 	height: 460px;
-	margin: 0 20px;
+	padding: 0 30px;
 	-webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
 	mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
 	overflow-y: scroll;
