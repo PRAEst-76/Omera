@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
 .content {
 	width: auto;
 	height: 440px;
-	margin: 40px;
+	margin: 20px;
 	padding: 0px;
 	-webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%);
 	mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%);
@@ -97,11 +97,14 @@ h1, h2, h3, h4, h5, h6 {
 .menu {
 	width: auto;
 	height: 440px;
-	margin: 40px;
+	margin: 20px;
 	padding: 0px;
 	-webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
 	mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
 	overflow-y: scroll;
+	}
+.title {
+	margin: 20px 40px;
 	}
 .wrapper {
 	margin-top: 0px;
@@ -130,6 +133,8 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 0px;
   	font-size: x-small;
 	}
+.update {
+	float: right;}
 footer {
 	width: auto;
 	float: inherit;
