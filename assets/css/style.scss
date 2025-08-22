@@ -28,8 +28,9 @@ body {	padding: 0px;
 	  	background-position: center;
 		}
 	header {
-		position: absolute;
+		position: relative;
 		border: 0px dashed white;
+		float: none;
 		margin: 0px;
 		padding: 0px;
 		top: 0px;
@@ -40,6 +41,7 @@ body {	padding: 0px;
 		position: relative;
 		border: 0px dashed white;
 		margin: 0px;
+		float: none;
 	  	padding: 0px;
 		top: 0px;
 		width: auto;
@@ -48,11 +50,13 @@ body {	padding: 0px;
 	.content {
 		position: relative;
 		width: auto;
+		top: 0px;
 		height: auto;
 		margin: 20px;
 		padding: 0px;
 		}
 	.menu {
+		top: 0px;
 		position: relative;
 		width: auto;
 		height: auto;
