@@ -1,9 +1,9 @@
 ---
-title: 2. Character Sheet
+title: Character Sheet
 categories: ruleset
 ---
 
-# Character Sheet
+## Character Sheet
 
 ![Picture of the Character Sheet](images/SimpleCharacterSheet.png)
 
