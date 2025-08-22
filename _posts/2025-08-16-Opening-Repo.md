@@ -1,5 +1,6 @@
 ---
 title: Opening up the Repository
+layout: post
 category: updates
 ---
 ## Opening up the Repository
