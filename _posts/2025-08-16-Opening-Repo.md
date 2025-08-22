@@ -2,7 +2,7 @@
 title: Opening up the Repository
 category: updates
 ---
-## Opening the Repository
+## Opening up the Repository
 
 I've been working on this for a while and as a "neuro-divergent" individual, it's hard sometimes to get motivation or see projects clearly.
 <!--more-->

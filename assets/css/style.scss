@@ -97,14 +97,14 @@ h1, h2, h3, h4, h5, h6 {
 .menu {
 	width: auto;
 	height: 440px;
-	margin: 20px;
+	margin: 10px 40px;
 	padding: 0px;
 	-webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
 	mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
 	overflow-y: scroll;
 	}
 .title {
-	margin: 20px 40px;
+	width: 200px;
 	}
 .wrapper {
 	margin-top: 0px;
