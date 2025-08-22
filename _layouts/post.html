@@ -2,8 +2,8 @@
 layout: default
 ---
 <h1><a href="{{ site.baseurl }}/updates">Project Updates /</a></h1>
-
-{{content}}
+{{ page.categories }}
+{{ content }}
 
 {% if page.author %}
   <p class="byline">{{ page.author | join: " - " }}

@@ -2,7 +2,6 @@
 title: Character Sheet
 categories: ruleset
 ---
-
 ## Character Sheet
 
 ![Picture of the Character Sheet](images/SimpleCharacterSheet.png)
