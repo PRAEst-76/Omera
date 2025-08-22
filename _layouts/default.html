@@ -19,7 +19,7 @@
         <a href="{{ "/" | absolute_url }}"><img src="{{site.logo | relative_url}}" alt="Logo" /></a>
         {% endif %}
 		<p>{{ site.description | default: site.github.project_tagline }}</p>
-			<h4><a href="{{ site.baseurl }}/updates" target=content">Project Updates</a></h4>
+			<h4><a href="{{ site.baseurl }}/updates" target="text">Project Updates</a></h4>
 			<h4><a href="{{ site.baseurl }}/ruleset">The Ruleset</a><br/>
 			<a href="{{ site.baseurl }}/modules">The Modules</a><br/>
 			<a href="{{ site.baseurl }}/lore">The Lore</a></h4>
@@ -46,7 +46,7 @@
 	</div>
 	<div class="scrollmid"> -->
 	<div class="content">
-    		<iframe src="text" height="415" width="315" title="content" allowfullscreen="" frameborder="0">
+    		<iframe src="text" height="415" width="315" name="text" title="content" allowfullscreen="" frameborder="0">
     		</iframe>
 	</div><!--
 		<div class="content"> 
