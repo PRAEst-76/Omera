@@ -92,8 +92,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 .content {
 	position: absolute;
-	width: 340px;
+	top: 80px;
+	width: 320px;
 	height: 460px;
+	margin: 0 20px;
+	-webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+	mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+	overflow-y: scroll;
+	}
+.menu {
+	position: absolute;
+	width: 320px;
+	height: 460px;
+	margin: 0 20px;
 	-webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
 	mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
 	overflow-y: scroll;
