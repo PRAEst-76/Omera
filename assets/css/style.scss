@@ -83,8 +83,12 @@ section {
 	height: 460px;
 	}
 section h1 {
-	border-bottom: 6px solid transparent;
-	border-image: url("{{ site.baseurl }}/assets/img/stroke.png") 100% ;	
+      -webkit-border-image:url("{{ site.baseurl }}/assets/img/stroke.png");
+      -webkit-border-image-width: 0 0 8px 0;
+      -webkit-border-image-repeat: stretch;
+      border-image: url("{{ site.baseurl }}/assets/img/stroke.png");
+      border-image-width: 0 0 8px 0;
+      border-image-repeat: stretch;
 	text-align: right;
 	}
 .scrolltop {
