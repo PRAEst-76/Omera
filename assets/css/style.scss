@@ -17,6 +17,7 @@ body {	padding: 0px;
   	background-position: center 40px;
 }
 header {
+	position: absolute;
 	border: 2px dashed white;
 	margin: 0px;
 	padding: 0px;
@@ -25,12 +26,13 @@ header {
 	height: 460px;
 	}
 section {
+	position: absolute;
 	border: 2px dashed white;
-	width: 340px;
-	height: 460px;
- 	top: 90px;
 	margin: 0px;
   	padding: 0px;
+ 	top: 90px;
+	width: 340px;
+	height: 460px;
 	}
 .scrolltop {
 	position: relative;
@@ -84,20 +86,19 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 20px;
 }
 .content {
-	position: absolute;
-	top: 80px;
 	width: 320px;
 	height: 460px;
-	padding: 0 30px;
+	margin: 0px;
+	padding: 0px;
 	-webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
 	mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
 	overflow-y: scroll;
 	}
 .menu {
-	position: absolute;
 	width: 320px;
 	height: 460px;
-	padding: 0 30px;
+	margin: 0px;
+	padding: 0px;
 	-webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
 	mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
 	overflow-y: scroll;
