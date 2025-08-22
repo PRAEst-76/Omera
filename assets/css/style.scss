@@ -28,7 +28,7 @@ body {	padding: 0px;
 	  	background-position: center;
 		}
 	header {
-		position: relative;
+		position: absolute;
 		border: 0px dashed white;
 		margin: 0px;
 		padding: 0px;
@@ -46,12 +46,14 @@ body {	padding: 0px;
 		height: auto;
 		}
 	.content {
+		position: relative;
 		width: auto;
 		height: auto;
 		margin: 20px;
 		padding: 0px;
 		}
 	.menu {
+		position: relative;
 		width: auto;
 		height: auto;
 		margin: 20px;
@@ -178,9 +180,10 @@ h1, h2, h3, h4, h5, h6 {
   	background-color: #e6e6e6;
 	}
 .boilerplate {
+	background: black;
 	color: white;
 	font-family: serif;
-	margin: 0px;
+	margin: 0px 5px;
 	padding: 0px;
   	font-size: x-small;
 	}
