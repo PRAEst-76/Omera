@@ -17,7 +17,7 @@ body {	padding: 0px;
   	background-position: center 40px;
 }
 header {
-	margin: 10px 20px;
+	margin: 10px 30px;
 	padding: 0px;
 	top: 80px;
 	width: 300px;
@@ -72,7 +72,7 @@ header {
       	background-repeat: no-repeat;
 }
 section {
-	width: 380px;
+	width: 360px;
 	height: 480px;
  	margin: 0px;
   	padding: 0px;
@@ -90,9 +90,10 @@ h1, h2, h3, h4, h5, h6 {
 .content {
 	position: absolute;
 	top: 80px;
-	width: 360px;
+	width: 340px;
 	height: 440px;
-	margin: 20px;
+	margin: 0px;
+	padding: 0px;
 	-webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
 	mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
 	overflow-y: scroll;
