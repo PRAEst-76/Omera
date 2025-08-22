@@ -4,7 +4,7 @@
         <a href="{{ "/" | absolute_url }}"><img src="{{site.logo | relative_url}}" alt="Logo" /></a>
         {% endif %}
 		<p>{{ site.description | default: site.github.project_tagline }}</p>
-			<h4><a href="{{ site.baseurl }}/updates" target="content">Project Updates</a></h4>
+			<h4><a href="{{ site.baseurl }}/updates">Project Updates</a></h4>
 			<h4><a href="{{ site.baseurl }}/ruleset">The Ruleset</a><br/>
 			<a href="{{ site.baseurl }}/modules">The Modules</a><br/>
 			<a href="{{ site.baseurl }}/lore">The Lore</a></h4>
@@ -12,7 +12,7 @@
 			<a href="{{ site.baseurl }}/resources">Resources</a><br/>
 			<a href="{{ site.baseurl }}/faq">FAQ</a></h4>
 			{% if site.github.is_project_page %}
-			<h4><a href="{{ site.github.repository_url }}">GitHub Repository</a></h4>
+			<h4><a href="{{ site.github.repository_url }}" target"_blank">GitHub Repository</a></h4>
 			{% endif %}
 			{% if site.github.is_user_page %}
 			<h4><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></h4>
