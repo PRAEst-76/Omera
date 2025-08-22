@@ -16,6 +16,18 @@ body {	padding: 0px;
 	background-repeat: no-repeat;
   	background-position: center 40px;
 }
+@media print, screen and (max-width: 480px) {
+body {	padding: 0px;
+	margin: 0px;
+  	color: #493c33;
+  	background-color: black;
+	background-size: auto;
+	background-image: url("{{ site.baseurl }}/assets/img/parchment.png");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+  	background-position: center;
+	}
+	}
 header {
 	position: absolute;
 	border: 0px dashed white;

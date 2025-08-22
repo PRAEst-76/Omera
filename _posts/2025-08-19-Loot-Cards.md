@@ -1,6 +1,7 @@
 ---
 title: Lootcards
 categories: updates
+tags: lootcards items mechanics
 ---
 ## Loot Cards
 
