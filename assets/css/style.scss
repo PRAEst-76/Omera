@@ -103,6 +103,9 @@ h1, h2, h3, h4, h5, h6 {
 	mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%);
 	overflow-y: scroll;
 	}
+.indent {
+	margin-left: 50px;
+	}
 .title {
 	display: block;
 	margin-left: auto;
