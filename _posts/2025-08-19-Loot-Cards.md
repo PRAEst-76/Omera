@@ -1,5 +1,6 @@
 ---
 title: Lootcards
+layout: post
 categories: updates
 tags: lootcards items mechanics
 ---
