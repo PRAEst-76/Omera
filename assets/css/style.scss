@@ -27,6 +27,36 @@ body {	padding: 0px;
 	background-repeat: no-repeat;
   	background-position: center;
 	}
+header {
+	position: relative;
+	border: 0px dashed white;
+	margin: 0px;
+	padding: 0px;
+	top: 0px;
+	width: auto;
+	height: auto;
+	}
+section {
+	position: relative;
+	border: 0px dashed white;
+	margin: 0px;
+  	padding: 0px;
+ 	top: 0px;
+	width: auto;
+	height: auto;
+	}
+.content {
+	width: auto;
+	height: auto;
+	margin: 20px;
+	padding: 0px;
+	}
+.menu {
+	width: auto;
+	height: auto;
+	margin: 20px;
+	padding: 0px;
+	}
 	}
 header {
 	position: absolute;
