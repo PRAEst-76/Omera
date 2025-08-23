@@ -103,8 +103,8 @@ h1, h2, h3, h4, h5, h6 {
 	mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%);
 	overflow-y: scroll;
 	}
-.menu h4 {
-	border-left: 4px solid #493c33;
+div.indent h4 {
+	border-left: 2px solid #493c33;
 	}
 .indent {
 	margin-left: 50px;
