@@ -179,6 +179,7 @@ footer {
 		background-repeat: no-repeat;
 	  	background-position: center top;
 		background-attachment: fixed;
+		z-index: 1;
 		}
 	section {
 		margin: 0;
@@ -188,6 +189,7 @@ footer {
 		width: auto;
 		height: auto;
 		border: none;
+		z-index: 1;
 		}
 	.content {
 		width: auto;
@@ -219,5 +221,6 @@ footer {
 		background-image: url("{{ site.baseurl }}/assets/img/largescrollbottom.png");
 		background-repeat: no-repeat;
 	  	background-position: center bottom;
+		z-index: 2;
 		}
 	}
