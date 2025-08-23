@@ -210,7 +210,7 @@ footer {
 		border: none;
 		}
 	footer {
-		position: fixed;
+		position: relative;
 		margin: 40px 0;
 		padding: 40px 0;
 		bottom: 0;
@@ -219,6 +219,5 @@ footer {
 		background-image: url("{{ site.baseurl }}/assets/img/largescrollbottom.png");
 		background-repeat: no-repeat;
 	  	background-position: center top;
-		background-attachment: fixed; 
 		}
 	}
