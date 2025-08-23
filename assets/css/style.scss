@@ -22,12 +22,14 @@ header {
 	padding: 0px;
 	width: 400px;
 	height: 460px;
+	top: 90px;
 	}
 section {
 	margin: 0px;
   	padding: 0px;
 	width: 400px;
 	height: 460px;
+	top: 90px;
 	}
 section h1 {
       border-bottom: 2px solid black;
@@ -152,12 +154,13 @@ footer {
   	position: fixed;
 	bottom: 0px;
   }
-@media print, screen and (max-width: 600px) {
+@media print, screen and (max-width: 480px) {
 	body {
 		background-size: 95%;
 		background-image: url("{{ site.baseurl }}/assets/img/parchment.png");
 		background-repeat: repeat-y;
 	  	background-position: center;
+		background-attachment: scroll;
 		}
 	header {
 		position: relative;
@@ -181,14 +184,20 @@ footer {
 		position: relative;
 		width: auto;
 		height: auto;
+		top: auto;
 		margin: 5px 20px;
 		padding: 0px;
+		-webkit-mask-image: none;
+		mask-image: none;
 		}
 	.menu {
 		position: relative;
 		width: auto;
 		height: auto;
+		top: auto;
 		margin: 5px 20px;
 		padding: 0px;
+		-webkit-mask-image:;
+		mask-image:;
 		}
 	}
