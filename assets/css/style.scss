@@ -154,6 +154,7 @@ footer {
   }
 @media print, screen and (max-width: 480px) {
 	body {
+		margin: 0;
 		background-size: 95%;
 		background-image: url("{{ site.baseurl }}/assets/img/parchment.png");
 		background-repeat: repeat-y;
