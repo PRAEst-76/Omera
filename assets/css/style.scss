@@ -151,7 +151,6 @@ footer {
 @media print, screen and (max-width: 480px) {
 	body {
 		margin: 0;
-		border-top: 40px solid black;
 		background-size: 95%;
 		background-image: url("{{ site.baseurl }}/assets/img/largescrollmiddle.png");
 		background-repeat: repeat-y;
@@ -217,12 +216,12 @@ footer {
 		position: fixed;
 		margin: 0;
 		padding: 0;
-		bottom: 0;
+		bottom: 5px;
 		border: none;
 		background-size: 95%;
 		background-image: url("{{ site.baseurl }}/assets/img/largescrollbottom.png");
 		background-repeat: no-repeat;
 	  	background-position: center bottom;
-		z-index: 2;
+		z-index: 5;
 		}
 	}
