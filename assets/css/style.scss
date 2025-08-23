@@ -182,7 +182,7 @@ footer {
 		border: none;
 		}
 	section {
-		position: absolute;
+		position: static;
 		margin: 0;
 		float: none;
 	  	padding: 0 0 50px 0;
@@ -209,6 +209,8 @@ footer {
 		margin: 5px 30px;
 		padding: 0px;
 		border: none;
+    		white-space: nowrap;
+    		overflow: visible;
 		}
 	footer {
 		position: fixed;
