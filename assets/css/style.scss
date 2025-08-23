@@ -178,7 +178,7 @@ footer {
 		background-repeat: no-repeat;
 	  	background-position: center top;
 		background-attachment: fixed;
-		z-index: 1;
+		z-index: 10;
 		border: none;
 		}
 	section {
@@ -193,14 +193,13 @@ footer {
 		z-index: 1;
 		}
 	.content {
+		position: static;
+		z-index: 1;
 		width: auto;
 		height: auto;
 		top: auto;
 		margin: 5px 30px 50px 30px;
 		padding: 0px;
-		-webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%);
-		mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%);
-		overflow-y: scroll;
 		}
 	.menu {
 		width: auto;
@@ -209,6 +208,8 @@ footer {
 		margin: 5px 30px;
 		padding: 0px;
 		border: none;
+		}
+	.menu h4 {
     		white-space: nowrap;
     		overflow: visible;
 		}
