@@ -23,7 +23,7 @@ layout: null
     {% if post.sitemap != false %} 
       <item>
         <title>{{ post.title | xml_escape }}</title>
-	<author>{{ post.author }}</author>
+	<author>omera@escapism.fi ({{ post.author }})</author>
         <description>{{ post.content | xml_escape }}</description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
