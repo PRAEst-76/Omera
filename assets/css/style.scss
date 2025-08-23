@@ -178,7 +178,7 @@ footer {
 		background-image: url("{{ site.baseurl }}/assets/img/largescrolltop.png");
 		background-repeat: no-repeat;
 	  	background-position: center top;
-		background-attachment: scroll;
+		background-attachment: fixed;
 		}
 	section {
 		margin: 0;
@@ -210,14 +210,14 @@ footer {
 		border: none;
 		}
 	footer {
-		position: absolute;
-		margin: 40px 0;
-		padding: 40px 0;
+		position: fixed;
+		margin: 0;
+		padding: 0;
 		bottom: 0;
 		border: none;
 		background-size: 95%;
 		background-image: url("{{ site.baseurl }}/assets/img/largescrollbottom.png");
 		background-repeat: no-repeat;
-	  	background-position: center top;
+	  	background-position: center bottom;
 		}
 	}
