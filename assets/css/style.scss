@@ -83,7 +83,6 @@ section h1 {
 h1, h2, h3, h4, h5, h6 {
 	color: #543E36;
 	text-transform: capitalize;
-	border-bottom: 2px solid #543E36;
 	font-family: Carolingia, "Eagle Lake", "Brush Script MT", cursive;  
 	margin: 20px;
     }
@@ -110,6 +109,8 @@ h1, h2, h3, h4, h5, h6 {
 	mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%);
 	overflow-y: scroll;
 	}
+h4 menu {
+	border-left: 4px solid #493c33;
 .indent {
 	margin-left: 50px;
 	}
