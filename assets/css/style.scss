@@ -174,19 +174,15 @@ footer {
 		top: 50px;
 		position: absolute;
 		background-size: 95%;
-		background-position-y: 20px;
 		background-image: url("{{ site.baseurl }}/assets/img/largescrolltop.png");
 		background-repeat: no-repeat;
 	  	background-position: center top;
 		background-attachment: fixed;
 		z-index: 1;
-		-webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%);
-		mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%);
 		border: none;
-		overflow-y: scroll;
 		}
 	section {
-		position: static;
+		position: absolute;
 		margin: 0;
 		float: none;
 	  	padding: 0 0 50px 0;
@@ -202,6 +198,9 @@ footer {
 		top: auto;
 		margin: 5px 30px 50px 30px;
 		padding: 0px;
+		-webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%);
+		mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%);
+		overflow-y: scroll;
 		}
 	.menu {
 		width: auto;
