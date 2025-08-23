@@ -151,13 +151,13 @@ footer {
 @media print, screen and (max-width: 480px) {
 	body {
 		margin: 0;
-		}
 		background-size: 95%;
 		background-image: url("{{ site.baseurl }}/assets/img/largescrollmiddle.png");
 		background-repeat: repeat-y;
 	  	background-position: center;
 		background-attachment: scroll;
 		border: none;
+		}
 	header {
 		position: relative;
 		float: none;
