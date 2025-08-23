@@ -160,7 +160,7 @@ footer {
 		border-bottom: 40px solid black;
 		}
 	header {
-		position: relative;
+		position: absolute;
 		float: none;
 		margin: 0px;
 		padding: 0px;
@@ -179,10 +179,11 @@ footer {
 		margin: 0px;
 		float: none;
 	  	padding: 0 0 20px 0;
-		top: 0px;
+		top: 1px;
 		width: auto;
 		height: auto;
 		border: none;
+		background-color: black;
 		background-size: 95%;
 		background-image: url("{{ site.baseurl }}/assets/img/largescrollbottom.png");
 		background-repeat: no-repeat;
