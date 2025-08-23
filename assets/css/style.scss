@@ -7,7 +7,7 @@
 	    src: url({{ site.baseurl }}/assets/font/carolingia.ttf);
     }
 body {
-	padding: 40px 0;
+	padding: 0;
 	margin: 90px 0 0 0;
   	color: #493c33;
   	background-color: black;
@@ -151,7 +151,7 @@ footer {
 @media print, screen and (max-width: 480px) {
 	body {
 		margin: 0;
-		background-size: 95%;
+		background-size: 95% 95%;
 		background-image: url("{{ site.baseurl }}/assets/img/largescrollmiddle.png");
 		background-repeat: repeat-y;
 	  	background-position: center;
@@ -211,6 +211,7 @@ footer {
 		border: none;
 		}
 	footer {
+		margin: 40px 0 0 0;
 		position: relative;
 		bottom: auto;
 		border: none;
