@@ -198,8 +198,8 @@ footer {
 		top: auto;
 		margin: 5px 30px 50px 30px;
 		padding: 0px;
-		-webkit-mask-image: none;
-		mask-image: none;
+		-webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%);
+		mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%);
 		border: none;
 		}
 	.menu {
@@ -208,8 +208,8 @@ footer {
 		top: auto;
 		margin: 5px 30px;
 		padding: 0px;
-		-webkit-mask-image: none;
-		mask-image: none;
+		-webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%);
+		mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%);
 		border: none;
 		}
 	footer {
