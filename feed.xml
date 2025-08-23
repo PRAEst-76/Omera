@@ -8,6 +8,8 @@ layout: null
     <description>{{ site.description | xml_escape }}</description>
     <image>
       <url>https://praest-76.github.io/Omera/assets/img/logo.png</url>
+      <title>{{ site.title | xml_escape }}</title>
+      <link>{{ site.url }}{{ site.baseurl }}/</link>
       <width>111</width>
       <height>32</height>
     </image>
@@ -21,9 +23,9 @@ layout: null
     {% if post.sitemap != false %} 
       <item>
         <title>{{ post.title | xml_escape }}</title>
+	<author>{{ post.author }}</author>
         <description>{{ post.content | xml_escape }}</description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-	<author>{{ post.author }}</author>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
         <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
         {% for tag in post.tags %}
