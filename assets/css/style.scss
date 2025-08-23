@@ -173,6 +173,7 @@ footer {
 		top: 0;
 		position: absolute;
 		background-size: 95%;
+		background-position-y: 20px;
 		background-image: url("{{ site.baseurl }}/assets/img/largescrolltop.png");
 		background-repeat: no-repeat;
 	  	background-position: center top;
@@ -191,7 +192,7 @@ footer {
 		width: auto;
 		height: auto;
 		top: auto;
-		margin: 5px 30px;
+		margin: 5px 30px 50px 30px;
 		padding: 0px;
 		-webkit-mask-image: none;
 		mask-image: none;
