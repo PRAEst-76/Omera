@@ -103,7 +103,7 @@ h1, h2, h3, h4, h5, h6 {
 	mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%);
 	overflow-y: scroll;
 	}
-h4 menu {
+.menu h4 {
 	border-left: 4px solid #493c33;
 	}
 .indent {
@@ -160,6 +160,7 @@ footer {
 		background-repeat: repeat-y;
 	  	background-position: center;
 		background-attachment: scroll;
+		border: none;
 		}
 	header {
 		position: relative;
@@ -169,6 +170,7 @@ footer {
 		top: 0px;
 		width: auto;
 		height: auto;
+		border: none;
 		}
 	section {
 		position: relative;
@@ -178,6 +180,7 @@ footer {
 		top: 0px;
 		width: auto;
 		height: auto;
+		border: none;
 		}
 	.content {
 		position: relative;
@@ -188,6 +191,7 @@ footer {
 		padding: 0px;
 		-webkit-mask-image: none;
 		mask-image: none;
+		border: none;
 		}
 	.menu {
 		position: relative;
@@ -198,5 +202,11 @@ footer {
 		padding: 0px;
 		-webkit-mask-image: none;
 		mask-image: none;
+		border: none;
+		}
+	footer {
+		position: relative;
+		bottom: auto;
+		border: none;
 		}
 	}
