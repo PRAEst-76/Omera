@@ -167,6 +167,10 @@ footer {
 		width: auto;
 		height: auto;
 		border: none;
+		}
+	.wrapper {
+		top: 0;
+		position: absolute;
 		background-size: 95%;
 		background-image: url("{{ site.baseurl }}/assets/img/largescrolltop.png");
 		background-repeat: no-repeat;
@@ -181,11 +185,6 @@ footer {
 		width: auto;
 		height: auto;
 		border: none;
-		background-size: 95%;
-		background-image: url("{{ site.baseurl }}/assets/img/largescrollbottom.png");
-		background-repeat: no-repeat;
-	  	background-position: center bottom;
-		background-attachment: scroll;
 		}
 	.content {
 		width: auto;
@@ -211,5 +210,10 @@ footer {
 		margin: 40px 0 0 0;
 		bottom: auto;
 		border: none;
+		background-size: 95%;
+		background-image: url("{{ site.baseurl }}/assets/img/largescrollbottom.png");
+		background-repeat: no-repeat;
+	  	background-position: center bottom;
+		background-attachment: scroll;
 		}
 	}
