@@ -180,10 +180,10 @@ footer {
 		background-attachment: scroll;
 		}
 	section {
-		margin: 0 0 40px 0;
+		margin: 0;
 		float: none;
-	  	padding: 0;
-		top: 1px;
+	  	padding: 0 0 50px 0;
+		top: 0px;
 		width: auto;
 		height: auto;
 		border: none;
@@ -216,7 +216,7 @@ footer {
 		background-size: 95%;
 		background-image: url("{{ site.baseurl }}/assets/img/largescrollbottom.png");
 		background-repeat: no-repeat;
-	  	background-position: center bottom;
-		background-attachment: scroll;
+	  	background-position: center;
+		background-attachment: fixed; 
 		}
 	}
