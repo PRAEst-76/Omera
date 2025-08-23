@@ -8,7 +8,7 @@
     }
 body {
 	padding: 0;
-	margin: 40px 0 0 0;
+	margin: 45px 0 0 0;
   	color: #493c33;
   	background-color: black;
 	background-size: 1080px;
@@ -151,12 +151,13 @@ footer {
 @media print, screen and (max-width: 480px) {
 	body {
 		margin: 0;
-		background-size: 95% 95%;
+		background-size: 95%;
 		background-image: url("{{ site.baseurl }}/assets/img/largescrollmiddle.png");
 		background-repeat: repeat-y;
 	  	background-position: center;
 		background-attachment: scroll;
-		border: none;
+		border-top: 10px solid black;
+		border-bottom: 10px solid black;
 		}
 	header {
 		position: relative;
@@ -212,7 +213,6 @@ footer {
 		}
 	footer {
 		margin: 40px 0 0 0;
-		position: relative;
 		bottom: auto;
 		border: none;
 		}
