@@ -156,8 +156,6 @@ footer {
 		background-repeat: repeat-y;
 	  	background-position: center;
 		background-attachment: scroll;
-		border-top: 40px solid black;
-		border-bottom: 40px solid black;
 		}
 	header {
 		float: none;
@@ -207,6 +205,7 @@ footer {
 		border: none;
 		}
 	footer {
+		position: relative;
 		margin: 40px 0 0 0;
 		bottom: auto;
 		border: none;
