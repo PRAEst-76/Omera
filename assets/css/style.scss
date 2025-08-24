@@ -156,8 +156,8 @@ footer {
 	body {
 		margin: 0;
 		background-size: 95%;
-		background-image: url("{{ site.baseurl }}/assets/img/largescrolltop.png");
-		background-repeat: no-repeat;
+		background-image: url("{{ site.baseurl }}/assets/img/largescrollmiddle.png");
+		background-repeat: repeat-y;
 	  	background-position: center;
 		background-attachment: scroll;
 		}
@@ -180,17 +180,17 @@ footer {
 		}
 	.wrapper {
 		top: 0px;
-		position: absolute;
+		position: static;
 		background-size: 95%;
-		background-image: url("{{ site.baseurl }}/assets/img/largescrollmiddle.png");
-		background-repeat: repeat-y;
+		background-image: url("{{ site.baseurl }}/assets/img/largescrolltope.png");
+		background-repeat: no-repeat;
 	  	background-position: center top;
 		background-attachment: scroll;
 		z-index: 10;
 		border: none;
 		}
 	section {
-		position: relative;
+		position: static;
 		margin: 0;
 		float: none;
 	  	padding: 0 0 50px 0;
@@ -236,6 +236,6 @@ footer {
 		background-image: url("{{ site.baseurl }}/assets/img/largescrollbottom.png");
 		background-repeat: no-repeat;
 	  	background-position: center bottom;
-		z-index: 5;
+		z-index: 15;
 		}
 	}
