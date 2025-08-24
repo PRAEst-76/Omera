@@ -93,8 +93,8 @@ h1, h2, h3, h4, h5, h6 {
 	-webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%);
 	mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%);
 	overflow-y: scroll;
-    -ms-overflow-style: none;  /* Internet Explorer 10+ */
-    scrollbar-width: none;  /* Firefox, Safari 18.2+, Chromium 121+ */
+	-ms-overflow-style: none;  /* Internet Explorer 10+ */
+	scrollbar-width: none;  /* Firefox, Safari 18.2+, Chromium 121+ */
 	}
 
 .content::-webkit-scrollbar { 
@@ -170,7 +170,7 @@ footer {
 		height: auto;
 		border: none;
 		background-size: 95%;
-		background-image: url("{{ site.baseurl }}/assets/img/largescrollmiddle.png");
+		background-image: none
 		background-repeat: repeat-y;
 	  	background-position: center;
 		background-attachment: scroll;
@@ -182,7 +182,7 @@ footer {
 		top: 0px;
 		position: absolute;
 		background-size: 95%;
-		background-image: url("{{ site.baseurl }}/assets/img/largescrolltop.png");
+		background-image: url("{{ site.baseurl }}/assets/img/largescrollmiddle.png");
 		background-repeat: no-repeat;
 	  	background-position: center top;
 		background-attachment: scroll;
@@ -208,6 +208,11 @@ footer {
 		top: auto;
 		margin: 5px 30px 50px 30px;
 		padding: 0px;
+	-webkit-mask-image: none;
+	mask-image: none;
+	overflow-y: scroll;
+	-ms-overflow-style: none;  /* Internet Explorer 10+ */
+	scrollbar-width: none;  /* Firefox, Safari 18.2+, Chromium 121+ */
 		}
 	.menu {
 		width: auto;
@@ -222,7 +227,7 @@ footer {
     		overflow: visible;
 		}
 	footer {
-		position: relative;
+		position: absolute;
 		margin: 0;
 		padding: 0;
 		bottom: 5px;
