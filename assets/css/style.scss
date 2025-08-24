@@ -152,12 +152,12 @@ footer {
   	position: fixed;
 	bottom: 0px;
   }
-@media print, screen and (max-width: 480px) {
+@media print, screen and (max-width: 1080px) {
 	body {
 		margin: 0;
 		background-size: 95%;
-		background-image: url("{{ site.baseurl }}/assets/img/largescrollmiddle.png");
-		background-repeat: repeat-y;
+		background-image: none;
+		background-repeat: no-repeat;
 	  	background-position: center;
 		background-attachment: scroll;
 		}
@@ -165,10 +165,15 @@ footer {
 		float: none;
 		margin: 50px 0 0 0;
 		padding: 0px;
-		top: 0px;
+		top: 50px;
 		width: auto;
 		height: auto;
 		border: none;
+		background-size: 95%;
+		background-image: url("{{ site.baseurl }}/assets/img/largescrollmiddle.png");
+		background-repeat: repeat-y;
+	  	background-position: center;
+		background-attachment: scroll;
 		}
 	.title {
 		margin-top: 40px;
@@ -180,12 +185,12 @@ footer {
 		background-image: url("{{ site.baseurl }}/assets/img/largescrolltop.png");
 		background-repeat: no-repeat;
 	  	background-position: center top;
-		background-attachment: fixed;
+		background-attachment: scroll;
 		z-index: 10;
 		border: none;
 		}
 	section {
-		position: static;
+		position: relative;
 		margin: 0;
 		float: none;
 	  	padding: 0 0 50px 0;
