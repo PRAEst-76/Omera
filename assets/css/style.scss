@@ -105,9 +105,7 @@ h1, h2, h3, h4, h5, h6 {
 	height: 440px;
 	margin: 20px;
 	padding: 0px;
-	-webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%);
-	mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%);
-	overflow-y: scroll;
+	overflow: hidden;
 	}
 .indent {
 	margin-left: 50px;
