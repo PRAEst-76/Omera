@@ -171,7 +171,7 @@ footer {
 		height: auto;
 		border: none;
 		background-size: 95%;
-		background-image: url("{{ site.baseurl }}/assets/img/largescrolltop.png");;
+		background-image: url("{{ site.baseurl }}/assets/img/largescrolltop.png");
 		background-repeat: no-repeat;
 	  	background-position: center top;
 		background-attachment: scroll;
@@ -231,7 +231,7 @@ footer {
 		position: static;
 		margin: 0;
 		padding: 0;
-		bottom: 0;
+		bottom: 50px;
 		border: none;
 		background-size: 95%;
 		background-image: url("{{ site.baseurl }}/assets/img/largescrollbottom.png");
