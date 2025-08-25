@@ -46,9 +46,9 @@ The boy followed a wolf who was attacking his dad's cattle to kill it and earn h
 
 ## NPCs
 
-Main kid lives with uncle Tam. Tam is a grumpy old man who seems to care more for his pigs than the kid. Truth is he has lost too much and it has left him broken. He worries that one day he will lose the kid too. It's easier to lose pigs.
+**Tam** - Tam is a grumpy old man who seems to care more for his pigs than the kids. Truth is he has lost too much and it has left him broken. He worries that one day he will lose the kid too. It's easier to lose pigs.
 
-Families can be assigned/created for other players.
+Families can be assigned/created for players.
 
 **Storyteller** - kids usually find him in the square. He tells stories about the past. The villagers thinks it's all made up. Some is, but not all. 
 
@@ -56,19 +56,17 @@ Families can be assigned/created for other players.
 
 **Tobin** - Grows turnips. Doesn't like kids. He is helped by his son, Kort, who is a bit simple after falling down the well as a child.
 
-Other kids parents.
-
 Village is nestled in a large copse of trees around an old road that leads between the forest path and the downs. An ancient watchtower overlooks the area from a hill inside the forest. It's said to be haunted. It doesn't date from the time of Omera, but from the wars after. Towards the edge of the forest are some cliffs that drop down to the river. Some caves exist there. Previously used by smugglers. The kids mustn't go there as it could contain bandits or worse. Not that they have many bandits in the area as there is not much to steal.
 
-Kort says there are voices in the well.
+**Kort** says there are voices in the well.
 
-Megrin says there are Nixies in the forest who will lead you to your doom. Probably Nixies down the well.
+Megrin says there are Nixies in the forest who will lead you to your doom. Probably Nixies down the well too.
 
 It is said that an old wizard lives in a cave in the downs.
 
-Boab keeps a few goats. He used to keep cows but something in the north field spooked them and their milk turned, so they got ate. Megrin says it was Nixies, Boab says it was goblins. Before he went missing, Boab's son Jeth, said he saw glowing eyes in the north field at night. Boab doesn't talk about his son. No-one does.
+**Boab** - Keeps a few goats. He used to keep cows but something in the north field spooked them and their milk turned, so they got ate. Megrin says it was Nixies, Boab says it was goblins. Before he went missing, Boab's son **Jeth**, said he saw glowing eyes in the north field at night. Boab doesn't talk about his son. No-one does.
 
-Urnst grows wheat in the north field now. He said there is nothing there. He sells most of his wheat in the town. He makes a lot of wheat. It's a wonder how he harvests it all on his own. He has no family, though it is said he has people in the town.
+**Urnst** - Grows wheat in the north field now. He said there is nothing there. He sells most of his wheat in the town. He makes a lot of wheat. It's a wonder how he harvests it all on his own. He has no family, though it is said he has people in the town.
 
 ## AREA
 
@@ -79,3 +77,5 @@ The ruins of the mythical lost city are actually under the enchanted forest. The
 - Pre-fab players
 - Weapon and item cards
 - Player maps
+- Player folders and card wallets
+- Dice

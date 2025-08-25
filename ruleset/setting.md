@@ -7,8 +7,6 @@ tags: setting world
 ---
 ## Setting
 
-### World Summary
-
 Long ago, the magical kingdom of Omera disappeared beneath a great enchanted forest. Now, children explore the forest, discover hidden ruins, and help friendly people and animals. The land is full of secrets and magic waiting to be found!
 
 Players begin in the small village of Harwich, doing jobs for the locals before venturing out into the world.
