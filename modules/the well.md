@@ -1,6 +1,6 @@
 ---
 title: The Well
-layout: modules
+layout: page
 catagories: modules
 ---
 ## The Well

@@ -1,6 +1,6 @@
 ---
 title: The Haunted Tower
-layout: modules
+layout: page
 catagories: modules
 ---
 ## The Haunted Tower

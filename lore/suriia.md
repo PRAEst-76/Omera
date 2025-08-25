@@ -1,5 +1,5 @@
 ---
-layout: lore
+layout: page
 title: Suriia
 categories: lore
 ---

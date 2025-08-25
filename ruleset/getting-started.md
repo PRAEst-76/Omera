@@ -1,5 +1,5 @@
 ---
-layout: ruleset
+layout: page
 title: Getting Started
 author: Peter Adams (PRAEst76)
 categories: ruleset

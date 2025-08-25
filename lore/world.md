@@ -1,5 +1,5 @@
 ---
-layout: lore
+layout: page
 title: Elbae - The World of Omera
 categories: lore
 ---

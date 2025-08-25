@@ -1,5 +1,5 @@
 ---
-layout: modules
+layout: page
 title: Chapter One - The Escaped Pig
 categories: modules
 ---

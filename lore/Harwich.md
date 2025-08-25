@@ -1,5 +1,5 @@
 ---
-layout: lore
+layout: page
 title: Harwich Village
 categories: lore locations
 tags: village

@@ -1,5 +1,5 @@
 ---
-layout: lore
+layout: page
 title: The Storyteller's Book of Stories
 categories: lore
 ---
