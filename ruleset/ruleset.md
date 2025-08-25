@@ -4,8 +4,6 @@ title: Omera Ruleset
 author: Peter Adams (PRAEst76)
 categories: ruleset
 ---
-# Ruleset
-
 ## Introduction
 
 The Lost Kingdom of Omera is a campaign and simplified ruleset for Dungeons & Dragons 5 Edition aimed at introducing younger players (ages 6 and up) to the game.

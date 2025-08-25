@@ -1,3 +1,8 @@
+---
+title: The Well
+layout: modules
+catagories: modules
+---
 # The Well
 
 *(Should players decide to investigate the well.)*
