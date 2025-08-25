@@ -14,4 +14,4 @@
 10. A jeweled throne, key to first south door on the ground.
 11. A chest holds a short sword and key to second south door.
 
-[https://watabou.github.io/one-page-dungeon/?seed=265036584&tags=temple,ordered,crumbling,secret,flat,no backdoor,dangerous,medium,compact,tomb,multi-level,cramped&name=Ancient%20Temple](https://watabou.github.io/one-page-dungeon/?seed=265036584&tags=temple,ordered,crumbling,secret,flat,no backdoor,dangerous,medium,compact,tomb,multi-level,cramped&name=Ancient%20Temple)
+[https://watabou.github.io/one-page-dungeon/?seed=265036584&tags=temple,ordered,crumbling,secret,flat,no%20backdoor,dangerous,medium,compact,tomb,multi-level,cramped&name=Ancient%20Temple](https://watabou.github.io/one-page-dungeon/?seed=265036584&tags=temple,ordered,crumbling,secret,flat,no%20backdoor,dangerous,medium,compact,tomb,multi-level,cramped&name=Ancient%20Temple)
