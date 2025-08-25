@@ -20,6 +20,6 @@ Players begin in the small village of Harwich, doing jobs for the locals before 
 ### People to Meet
 
 - **Tam**: A grizzled old farmer, but buried beneath his weather exterior is a heart of gold. He acts like a surrogate father to the players.
-- **Megret**: Knows all about the forest’s plants and animals. Takes can of the villagers with her herbs and poltices. Some think her a witch.
+- **Megrin**: Knows all about the forest’s plants and animals. Takes can of the villagers with her herbs and poltices. Some think her a witch.
 - **Boab**: Always working hard.
 - **The Storyteller**: Ancient and full of tales.
