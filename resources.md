@@ -22,13 +22,13 @@ Most of these are here for my own guidence, though they may be of use to others 
 
 ## Map Creation
 
+[Watabou's Procgen Arcana](https://watabou.itch.io) - Excellent open resource suite for generating random dungeon and area maps with markup. Regularly updated.
+
 [donjon.bin.sh](https://donjon.bin.sh) - Many random generation resources.
 
 [Dungeon Scrawl](https://dungeonscrawl.com) - Dungeon map making tool. Nice, but most features have crept over a paywall. Subscription is a little pricey for casual use.
 
 [RPG Map Editor II](https://deepnight.net/tools/rpg-map) - Intuitive pixel style software for creating dungeon, building and town maps. Can import from Procgen Arcana. No longer in development and assets are few, however you can create your own.
-
-[Watabou's Procgen Arcana](https://watabou.github.io) - Open resource for generating random maps with markup. Regularly updated.
 
 [Inkarnate](https://inkarnate.com) - Complex map creation tool.
 

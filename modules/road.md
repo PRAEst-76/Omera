@@ -11,4 +11,4 @@ categories: modules
 ### The Ancient Temple
 [Map of the ancient Temple]({{ site.baseurl }}/maps/ancient_temple.svg)
 
-{% include_relative {{ site.baseurl }}/maps/ancient_temple %}
+{% include_relative ../maps/ancient_temple.md %}
