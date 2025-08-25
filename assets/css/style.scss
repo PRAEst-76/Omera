@@ -145,7 +145,9 @@ h1, h2, h3, h4, h5, h6 {
   	font-size: x-small;
 	}
 .update {
-	position: absolute; float: right;}
+	position: absolute;
+	float: right;
+	}
 footer {
 	width: auto;
 	float: inherit;
@@ -155,6 +157,7 @@ footer {
 @media print, screen and (max-width: 1080px) {
 	body {
 		margin: 0;
+		top: 0;
 		background-size: 95%;
 		background-image: url("{{ site.baseurl }}/assets/img/largescrollmiddle.png");
 		background-repeat: repeat-y;
@@ -164,15 +167,15 @@ footer {
 		}
 	header {
 		float: none;
-		margin: 50px 0 0 0;
+		margin: 0;
 		padding: 0px;
-		top: 50px;
+		top: 0;
 		width: auto;
 		height: auto;
 		border: none;
 		background-size: 95%;
-		background-image: none;
-		background-repeat: repeat-y;
+		background-image: url("{{ site.baseurl }}/assets/img/largescrolltop.png");
+		background-repeat: no-repeat;
 	  	background-position: center top;
 		background-attachment: scroll;
 		}
@@ -183,7 +186,7 @@ footer {
 		top: 0px;
 		position: static;
 		background-size: 95%;
-		background-image: url("{{ site.baseurl }}/assets/img/largescrolltop.png");
+		background-image: none;
 		background-repeat: no-repeat;
 	  	background-position: center top;
 		background-attachment: scroll;
@@ -207,7 +210,7 @@ footer {
 		width: auto;
 		height: auto;
 		top: auto;
-		margin: 5px 30px 50px 30px;
+		margin: 5px 60px 50px 60px;
 		padding: 0px;
 		-webkit-mask-image: none;
 		mask-image: none;
@@ -219,24 +222,24 @@ footer {
 		width: auto;
 		height: auto;
 		top: auto;
-		margin: 5px 30px;
+		margin: 5px 60px 5px 60px;
 		padding: 0px;
 		border: none;
 		}
 	.menu h4 {
-    		white-space: nowrap;
-    		overflow: visible;
+    	white-space: nowrap;
+    	overflow: visible;
 		}
 	footer {
 		position: static;
 		margin: 0;
 		padding: 0;
-		bottom: 0;
+		bottom: 50px;
 		border: none;
 		background-size: 95%;
 		background-image: url("{{ site.baseurl }}/assets/img/largescrollbottom.png");
 		background-repeat: no-repeat;
-	  	background-position: center bottom;
+		background-position: center bottom;
 		z-index: 15;
 		}
 	}
