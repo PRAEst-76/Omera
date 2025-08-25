@@ -9,7 +9,7 @@ tags: village locations
 
 **Population:** 34
 
-![Map of Harwich Village]({{ site.baseurl }}maps/harwich_village.png)
+![Map of Harwich Village]({{ site.baseurl }}/maps/harwich_village.png)
 
 A small village located in the Heartlands, between the enchanted forest and the south downs on the old trade road between the town of Dunwell and the former settlements on the coast.
 
