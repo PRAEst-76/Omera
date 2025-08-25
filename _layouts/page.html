@@ -1,12 +1,10 @@
 ---
 layout: default
 ---
-<h1>[{{ page.categories | capitalize }}]({ site.baseurl }}{{ page.categories }})</h1>
+<h1>[{{ page.categories | capitalize }}]({{ site.baseurl }}{{ page.categories }})</h1>
 
 {{ content }}
 
 {% if page.tags %}
   <p class="byline"><small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small></p>
 {% endif %}
-
-
