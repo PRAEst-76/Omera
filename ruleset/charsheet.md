@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Character Sheet
+chapter: 4
 author: Peter Adams (PRAEst76)
 categories: ruleset
 tags: CharSheet

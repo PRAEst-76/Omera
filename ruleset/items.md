@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Items
+chapter: 10
 author: Peter Adams (PRAEst76)
 categories: ruleset
 tags: items

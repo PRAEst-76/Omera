@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Credits
+chapter: 99
 author: Peter Adams (PRAEst76)
 categories: ruleset
 ---

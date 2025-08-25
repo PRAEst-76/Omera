@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Setting
+chapter: 2
 author: Peter Adams (PRAEst76)
 categories: ruleset
 tags: setting world
