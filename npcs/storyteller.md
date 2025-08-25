@@ -1,6 +1,6 @@
 ![Illustration of the Storyteller](../images/Storyteller.png)
 
-# The Storyteller
+## The Storyteller
 
 Human(?) male - ???
 

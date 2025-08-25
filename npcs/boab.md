@@ -1,6 +1,6 @@
 ![Illustration of Boab](../images/Boab.jpg)
 
-# BOAB
+## BOAB
 
 Human - Male - Lvl 5
 
