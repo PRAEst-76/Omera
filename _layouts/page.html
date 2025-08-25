@@ -6,5 +6,5 @@ layout: default
 {{ content }}
 
 {% if page.tags %}
-  <p class="byline"><small>{{ page.author }}<br />{{ page.last_modified_at }}<br />tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small></p>
+  <p class="byline"><small>{{ page.author }}<br/> {{ page.last_commit.author.name }}<br />{{ page.last_commit.author.time }}<br/>{{ page.last_modified_at }}<br />tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small></p>
 {% endif %}
