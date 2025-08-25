@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: ruleset
 title: Items
 author: Peter Adams (PRAEst76)
 categories: ruleset

@@ -1,6 +1,6 @@
 ---
-title: Lore
 layout: lore
+title: introduction
 ---
 ## Introduction
 

@@ -1,4 +1,5 @@
 ---
+layout: lore
 title: The Storyteller's Book of Stories
 categories: lore
 ---
