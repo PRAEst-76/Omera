@@ -2,6 +2,7 @@
 layout: page
 title: Character Sheet
 chapter: 4
+description: The player-character sheet and how to use it.
 author: Peter Adams (PRAEst76)
 categories: ruleset
 tags: CharSheet

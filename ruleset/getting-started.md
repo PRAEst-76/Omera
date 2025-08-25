@@ -2,6 +2,7 @@
 layout: page
 title: Getting Started
 chapter: 3
+description: Settling in with Omera.
 author: Peter Adams (PRAEst76)
 categories: ruleset
 tags: starting

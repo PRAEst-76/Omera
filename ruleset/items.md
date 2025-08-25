@@ -2,6 +2,7 @@
 layout: page
 title: Items
 chapter: 10
+description: Items and equipment, the cards and inventory management.
 author: Peter Adams (PRAEst76)
 categories: ruleset
 tags: items
@@ -12,3 +13,4 @@ Omera uses/can use any items that exist within D&D. However I wish to keep thing
 
 As state elsewhere, aquirable items are on cards.
 
+Basic equipment can be purchased or found during play. Loot can be determined in advance or drawn randomly if using the loot cards.

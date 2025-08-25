@@ -2,6 +2,7 @@
 layout: page
 title: Credits
 chapter: 99
+description: Who is responsible for these rules.
 author: Peter Adams (PRAEst76)
 categories: ruleset
 ---
