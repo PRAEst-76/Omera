@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Harwich Village
-categories: lore locations
-tags: village
+categories: lore
+tags: village locations
 ---
 ## Harwich Village
 

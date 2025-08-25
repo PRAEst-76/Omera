@@ -1,6 +1,6 @@
 ---
-title: The Haunted Tower
 layout: page
+title: The Haunted Tower
 catagories: modules
 ---
 ## The Haunted Tower
