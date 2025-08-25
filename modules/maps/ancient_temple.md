@@ -1,6 +1,6 @@
 # Ancient Temple 
 
-*For a millenium the mausoleum of Leri was considered lost. These days it is infested by turtles. The mausoleum of Leri is home to a highly valued specie of berries.*
+*For over two millenium the Temple of Lieri was considered lost.*
 
 1. Blocked by debris
 2. Entry area: Hole in the roof leading to ruined treasure room.

@@ -8,4 +8,4 @@ categories: modules
 ---
 ## The Pig-Pen
 
-[Map of the Pig Pen](maps/pigpen.jpg)
+![Map of the Pig Pen](maps/pigpen.jpg)
