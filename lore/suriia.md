@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Suriia
+description: The northern desert...
 categories: lore
 ---
 ## Suriia

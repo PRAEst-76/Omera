@@ -1,6 +1,7 @@
 ---
 layout: page
 title: The Storyteller's Book of Stories
+description: Tales of the world of Omera...
 categories: lore
 ---
 ## The Storyteller's Book of Stories

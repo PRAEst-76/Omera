@@ -7,10 +7,10 @@ layout: default
 			<div class="indent">
 {% for page in site.pages %}
   {% if page.categories contains 'modules' %}
-        <a href="{{ site.baseurl }}{{ page.url }}">
-      <p>{{page.title}}</p>
-</a>
-      <p>{{page.description}}</p>
+    <h4><a href="{{ site.baseurl }}{{ page.url }}">
+      {{ page.title }}
+    </a></h4>
+    <p>{{ page.description }}</p>
   {% endif %}
 {% endfor %}
 </div>

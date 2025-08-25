@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Elbae - The World of Omera
+title: Elbae
+description: The world of Omera...
 categories: lore
 ---
 ## Elbae - The World of Omera

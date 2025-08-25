@@ -80,11 +80,19 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: Carolingia, "Eagle Lake", "Brush Script MT", cursive;  
 	margin: 20px;
     }
+
  p, ul, ol {
 	color: #493C33;
 	font-family: cursive;  
 	margin: 20px;
 }
+.postDate {
+	font-size: small;
+	color: #493C33;
+	float: right;
+	margin-left: 10px;
+	}
+
 .content {
 	width: auto;
 	height: 440px;

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Harwich Village
+decription: The small village where it all begins...
 categories: lore
 tags: village locations
 ---
