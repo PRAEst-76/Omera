@@ -1,8 +1,8 @@
 ---
 layout: page
 title: The Haunted Tower
-author: Peter Adams (PRAEst76)
 chapter: 4
-catagories: modules
+author: Peter Adams (PRAEst76)
+categories: modules
 ---
 ## The Haunted Tower

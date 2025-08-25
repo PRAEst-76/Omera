@@ -3,7 +3,7 @@ layout: page
 title: The Well
 chapter: 2
 author: Peter Adams (PRAEst76)
-catagories: modules
+categories: modules
 ---
 ## The Well
 
