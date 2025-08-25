@@ -8,5 +8,5 @@ categories: modules
 ---
 ## The Haunted Tower
 
-[Map of the Haunted Tower]({{ site.baseurl }}/maps/haunted-tower.png)
-![Map of the Haunted Tower SVG]({{ site.baseurl }}/maps/haunted-tower.svg)
+[Map of the Haunted Tower](maps/haunted-tower.png)
+![Map of the Haunted Tower SVG](maps/haunted-tower.svg)

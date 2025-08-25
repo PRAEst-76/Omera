@@ -7,3 +7,5 @@ author: Peter Adams (PRAEst76)
 categories: modules
 ---
 ## Down the Well
+
+[Map of The Well](maps/thewell.png)

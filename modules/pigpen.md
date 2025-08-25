@@ -7,3 +7,5 @@ author: Peter Adams (PRAEst76)
 categories: modules
 ---
 ## The Pig-Pen
+
+[Map of the Pig Pen](maps/pigpen.jpg)

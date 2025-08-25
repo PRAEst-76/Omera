@@ -9,6 +9,6 @@ categories: modules
 ## The Road to Dunwell
 
 ### The Ancient Temple
-[Map of the ancient Temple]({{ site.baseurl }}/maps/ancient_temple.svg)
+[Map of the ancient Temple](maps/ancient_temple.svg)
 
-{% include_relative ../maps/ancient_temple.md %}
+{% include_relative maps/ancient_temple.md %}
