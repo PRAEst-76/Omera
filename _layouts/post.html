@@ -8,8 +8,8 @@ layout: default
 
 {% if page.author %}
   <p class="byline">{{ page.author | join: " - " }}
-{% endif %}
-<small>{{ page.date | date: "%-d %B %Y" }}</small></p>
+{% endif %}<br/>
+<small>{{ page.date | date: "%-d %B %Y" }}</small><br/>
 {% if page.tags %}
-  <p><small><em>{{ page.tags | join: "</em> - <em>" }}</em></small></p>
+<em>{{ page.tags | join: "</em> - <em>" }}</em></small></p>
 {% endif %}
