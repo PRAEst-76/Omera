@@ -7,3 +7,6 @@ author: Peter Adams (PRAEst76)
 categories: modules
 ---
 ## The Haunted Tower
+
+[Map of the Haunted Tower]({{ site.baseurl }}/maps/haunted-tower.png)
+![Map of the Haunted Tower SVG]({{ site.baseurl }}/maps/haunted-tower.svg)
