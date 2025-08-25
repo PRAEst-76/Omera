@@ -2,7 +2,7 @@
 title: Lore
 layout: lore
 ---
-# Lore
+## Introduction
 
 Here you will find information pertaining to the lore and world of Omera. This information is not meant to be read by the players, but rather used sparingly by the DM to give the games some flesh.
 
