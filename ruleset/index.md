@@ -2,7 +2,6 @@
 layout: ruleset
 title: Omera Ruleset
 author: Peter Adams (PRAEst76)
-categories: ruleset
 ---
 ## Introduction
 
