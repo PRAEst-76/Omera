@@ -1,6 +1,7 @@
 ---
-title: Loot Cards
 layout: post
+title: Loot Cards
+author: Peter Adams (PRAEst76)
 categories: updates
 tags: lootcards items mechanics
 ---

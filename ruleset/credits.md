@@ -1,5 +1,7 @@
 ---
+layout: page
 title: Credits
+author: Peter Adams (PRAEst76)
 categories: ruleset
 ---
 ## Credits

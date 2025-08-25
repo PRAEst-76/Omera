@@ -1,8 +1,8 @@
 ---
-title: Character Sheet
 layout: post
+title: Character Sheet
+author: Peter Adams (PRAEst76)
 categories: updates
-author: PRAEst76
 tags:  characters mechanics
 ---
 ## Character Sheet

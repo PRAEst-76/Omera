@@ -1,6 +1,7 @@
 ---
-title: Opening up the Repository
 layout: post
+title: Opening up the Repository
+author: Peter Adams (PRAEst76)
 category: updates
 ---
 ## Opening up the Repository

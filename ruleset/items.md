@@ -1,6 +1,9 @@
 ---
+layout: page
 title: Items
+author: Peter Adams (PRAEst76)
 categories: ruleset
+tags: items
 ---
 
 ## Items

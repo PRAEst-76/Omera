@@ -1,6 +1,8 @@
 ---
+layout: page
 title: Omera Ruleset
-layout: ruleset
+author: Peter Adams (PRAEst76)
+categories: ruleset
 ---
 # Ruleset
 

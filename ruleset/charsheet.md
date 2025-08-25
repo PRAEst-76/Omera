@@ -1,7 +1,9 @@
 ---
-title: Character Sheet
-categories: ruleset
 layout: page
+title: Character Sheet
+author: Peter Adams (PRAEst76)
+categories: ruleset
+tags: CharSheet
 ---
 ## Character Sheet
 
