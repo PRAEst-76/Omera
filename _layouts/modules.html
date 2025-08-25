@@ -4,7 +4,7 @@ layout: default
 <h1>Modules</h1>
 
 {{ content }}
-
+			<div class="indent">
 {% for page in site.pages %}
   {% if page.categories contains 'modules' %}
         <a href="{{ site.baseurl }}{{ page.url }}">
@@ -13,3 +13,4 @@ layout: default
       <p>{{page.description}}</p>
   {% endif %}
 {% endfor %}
+</div>

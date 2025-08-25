@@ -1,7 +1,10 @@
 ---
-title: Notes
 layout: page
+title: Notes
+categories: notes
 ---
+## Back Story
+
 The Lost Kingdom of Omera is about an ancient mythical magical kingdom that once existed thousands of years ago. It was more advanced than the current world which is in a decline, with few major cities and disparate settlements. No magic exists in the present, or so it appears.
 
 A great cataclysm occured when the ancient land of Omera was buried under the remains of the land of Suriia. Suriia was a magical land that once existed to the north. It was the ancient land of the tribal Surii. The elves of Omera had built creat cities and developed a long culture but they feared the primative Surii. The Surii, being a younger race from a more primal area of the world had stronger magic than the elves. who had spent theirs over the millennia building a great empire. Once the elves had also been simple tribal people, however the whisperings of the demon Lukhat had inspired them to reach for more power. They tried to tame and enslave the primative Surii, who fought back ferociously. The ancient Emperor Elkon VII, who had secretly been reincarnated for thousands of years by Lukhat in the form of his advisor Telgon, wanted to destroy the Suuri entirely. His people, feeling he was out of control, tried to usurp him. Elkon relented, but was slain by Lukhat who took over his form. He used forbidden demonic magic to force both of the worlds moons to create a double eclipse that would cause a rent into the dark realm and pull all the primal life-force from Suriia turning it to dark energy that he could harness to become a god.
@@ -12,7 +15,7 @@ Suriia was left a desert and the survivng people scattered along with the remain
 
 The players know none of this of course, they are more concerned with finding lost piglets.
 
-**Players:** 1-4
+**Players:** 2-6
 
 ## Modules
 
