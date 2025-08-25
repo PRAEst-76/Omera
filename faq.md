@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Frequently Asked Questions
-categories: FAQ
+categories: F_A_Q
 ---
 *Why D&D? Why not one of the other popular rules systems like Pathfinder?*
 
