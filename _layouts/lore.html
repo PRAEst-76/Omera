@@ -5,7 +5,8 @@ layout: default
 
 {{ content }}
 			<div class="indent">
-{% for page in site.pages %}
+{% assign page-order = site.pages | sort: 'chapter' %}
+{% for page in page-order %}
   {% if page.categories contains 'lore' %}
     <h4><a href="{{ site.baseurl }}{{ page.url }}">
       {{ page.title }}
