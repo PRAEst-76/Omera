@@ -9,8 +9,6 @@ categories: modules
 ## The Road to Dunwell
 
 ### The Ancient Temple
-![Map of the ancient Temple](maps/ancient_temple.png)
+![Map of the ancient Temple](maps/ancient_temple.player.png)
 
-[Map of the ancient Temple SVG](maps/ancient_temple.svg)
-
-{% include_relative maps/ancient_temple.md %}
+[Map of the ancient Temple](maps/ancient_temple.png)

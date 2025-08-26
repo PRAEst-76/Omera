@@ -8,4 +8,6 @@ categories: modules
 ---
 ## Down the Well
 
-![Map of The Well](maps/thewell.png)
+![Map of The Well](maps/thewell.player.png)
+
+[Map of The Well](maps/thewell.png)
