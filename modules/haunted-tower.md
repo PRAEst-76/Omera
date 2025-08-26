@@ -2,7 +2,7 @@
 layout: page
 title: The Haunted Tower
 description: The kids have been lured by the mystery of the old watchtower in the forest. Is it haunted or just an old ruin..?
-chapter: 4
+chapter: 5
 author: Peter Adams (PRAEst76)
 categories: modules
 ---
