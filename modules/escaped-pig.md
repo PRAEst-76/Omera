@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: mods
 title: The Escaped Pig
 description: One of the piglets ran off, best catch it before it gets into trouble.
 chapter: 2
@@ -8,9 +8,6 @@ categories: modules
 version: 0.5
 date: 2025-08-27
 ---
-## The Escaped Pig
-##### {{ page.version }}
-
 The piglet ran off towards the old Smugglers Cave.
 
 ![Map of Smugglers Cave](maps/Smugglers-Cave.png)

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: mods
 title: Down the Well
 description: The bucket has fallen into the well. Boab will try to make a new one, when he gets the time...
 chapter: 4

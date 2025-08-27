@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: mods
 title: The King Under the Mountain
 description: After fetching some snacks, our heroes discover the situation in the cave has escalated somewhat.
 chapter: 3

@@ -1,14 +1,14 @@
 ---
-layout: page
+layout: mods
 title: The Road to Dunwell
 description: Now it's time for Tam to take the kids to Dunwell for the trade fair, the adventure will truly begin... but are they ready?
 chapter: 7
 author: Peter Adams (PRAEst76)
 categories: modules
-version: 0.2
+version: 0.3
 date: 2025-08-27
 ---
-## The Road to Dunwell
+[The Road to Dunwell](images/originals/Road_to_Dunwell.jpg)
 
 ### The Ancient Temple
 ![Map of the ancient Temple](maps/ancient_temple.player.png)

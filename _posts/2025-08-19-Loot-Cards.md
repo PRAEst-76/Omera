@@ -7,11 +7,7 @@ tags: lootcards items mechanics
 ---
 ![Loot Cards]({{ site.url }}{{ site.baseurl }}/images/cards.png)
 
-## Loot Cards
-
 To make things more tactile I've oped to do away with a written inventory and create cards to reprisent items the players aquire during their game. These can also be shuffled by the DM to deal out random loot.
-
-### Work in Progress
 
 I've initially started on a low level pack for the first module. Basic stuff lvl 1 adventurers might need or come across. Trash basically... but beggars can't be choosers.
 

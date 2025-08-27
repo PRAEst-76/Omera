@@ -74,7 +74,7 @@ section h1 {
     	background-size: 500px 143px;
       	background-repeat: no-repeat;
 }
-h1, h2, h3, h4, h6 {
+h1, h2, h3, h4, h5, h6 {
 	color: #543E36;
 	text-transform: capitalize;
 	font-family: Carolingia, "Eagle Lake", "Brush Script MT", cursive;  
@@ -86,15 +86,6 @@ h1, h2, h3, h4, h6 {
 	font-family: sans-serif;  
 	margin: 20px;
 }
-
-h5 {
-	color: #543E36;
-	text-transform: capitalize;
-	font-family: Carolingia, "Eagle Lake", "Brush Script MT", cursive;  
-	margin: 20px;
-	float: right;
-	margin-right: 10px;
-	}
 
 .postDate {
 	font-size: small;
