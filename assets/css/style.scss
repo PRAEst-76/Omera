@@ -69,6 +69,9 @@ ol {
 
 .content {
 	top: 6%;
+	bottom: 6%;
+	position: fixed;
+	z-index: 5;
 	width: auto;
 	height: auto;
 	margin: auto;
@@ -111,6 +114,7 @@ ol {
 
 .wrapper {
 	margin-top: 0px;
+	width:80%
 }
 
 .box {
