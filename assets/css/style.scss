@@ -22,7 +22,7 @@ body {
 }
 
 header {
-	position: fixed;
+	position: static;
 	margin: 10%;
 	border: dashed 1px black;
 	padding: 0;
@@ -31,7 +31,7 @@ header {
 }
 
 section {
-	position: fixed;
+	position: static;
 	margin: 10%;
 	border: dashed 1px black;
 	padding: 0px;
