@@ -22,18 +22,20 @@ body {
 }
 
 header {
+	position: fixed;
 	margin: 10%;
 	border: dashed 1px black;
 	padding: 0;
-	width: 40%;
+	width: 30%;
 	height: 70%;
 }
 
 section {
+	position: fixed;
 	margin: 10%;
 	border: dashed 1px black;
 	padding: 0px;
-	width: 40%;
+	width: 30%;
 	height: 70%;
 }
 
@@ -115,8 +117,7 @@ ol {
 }
 
 .wrapper {
-	margin-top: 0px;
-	width:80%
+	width: 80%;
 }
 
 .box {
