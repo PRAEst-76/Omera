@@ -21,24 +21,24 @@ body {
 
 header {
 	position: fixed;
-	left: 20%;
+	left: 18%;
 	top: 10%;
 	bottom: 24%;
 	margin: auto;
 	border: dashed 1px black;
 	padding: 0;
-	width: 30%;
+	width: 28%;
 }
 
 section {
 	position: absolute;
-	right: 20%;
+	right: 18%;
 	top: 10%;
 	bottom: 24%;
 	margin: auto;
 	border: dashed 1px black;
 	padding: 0px;
-	width: 30%;
+	width: 28%;
 }
 
 section h1 {
@@ -112,6 +112,8 @@ ol {
 
 .title {
 	width: 60%;
+	margin: auto;
+	padding: 0px;
 }
 
 .wrapper {
