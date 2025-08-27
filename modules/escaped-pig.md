@@ -5,7 +5,8 @@ description: One of the piglets ran off, best catch it before it gets into troub
 chapter: 2
 author: Peter Adams (PRAEst76)
 categories: modules
-version: 0.5 (2025-08-27 09:11:09)
+version: 0.5
+date: 2025-08-27 09:11:09
 ---
 ## The Escaped Pig
 ##### {{ page.version }}
