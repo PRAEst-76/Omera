@@ -98,7 +98,7 @@ h1, h2, h3, h4, h5, h6 {
 	width: auto;
 	height: 440px;
 	margin: 20px;
-	padding: 0px;
+	padding-bottom: 40px;
 	-webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%);
 	mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%);
 	overflow-y: scroll;
@@ -116,8 +116,9 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 0px;
 	overflow: hidden;
 	}
-.indent {
+.toc {
 	margin-left: 50px;
+	column-count: 3;
 	}
 .title {
 	display: block;

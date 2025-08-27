@@ -4,14 +4,14 @@ layout: default
 <h1>Modules</h1>
 
 {{ content }}
-			<div class="indent">
-{% assign page-order = site.pages | sort: 'chapter' %}
-{% for page in page-order %}
+<div class="indent">
+  {% assign page-order = site.pages | sort: 'chapter' %}
+  {% for page in page-order %}
   {% if page.categories contains 'modules' %}
-    <h4><a href="{{ site.baseurl }}{{ page.url }}">
+  <h4><a href="{{ site.baseurl }}{{ page.url }}">
       {{ page.title }}<small>v{{ page.version }}</small>
     </a></h4>
-    <p class=""postDate">{{ page.description }}</p>
+  <p class="" postDate">{{ page.description }}</p>
   {% endif %}
-{% endfor %}
+  {% endfor %}
 </div>

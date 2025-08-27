@@ -2,15 +2,12 @@
 layout: default
 ---
 <!-- <link rel="alternate" type="application/rss+xml" href="{{ site.url }}{{site.baseurl }}/feed.xml" /> -->
-<h1>{{ page.categories | capitalize }}</h1>
+<h1>Updates</h1>
 <h2>{{ page.title }}</h2>
+<p class="byline"><small>{{ page.date | date: "%-d %B %Y" }}</small></p>
 
 {{ content }}
 
 {% if page.author %}
-  <p class="byline">{{ page.author | join: " - " }}
-{% endif %}<br/>
-<small>{{ page.date | date: "%-d %B %Y" }}</small><br/>
-{% if page.tags %}
-<em>{{ page.tags | join: "</em> - <em>" }}</em></small></p>
-{% endif %}
+<p class="byline">{{ page.author | join: " - " }}
+  {% endif %}</p>

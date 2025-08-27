@@ -4,9 +4,3 @@ layout: default
 <h1>{{ page.categories | capitalize }}</h1>
 
 {{ content }}
-
-{% if page.tags %}
-  <p class="byline"><small>{{ page.author }}<br />tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small></p>
-{% endif %}
-<br/>
-<br/>

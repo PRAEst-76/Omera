@@ -4,9 +4,10 @@ layout: default
 <h1>{{ page.categories | capitalize }}</h1>
 
 {{ content }}
-			<div class="indent">
-{% for post in site.posts %}
+<div class="toc">
+    {% for post in site.posts %}
     <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a>
-    <span class="postDate">{{ post.date | date: "%b %-d, %Y" }}</span></h4>
-{% endfor %}
+        <span class="postDate">{{ post.date | date: "%b %-d, %Y" }}</span>
+    </h4>
+    {% endfor %}
 </div>
