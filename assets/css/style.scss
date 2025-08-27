@@ -9,7 +9,7 @@
 
 body {
 	padding: 0px;
-	margin: 90px 0 0 0;
+	margin: 8% 0 0 0;
 	color: #493c33;
 	background-color: black;
 	background-size: 100%;
@@ -20,66 +20,22 @@ body {
 }
 
 header {
-	margin: 0px;
+	margin: auto;
 	padding: 0px;
-	width: 400px;
-	height: 460px;
+	width: 40%;
+	height: 80%;
 }
 
 section {
-	margin: 0px;
+	margin: auto;
 	padding: 0px;
-	width: 400px;
-	height: 460px;
+	width: 40%;
+	height: 80%;
 }
 
 section h1 {
 	border-bottom: 2px solid black;
 	text-align: right;
-}
-
-.scrolltop {
-	position: relative;
-	top: 150px;
-	width: 500px;
-	height: 127px;
-	margin: 0px;
-	padding: 0px;
-	background-origin: content-box, padding-box;
-	background-image: url("{{ site.baseurl }}/assets/img/largescrolltop.png");
-	background-position: center bottom;
-	background-size: 500px 127px;
-	background-repeat: no-repeat;
-}
-
-.scrollmid {
-	border: 1px solid transparent;
-	position: relative;
-	top: -40px;
-	width: 500px;
-	height: auto;
-	margin: 0px;
-	padding: 0px;
-	background-origin: content-box, padding-box;
-	background-image: url("{{ site.baseurl }}/assets/img/largescrollmiddle.png");
-	background-position: center;
-	background-size: 500px auto;
-	background-repeat: repeat-y;
-}
-
-.scrollbot {
-	border: 1px solid transparent;
-	position: relative;
-	top: -2px;
-	width: 500px;
-	height: 143px;
-	margin: 0px;
-	padding: 0px;
-	background-origin: content-box, padding-box;
-	background-image: url("{{ site.baseurl }}/assets/img/largescrollbottom.png");
-	background-position: center top;
-	background-size: 500px 143px;
-	background-repeat: no-repeat;
 }
 
 h1,
@@ -111,7 +67,7 @@ ol {
 
 .content {
 	width: auto;
-	height: 440px;
+	height: auto;
 	margin: auto;
 	padding: 0;
 	-webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%);
@@ -130,7 +86,7 @@ ol {
 
 .menu {
 	width: auto;
-	height: 420px;
+	height: auto;
 	margin: auto;
 	padding: 0px;
 	overflow: hidden;
@@ -150,7 +106,7 @@ ol {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 240px;
+	width: 60%;
 }
 
 .wrapper {
