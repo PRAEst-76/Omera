@@ -137,8 +137,8 @@ ol {
 }
 
 .toc {
-	column-count: 2;
-	column-fill: auto;
+	vertical-align: top;
+	columns: auto 2;
 }
 
 .title {
