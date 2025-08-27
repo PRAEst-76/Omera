@@ -9,10 +9,11 @@
 
 body {
 	padding: 0px;
-	margin: 6% 0 0 0;
+	margin: auto;
+	top: 7%;
 	color: #493c33;
 	background-color: black;
-	background-size: 90%;
+	background-size: 80%;
 	background-image: url("{{ site.baseurl }}/assets/img/book.png");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -23,7 +24,7 @@ header {
 	margin: auto;
 	border: dashed 1px black;
 	padding: 0px;
-	width: 45%;
+	width: 40%;
 	height: 80%;
 }
 
@@ -31,7 +32,7 @@ section {
 	margin: auto;
 	border: dashed 1px black;
 	padding: 0px;
-	width: 45%;
+	width: 40%;
 	height: 80%;
 }
 
