@@ -4,6 +4,8 @@ title: Opening up the Repository
 author: Peter Adams (PRAEst76)
 category: updates
 ---
+![Loot Cards]({{ site.baseurl }}/images/a-group-of-d-d-characters-opening-a-treasure-chest-in-official-art-from-the-game-1519975887.jpg)
+
 ## Opening up the Repository
 
 I've been working on this for a while and as a "neuro-divergent" individual, it's hard sometimes to get motivation or see projects clearly.
