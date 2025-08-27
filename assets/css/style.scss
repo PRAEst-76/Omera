@@ -112,8 +112,8 @@ ol {
 .content {
 	width: auto;
 	height: 440px;
-	margin: 20px;
-	padding: 0 0 40px 0;
+	margin: 20px 20px 50px 20px;
+	padding: 0;
 	-webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%);
 	mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%);
 	overflow-y: scroll;
@@ -138,7 +138,7 @@ ol {
 
 .toc {
 	margin-left: 50px;
-	column-count: 3;
+	column-count: 2;
 }
 
 .title {
