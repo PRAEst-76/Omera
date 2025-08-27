@@ -8,7 +8,7 @@
 }
 
 body {
-	padding: 0;
+	padding: 0 60px 0 60px;
 	margin: auto;
 	color: #493c33;
 	background-color: black;
@@ -112,7 +112,7 @@ ol {
 .content {
 	width: auto;
 	height: 440px;
-	margin: 20px 20px 50px 20px;
+	margin: auto;
 	padding: 0;
 	-webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%);
 	mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%);
@@ -138,6 +138,8 @@ ol {
 
 .toc {
 	vertical-align: top;
+	width: 80%;
+	height: auto;
 	column-count: 2;
 	column-fill: auto;
 	column-rule: 4px double #493c33;
