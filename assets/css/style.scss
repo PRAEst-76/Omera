@@ -8,15 +8,15 @@
 }
 
 body {
-	padding: 0 60px 0 60px;
-	margin: auto;
+	padding: 0px;
+	margin: 90px 0 0 0;
 	color: #493c33;
 	background-color: black;
-	background-size: 1080px;
+	background-size: 100%;
 	background-image: url("{{ site.baseurl }}/assets/img/book.png");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	background-position: center 40px;
+	background-position: center top;
 }
 
 header {
