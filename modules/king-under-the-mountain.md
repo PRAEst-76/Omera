@@ -4,6 +4,7 @@ title: The King Under the Mountain
 description: After fetching some snacks, our heroes discover the situation in the cave has escalated somewhat.
 chapter: 3
 author: Peter Adams (PRAEst76)
+version: 0.1 (2025-08-27 09:10:02)
 categories: modules
 ---
 ## The King Under the Mountain
