@@ -8,7 +8,7 @@ categories: modules
 version: 0.3
 date: 2025-08-27
 ---
-[The Road to Dunwell](images/originals/Road_to_Dunwell.jpg)
+![The Road to Dunwell](images/originals/Road_to_Dunwell.jpg)
 
 ### The Ancient Temple
 ![Map of the ancient Temple](maps/ancient_temple.player.png)
