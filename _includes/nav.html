@@ -1,7 +1,7 @@
 <header>
 	<div class="menu">
 		{% if site.logo %}
-		<a href="{{ site.baseurl | absolute_url }}"><img class="title" src="{{site.logo | relative_url}}" alt="Logo" /></a>
+		<a href="{{ site.url }}{{ site.baseurl }}"><img class="title" src="{{site.logo | relative_url}}" alt="Logo" /></a>
 		{% endif %}
 		<p>{{ site.description | default: site.github.project_tagline }}</p>
 		<div class="toc">
