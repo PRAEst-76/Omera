@@ -1,54 +1,60 @@
 ---
 ---
-
 @import "{{ site.theme }}";
+
 @font-face {
-	  font-family: carolingia;
-	    src: url({{ site.baseurl }}/assets/font/carolingia.ttf);
-    }
+	font-family: carolingia;
+	src: url({{ site.baseurl }}/assets/font/carolingia.ttf);
+}
+
 body {
 	padding: 0;
 	margin: 90px 0 0 0;
-  	color: #493c33;
-  	background-color: black;
+	color: #493c33;
+	background-color: black;
 	background-size: 1080px;
 	background-image: url("{{ site.baseurl }}/assets/img/book.png");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-  	background-position: center 40px;
+	background-position: center 40px;
 }
+
 header {
 	margin: 0px;
 	padding: 0px;
 	width: 400px;
 	height: 460px;
-	}
+}
+
 section {
 	margin: 0px;
-  	padding: 0px;
+	padding: 0px;
 	width: 400px;
 	height: 460px;
-	}
+}
+
 section h1 {
-      border-bottom: 2px solid black;
+	border-bottom: 2px solid black;
 	text-align: right;
-	}
+}
+
 .scrolltop {
 	position: relative;
-  	top: 150px;
+	top: 150px;
 	width: 500px;
 	height: 127px;
 	margin: 0px;
 	padding: 0px;
 	background-origin: content-box, padding-box;
 	background-image: url("{{ site.baseurl }}/assets/img/largescrolltop.png");
-  	background-position: center bottom;
-    	background-size: 500px 127px;
-      	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: 500px 127px;
+	background-repeat: no-repeat;
 }
+
 .scrollmid {
 	border: 1px solid transparent;
-  	position: relative;
+	position: relative;
 	top: -40px;
 	width: 500px;
 	height: auto;
@@ -56,34 +62,43 @@ section h1 {
 	padding: 0px;
 	background-origin: content-box, padding-box;
 	background-image: url("{{ site.baseurl }}/assets/img/largescrollmiddle.png");
-  	background-position: center;
-    	background-size: 500px auto;
-      	background-repeat: repeat-y;
+	background-position: center;
+	background-size: 500px auto;
+	background-repeat: repeat-y;
 }
+
 .scrollbot {
 	border: 1px solid transparent;
 	position: relative;
 	top: -2px;
 	width: 500px;
-	height: 143px;	
+	height: 143px;
 	margin: 0px;
 	padding: 0px;
 	background-origin: content-box, padding-box;
 	background-image: url("{{ site.baseurl }}/assets/img/largescrollbottom.png");
-  	background-position: center top;
-    	background-size: 500px 143px;
-      	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 500px 143px;
+	background-repeat: no-repeat;
 }
-h1, h2, h3, h4, h5, h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	color: #543E36;
 	text-transform: capitalize;
-	font-family: Carolingia, "Eagle Lake", "Brush Script MT", cursive;  
+	font-family: Carolingia, "Eagle Lake", "Brush Script MT", cursive;
 	margin: 20px;
-    }
+}
 
- p, ul, ol {
+p,
+ul,
+ol {
 	color: #493C33;
-	font-family: sans-serif;  
+	font-family: sans-serif;
 	margin: 20px;
 }
 
@@ -92,7 +107,7 @@ h1, h2, h3, h4, h5, h6 {
 	color: #493C33;
 	float: right;
 	margin-right: 10px;
-	}
+}
 
 .content {
 	width: auto;
@@ -102,79 +117,95 @@ h1, h2, h3, h4, h5, h6 {
 	-webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%);
 	mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%);
 	overflow-y: scroll;
-	-ms-overflow-style: none;  /* Internet Explorer 10+ */
-	scrollbar-width: none;  /* Firefox, Safari 18.2+, Chromium 121+ */
-	}
+	-ms-overflow-style: none;
+	/* Internet Explorer 10+ */
+	scrollbar-width: none;
+	/* Firefox, Safari 18.2+, Chromium 121+ */
+}
 
-.content::-webkit-scrollbar { 
-    display: none;  /* Older Safari and Chromium */
-	}
+.content::-webkit-scrollbar {
+	display: none;
+	/* Older Safari and Chromium */
+}
+
 .menu {
 	width: auto;
 	height: 440px;
 	margin: 20px;
 	padding: 0px;
 	overflow: hidden;
-	}
+}
+
 .toc {
 	margin-left: 50px;
 	column-count: 3;
-	}
+}
+
 .title {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 240px;
-	}
+}
+
 .wrapper {
 	margin-top: 0px;
-	}
+}
+
 .box {
 	margin: 5px 20px;
 	opacity: 0.6;
 	background: #e6e6e6;
 	border: 4px solid #493c33;
- 	border-radius: 25px;
+	border-radius: 25px;
 }
+
 .byline {
-  	text-align: right; 
+	text-align: right;
 }
+
 .entry {
 	opacity: 0.6;
 	border: 4px solid #493c33;
-  	border-radius: 25px;
-  	margin: 5px 20px;
-  	background-color: #e6e6e6;
-	}
+	border-radius: 25px;
+	margin: 5px 20px;
+	background-color: #e6e6e6;
+}
+
 .boilerplate {
 	background: black;
 	color: white;
 	font-family: serif;
 	margin: 0px 5px;
 	padding: 0px;
-  	font-size: x-small;
-	}
+	font-size: x-small;
+}
+
 .update {
 	position: absolute;
 	float: right;
-	}
+}
+
 footer {
 	width: auto;
 	float: inherit;
-  	position: fixed;
+	position: fixed;
 	bottom: 0px;
-  }
-@media print, screen and (max-width: 1080px) {
+}
+
+@media print,
+screen and (max-width: 1080px) {
 	body {
 		margin: 0;
 		top: 0;
 		background-size: 95%;
 		background-image: url("{{ site.baseurl }}/assets/img/largescrollmiddle.png");
 		background-repeat: repeat-y;
-	  	background-position: center top;
+		background-position: center top;
 		background-attachment: scroll;
 		z-index: 1;
-		}
+	}
+
 	header {
 		float: none;
 		margin: 0;
@@ -186,34 +217,38 @@ footer {
 		background-size: 95%;
 		background-image: url("{{ site.baseurl }}/assets/img/largescrolltop.png");
 		background-repeat: no-repeat;
-	  	background-position: center top;
+		background-position: center top;
 		background-attachment: scroll;
-		}
+	}
+
 	.title {
 		margin-top: 40px;
-		}
+	}
+
 	.wrapper {
 		top: 0px;
 		position: static;
 		background-size: 95%;
 		background-image: none;
 		background-repeat: no-repeat;
-	  	background-position: center top;
+		background-position: center top;
 		background-attachment: scroll;
 		z-index: 10;
 		border: none;
-		}
+	}
+
 	section {
 		position: static;
 		margin: 0;
 		float: none;
-	  	padding: 0 0 50px 0;
+		padding: 0 0 50px 0;
 		top: 50px;
 		width: auto;
 		height: auto;
 		border: none;
 		z-index: 1;
-		}
+	}
+
 	.content {
 		position: static;
 		z-index: 1;
@@ -225,9 +260,12 @@ footer {
 		-webkit-mask-image: none;
 		mask-image: none;
 		overflow-y: scroll;
-		-ms-overflow-style: none;  /* Internet Explorer 10+ */
-		scrollbar-width: none;  /* Firefox, Safari 18.2+, Chromium 121+ */
-		}
+		-ms-overflow-style: none;
+		/* Internet Explorer 10+ */
+		scrollbar-width: none;
+		/* Firefox, Safari 18.2+, Chromium 121+ */
+	}
+
 	.menu {
 		width: auto;
 		height: auto;
@@ -235,11 +273,13 @@ footer {
 		margin: 5px 60px 5px 60px;
 		padding: 0px;
 		border: none;
-		}
+	}
+
 	.menu h4 {
-    	white-space: nowrap;
-    	overflow: visible;
-		}
+		white-space: nowrap;
+		overflow: visible;
+	}
+
 	footer {
 		position: static;
 		margin: 0;
@@ -251,5 +291,5 @@ footer {
 		background-repeat: no-repeat;
 		background-position: center bottom;
 		z-index: 15;
-		}
 	}
+}
