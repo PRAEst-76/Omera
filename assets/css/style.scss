@@ -134,19 +134,21 @@ ol {
 	margin: 20px;
 	padding: 0px;
 	overflow: hidden;
+	align-items: center;
+	justify-content: center;
 }
 
 .toc {
 	vertical-align: top;
 	column-count: 2;
-	column-fill: auto;
-	-webkit-column-break-inside: avoid;
+	column-rule: 4px double #493c33;
 	width: 80%;
 }
 
 .toc h4 {
-  -webkit-margin-before: 0;
-  -webkit-margin-after: 0;
+	-webkit-column-break-inside: avoid;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
 }
 
 .title {
