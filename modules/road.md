@@ -5,6 +5,8 @@ description: Now it's time for Tam to take the kids to Dunwell for the trade fai
 chapter: 7
 author: Peter Adams (PRAEst76)
 categories: modules
+version: 0.2
+date: 2025-08-27
 ---
 ## The Road to Dunwell
 

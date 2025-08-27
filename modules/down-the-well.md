@@ -5,6 +5,8 @@ description: The bucket has fallen into the well. Boab will try to make a new on
 chapter: 4
 author: Peter Adams (PRAEst76)
 categories: modules
+version: 0.2
+date: 2025-08-27
 ---
 ## Down the Well
 

@@ -5,5 +5,7 @@ description: The villagers are worried about wolves coming from the forest borde
 chapter: 5
 author: Peter Adams (PRAEst76)
 categories: modules
+version: 0.1
+date: 2025-08-27
 ---
 ## The Boy who cried Wolf
