@@ -5,9 +5,9 @@ author: Peter Adams (PRAEst76)
 categories: updates
 tags: lootcards items mechanics
 ---
-## Loot Cards
+![Loot Cards]({{ site.url }}{{ site.baseurl }}/images/cards.png)
 
-![Loot Cards]({{ site.baseurl }}/images/cards.png)
+## Loot Cards
 
 To make things more tactile I've oped to do away with a written inventory and create cards to reprisent items the players aquire during their game. These can also be shuffled by the DM to deal out random loot.
 

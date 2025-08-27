@@ -5,9 +5,9 @@ author: Peter Adams (PRAEst76)
 categories: updates
 tags:  characters mechanics
 ---
-## Character Sheet
-
 ![Character Sheet]({{ site.url}}/{{ site.baseurl }}/images/SimpleCharacterSheetv0.8.png)
+
+## Character Sheet
 
 I've been working on a character sheet. I've considered something colourful, perhaps laminated that players can write on and wipe off. Or perhaps fill using re-usable stickers. I like this idea but will probably make a b&w photocopyable sheet for traditional penciling.
 
