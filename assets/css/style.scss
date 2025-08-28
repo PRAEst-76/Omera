@@ -285,29 +285,8 @@ screen and (max-width: 1080px) {
 		width: auto;
 		height: auto;
 		top: auto;
-		margin: 5px 60px 50px 60px;
+		margin: 60px;
 		padding: 0px;
-		-webkit-mask-image: none;
-		mask-image: none;
-		overflow-y: scroll;
-		-ms-overflow-style: none;
-		/* Internet Explorer 10+ */
-		scrollbar-width: none;
-		/* Firefox, Safari 18.2+, Chromium 121+ */
-	}
-
-	.menu {
-		width: auto;
-		height: auto;
-		top: auto;
-		margin: 5px 60px 5px 60px;
-		padding: 0px;
-		border: none;
-	}
-
-	.menu h4 {
-		white-space: nowrap;
-		overflow: visible;
 	}
 
 	footer {
