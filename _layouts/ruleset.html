@@ -10,11 +10,16 @@ layout: default
   {% for page in page-order %}
   {% if page.categories contains 'ruleset' %}
   <h3><a href="{{ site.baseurl }}{{ page.url }}">
-      {{ page.title }}<small>v{{ page.version }}</small>
+      {{ page.title }}
+      {% if page.version %}
+      <small>
+        v{{ page.version }}
+      </small>
+      {% endif %}
     </a></h3>
-  <p class="aside">
+  <div class="aside">
     {{ page.description }}
-  </p>
+  </div>
   {% endif %}
   {% endfor %}
 </div>
