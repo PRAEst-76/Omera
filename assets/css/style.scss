@@ -125,8 +125,9 @@ ol {
 	mask: var(--mask);
 }
 
-.excerpt > p {
+.excerpt p {
 	font-size: small;
+	font-style: italic;
 }
 
 .title {
@@ -173,8 +174,9 @@ ol {
 	padding: 0px;
 }
 
-.aside > p {
-	font-size: small;
+.aside p {
+	font-size: x-small;
+	font-style: italic;
 }
 footer {
 	width: auto;
