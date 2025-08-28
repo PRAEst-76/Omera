@@ -70,14 +70,21 @@ ol {
 }
 
 a {
-                background: linear-gradient(to top, #996515, #D4AF37);
+                background: linear-gradient(to top, #5f3e0d, #977d28);
                 -webkit-background-clip: text;
                 background-clip: text;
                 color: transparent;
 				text-shadow: 2px 2px #493C33;
 				font-weight: bold;
 			}
-
+a:hover {
+				background: linear-gradient(to top, #996515, #D4AF37);
+				-webkit-background-clip: text;
+				background-clip: text;
+				color: transparent;
+				text-shadow: 2px 2px #493C33;
+				font-weight: bold;
+			}
 .postDate {
 	font-size: small;
 	color: #493C33;
