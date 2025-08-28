@@ -11,7 +11,9 @@ layout: default
   <h3><a href="{{ site.baseurl }}{{ page.url }}">
       {{ page.title }}<small>v{{ page.version }}</small>
     </a></h3>
-  {{ page.description }}
+  <div class="aside">
+    <p>{{ page.description }}</p>
+  </div>
   {% endif %}
   {% endfor %}
 </div>

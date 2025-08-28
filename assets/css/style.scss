@@ -130,6 +130,10 @@ ol {
 	font-style: italic;
 }
 
+.excerpt img {
+    break-after: always;
+}
+
 .title {
 	display: block;
 	margin-left: auto;
