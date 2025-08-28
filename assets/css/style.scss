@@ -54,7 +54,7 @@ h5,
 h6 {
 	text-transform: capitalize;
 	font-family: Carolingia, "Eagle Lake", "Brush Script MT", cursive;
-	margin: 20px;
+	margin: 0 20px;
 }
 
 section h1 {
@@ -75,15 +75,6 @@ a {
 
 a:hover {
 	color: #40b3ff;
-  text-shadow:
-    -1px -1px 0 whitesmoke,
-     0   -1px 0 whitesmoke,
-     1px -1px 0 whitesmoke,
-     1px  0   0 whitesmoke,
-     1px  1px 0 whitesmoke,
-     0    1px 0 whitesmoke,
-    -1px  1px 0 whitesmoke,
-    -1px  0   0 whitesmoke;
 }
 
 .postDate {
