@@ -125,6 +125,10 @@ ol {
 	mask: var(--mask);
 }
 
+.excerpt > p {
+	font-size: small;
+}
+
 .title {
 	display: block;
 	margin-left: auto;
@@ -170,7 +174,7 @@ ol {
 }
 
 .aside > p {
-	font-size: smaller;
+	font-size: small;
 }
 footer {
 	width: auto;
