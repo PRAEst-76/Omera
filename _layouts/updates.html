@@ -4,11 +4,11 @@ layout: default
 <h1>{{ page.categories | capitalize }}</h1>
 
 {{ content }}
-<div class="indent"
+<div class="indent">
     {% for post in site.posts %}
     <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a>
-        <span class="postDate">{{ post.date | date: "%b %-d, %Y" }}</span><br/>
-        {{ post.excerpt}}
+    <span class="postDate">{{ post.date | date: "%b %-d, %Y" }}</span><br />
+    <span class="excerpt">{{ post.excerpt}}</span>
     </h4>
     {% endfor %}
 </div>

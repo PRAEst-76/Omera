@@ -102,14 +102,22 @@ ol {
 
 .toc {
 	vertical-align: top;
-	width: 80%;
+	width: 90%;
 	height: auto;
 	column-count: 2;
 	column-fill: auto;
 	column-rule: 4px double #493c33;
 	margin: auto;
 }
-
+.excerpt {
+	vertical-align: top;
+	width: 90%;
+	height: auto;
+	column-count: 2;
+	column-fill: balance;
+	column-rule: 4px double #493c33;
+	margin: auto;
+}
 .title {
   display: block;
   margin-left: auto;
