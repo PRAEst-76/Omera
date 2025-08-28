@@ -226,6 +226,9 @@ screen and (max-width: 1080px) {
 	}
 
 	body {
+		-webkit-mask-image: linear-gradient(to bottom, black 100%, transparent 0%, transparent 0%, transparent 0%);
+		mask-image: linear-gradient(to bottom, black 100%, transparent 0%, transparent 0%, transparent 0%);
+		overflow-y: scroll;
 		margin: 0;
 		top: 0;
 		background-size: 95% 92%;
