@@ -2,6 +2,9 @@
 ---
 @import "{{ site.theme }}";
 
+@import url(https://fonts.googleapis.com/css?family=Bona+Nova);
+@import url(https://fonts.googleapis.com/css?family=Averia+Serif+Libre);
+
 @font-face {
 	font-family: carolingia;
 	src: url({{ site.baseurl }}/assets/font/carolingia.ttf);
@@ -113,12 +116,6 @@ a:hover, a:focus {
 		overflow: hidden;
 	}
 
-@media screen and (min-width: 801px) {
-		.burger {
-			display: none;
-		}
-}
-
 .toc {
 	vertical-align: top;
 	width: 90%;
@@ -212,6 +209,18 @@ footer {
 	float: inherit;
 	position: fixed;
 	bottom: 0px;
+}
+
+@media screen and (min-width: 801px) {
+		.burger {
+			display: none;
+		}
+}
+
+@media screen and (max-width: 800px) {
+		.nav {
+			display: none;
+		}
 }
 
 @media print,
@@ -313,23 +322,8 @@ screen and (max-width: 800px) {
 		background-position: center bottom;
 		z-index: 15;
 	}
-	@import url(https://fonts.googleapis.com/css?family=Raleway);
-h2 {
-  vertical-align: center;
-  text-align: center;
-}
 
-html, body {
-  margin: 0;
-  height: 100%;
-}
-
-* {
-  font-family: "Raleway";
-  box-sizing: border-box;
-}
-
-.top-nav {
+.burger {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -342,7 +336,7 @@ html, body {
   padding: 1em;
 }
 
-.menu {
+.dd {
   display: flex;
   flex-direction: row;
   list-style-type: none;
@@ -350,12 +344,12 @@ html, body {
   padding: 0;
 }
 
-.menu > li {
+.dd > li {
   margin: 0 1rem;
   overflow: hidden;
 }
 
-.menu-button-container {
+.dd-button-container {
   display: none;
   height: 100%;
   width: 30px;
@@ -365,13 +359,13 @@ html, body {
   align-items: center;
 }
 
-#menu-toggle {
+#dd-toggle {
   display: none;
 }
 
-.menu-button,
-.menu-button::before,
-.menu-button::after {
+.dd-button,
+.dd-button::before,
+.dd-button::after {
   display: block;
   background-color: #fff;
   position: absolute;
@@ -381,35 +375,35 @@ html, body {
   border-radius: 2px;
 }
 
-.menu-button::before {
+.dd-button::before {
   content: '';
   margin-top: -8px;
 }
 
-.menu-button::after {
+.dd-button::after {
   content: '';
   margin-top: 8px;
 }
 
-#menu-toggle:checked + .menu-button-container .menu-button::before {
+#dd-toggle:checked + .dd-button-container .dd-button::before {
   margin-top: 0px;
   transform: rotate(405deg);
 }
 
-#menu-toggle:checked + .menu-button-container .menu-button {
+#dd-toggle:checked + .dd-button-container .dd-button {
   background: rgba(255, 255, 255, 0);
 }
 
-#menu-toggle:checked + .menu-button-container .menu-button::after {
+#dd-toggle:checked + .dd-button-container .dd-button::after {
   margin-top: 0px;
   transform: rotate(-405deg);
 }
 
 @media (max-width: 700px) {
-  .menu-button-container {
+  .dd-button-container {
     display: flex;
   }
-  .menu {
+  .dd {
     position: absolute;
     top: 0;
     margin-top: 50px;
@@ -419,20 +413,20 @@ html, body {
     justify-content: center;
     align-items: center;
   }
-  #menu-toggle ~ .menu li {
+  #dd-toggle ~ .dd li {
     height: 0;
     margin: 0;
     padding: 0;
     border: 0;
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
   }
-  #menu-toggle:checked ~ .menu li {
+  #dd-toggle:checked ~ .dd li {
     border: 1px solid #333;
     height: 2.5em;
     padding: 0.5em;
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
   }
-  .menu > li {
+  .dd > li {
     display: flex;
     justify-content: center;
     margin: 0;
@@ -441,7 +435,7 @@ html, body {
     color: white;
     background-color: #222;
   }
-  .menu > li:not(:last-child) {
+  .dd > li:not(:last-child) {
     border-bottom: 1px solid #444;
   }
 }

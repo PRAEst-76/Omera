@@ -1,19 +1,24 @@
 <header>
 
-  <section class="top-nav">
+  <section class="burger">
     <div>
-      Logo Here
+		{% if site.logo %}
+		<a href="{{ site.url }}{{ site.baseurl }}"><img class="title" src="{{site.logo | relative_url}}" alt="Logo" /></a>
+		{% endif %}
     </div>
-    <input id="menu-toggle" type="checkbox" />
-    <label class='menu-button-container' for="menu-toggle">
-    <div class='menu-button'></div>
+    <input id="dd-toggle" type="checkbox" />
+    <label class='dd-button-container' for="dd-toggle">
+    <div class='dd-button'></div>
   </label>
-    <ul class="menu">
-      <li>One</li>
-      <li>Two</li>
-      <li>Three</li>
-      <li>Four</li>
-      <li>Five</li>
+    <ul class="dd">
+      <li><a href="{{ site.baseurl }}/updates">Updates</a></li>
+      <li><a href="{{ site.baseurl }}/ruleset">The Ruleset</a></li>
+      <li><a href="{{ site.baseurl }}/modules">The Modules</a></li>
+      <li><a href="{{ site.baseurl }}/lore">The Lore</a></li>
+      <li><a href="{{ site.baseurl }}/notes">Notes</a></li>
+	  <li><a href="{{ site.baseurl }}/todo">To-do</a></li>
+	  <li><a href="{{ site.baseurl }}/resources">Resources</a></li>
+	  <li><a href="{{ site.baseurl }}/faq">FAQ</a></li>
     </ul>
   </section>
 
