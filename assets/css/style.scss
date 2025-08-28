@@ -11,7 +11,7 @@ body {
 	padding: 0px;
 	margin: auto;
 	color: #493c33;
-	background-color: black;
+	background-color: #493C33;
 	background-size: 80%;
 	background-image: url("{{ site.baseurl }}/assets/img/book.png");
 	background-attachment: fixed;
@@ -25,7 +25,7 @@ header {
 	top: 9%;
 	height: 60%;
 	margin: auto;
-	border: dashed 0px black;
+	border: dashed 0px #493C33;
 	padding: 0;
 	width: 28%;
 }
@@ -36,7 +36,7 @@ section {
 	top: 9%;
 	height: 60%;
 	margin: auto;
-	border: dashed 0px black;
+	border: dashed 0px #493C33;
 	padding: 0px;
 	width: 28%;
 }
@@ -70,21 +70,30 @@ ol {
 }
 
 a {
-                background: linear-gradient(to top, #5f3e0d, #977d28);
-                -webkit-background-clip: text;
-                background-clip: text;
-                color: transparent;
-				-webkit-text-stroke: 2px #493C33;
-				font-weight: bold;
-			}
+	background: linear-gradient(to top, #5f3e0d, #977d28);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	text-shadow:
+		1px 1px 0px #493C33,
+		-1px -1px 0px #493C33,
+		1px -1px 0px #493C33,
+		-1px 1px 0px #493C33;
+	font-weight: bold;
+}
+
 a:hover {
-				background: linear-gradient(to top, #996515, #D4AF37);
-				-webkit-background-clip: text;
-				background-clip: text;
-				color: transparent;
-				-webkit-text-stroke: 2px #493C33;
-				font-weight: bold;
-			}
+	background: linear-gradient(to top, #996515, #D4AF37);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	text-shadow:
+		1px 1px 0px #493C33,
+		-1px -1px 0px #493C33,
+		1px -1px 0px #493C33,
+		-1px 1px 0px #493C33;
+	font-weight: bold;
+}
 .postDate {
 	font-size: small;
 	color: #493C33;
@@ -97,8 +106,8 @@ a:hover {
 	height: 100%;
 	margin: 0 auto 50px auto;
 	padding: 0;
-	-webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%);
-	mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%);
+	-webkit-mask-image: linear-gradient(to bottom, transparent 0%, #493C33 10%, #493C33 90%, transparent 100%);
+	mask-image: linear-gradient(to bottom, transparent 0%, #493C33 10%, #493C33 90%, transparent 100%);
 	overflow-y: scroll;
 	-ms-overflow-style: none;
 	/* Internet Explorer 10+ */
@@ -184,7 +193,7 @@ a:hover {
 }
 
 .boilerplate {
-	background: black;
+	background: #493C33;
 	color: white;
 	font-family: serif;
 	margin: 0px 5px;
