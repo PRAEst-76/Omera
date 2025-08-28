@@ -292,6 +292,9 @@ screen and (max-width: 1080px) {
 		top: auto;
 		margin: 60px;
 		padding: 0px;
+		-webkit-mask-image: none;
+		mask-image: none;
+		overflow-y: scroll;
 	}
 
 	footer {
