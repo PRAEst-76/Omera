@@ -62,7 +62,7 @@ p,
 ul,
 ol {
 	color: #493C33;
-	font-family: sans-serif;
+	font-family: "Averia Serif Libre", garamond, serif;
 	margin: 20px;
 }
 
@@ -169,8 +169,8 @@ ol {
 	padding: 0px;
 }
 
-.aside p {
-	font-size: small;
+.aside > p {
+	font-size: smaller;
 }
 footer {
 	width: auto;
