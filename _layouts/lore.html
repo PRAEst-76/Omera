@@ -4,7 +4,6 @@ layout: default
 <h1>Lore</h1>
 
 {{ content }}
-<div class="toc">
   {% assign page-order = site.pages | sort: 'chapter' %}
   {% for page in page-order %}
   {% if page.categories contains 'lore' %}
@@ -14,4 +13,3 @@ layout: default
   <p class="" postDate">{{ page.description }}</p>
   {% endif %}
   {% endfor %}
-</div>

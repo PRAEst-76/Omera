@@ -5,14 +5,12 @@ layout: default
 <h1>Ruleset</h1>
 
 {{ content }}
-<div class="toc">
-  {% assign page-order = site.pages | sort: 'chapter' %}
-  {% for page in page-order %}
-  {% if page.categories contains 'ruleset' %}
-  <h4><a href="{{ site.baseurl }}{{ page.url }}">
-      {{ page.title }}
-    </a></h4>
-  <p class="" postDate">{{ page.description }}</p>
-  {% endif %}
-  {% endfor %}
-</div>
+{% assign page-order = site.pages | sort: 'chapter' %}
+{% for page in page-order %}
+{% if page.categories contains 'ruleset' %}
+<h4><a href="{{ site.baseurl }}{{ page.url }}">
+    {{ page.title }}
+  </a></h4>
+<p class="postDate">{{ page.description }}</p>
+{% endif %}
+{% endfor %}

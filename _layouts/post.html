@@ -3,11 +3,16 @@ layout: default
 ---
 <!-- <link rel="alternate" type="application/rss+xml" href="{{ site.url }}{{site.baseurl }}/feed.xml" /> -->
 <h1>Updates</h1>
-<h2>{{ page.title }}</h2>
-<p class="byline"><small>{{ page.date | date: "%-d %B %Y" }}</small></p>
+<h2>{{ page.title }}
+  <span class="byline">
+    <small>
+      {{ page.date | date: "%-d %B %Y" }}
+    </small>
+  </span>
+  </h2>
 
-{{ content }}
+  {{ content }}
 
-{% if page.author %}
-<p class="byline">{{ page.author | join: " - " }}
-  {% endif %}</p>
+  {% if page.author %}
+  <h4 class="byline">{{ page.author | join: " - " }}
+    {% endif %}</h4>
