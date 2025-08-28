@@ -3,7 +3,7 @@ layout: default
 ---
 <!-- <link rel="alternate" type="application/rss+xml" href="{{ site.url }}{{site.baseurl }}/feed.xml" /> -->
 <h1>Updates</h1>
-<h2>{{ page.title }}
+<h2>{{ page.title }}<br/>
   <span class="byline">
     <small>
       {{ page.date | date: "%-d %B %Y" }}
@@ -12,7 +12,7 @@ layout: default
   </h2>
 
   {{ content }}
-
+  <hr>
   {% if page.author %}
   <h4 class="byline">{{ page.author | join: " - " }}
     {% endif %}</h4>
