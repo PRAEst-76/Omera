@@ -11,14 +11,15 @@ layout: default
   {% if page.categories contains 'ruleset' %}
   <h3><a href="{{ site.baseurl }}{{ page.url }}">
       {{ page.title }}
-      {% if page.version %}
-      <small>
-        v{{ page.version }}
-      </small>
-      {% endif %}
-    </a></h3>
+    </a>
+    <small>
+      v{{ page.version }}
+    </small>
+  </h3>
   <div class="aside">
-    <p>{{ page.description }}</p>
+    <p>
+      {{ page.description }
+      }</p>
   </div>
   {% endif %}
   {% endfor %}

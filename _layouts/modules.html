@@ -9,10 +9,16 @@ layout: default
   {% for page in page-order %}
   {% if page.categories contains 'modules' %}
   <h3><a href="{{ site.baseurl }}{{ page.url }}">
-      {{ page.title }}<small>v{{ page.version }}</small>
-    </a></h3>
+      {{ page.title }}
+    </a>
+    <small>
+      v{{ page.version }}
+    </small>
+  </h3>
   <div class="aside">
-    <p>{{ page.description }}</p>
+    <p>
+      {{ page.description }
+      }</p>
   </div>
   {% endif %}
   {% endfor %}
