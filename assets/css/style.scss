@@ -116,7 +116,6 @@ ol {
 	height: auto;
 	column-count: 2;
 	column-fill: balance;
-	column-rule: 4px double #493c33;
 	margin: auto;
 }
 
@@ -160,7 +159,8 @@ ol {
 }
 
 .aside {
-	font-size: smaller margin: 0 5%;
+	font-size: smaller;
+	margin: 0 5%;
 	padding: 0px;
 	float: right;
 	--mask: linear-gradient(to bottom,
