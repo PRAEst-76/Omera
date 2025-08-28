@@ -54,7 +54,7 @@ h5,
 h6 {
 	text-transform: capitalize;
 	font-family: Carolingia, "Eagle Lake", "Brush Script MT", cursive;
-	margin: 0 20px;
+	margin: 20px;
 }
 
 section h1 {
@@ -182,6 +182,12 @@ a:hover {
 	margin: 5px;
 	padding: 0px;
 	font-size: x-small;
+}
+
+.version {
+	font-size: xx-small;
+	font-style: italic;
+	margin: 0;
 }
 
 .aside {
