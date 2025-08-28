@@ -165,11 +165,13 @@ ol {
 }
 
 .aside {
-	font-size: smaller;
-	margin: 0 5%;
+	margin: -2% 10% 0;
 	padding: 0px;
 }
 
+.aside p {
+	font-size: small;
+}
 footer {
 	width: auto;
 	float: inherit;
