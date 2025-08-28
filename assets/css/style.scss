@@ -214,10 +214,7 @@ footer {
 }
 
 @media screen and (min-width: 1081px) {
-	.burger {
-		display: none;
-	}
-		#dd-toggle {
+	.dropdown, .dropdown-content {
 		display: none;
 	}
 }
@@ -239,13 +236,18 @@ footer {
 	}
 
 	header {
+		position: absolute;
 		float: none;
-		margin: 0;
+		margin: 0 auto;
 		padding: 0px;
 		top: 0;
-		width: auto;
+		width: 100;
 		height: auto;
 		border: none;
+		background-image: url("{{ site.baseurl }}/assets/img/largescrolltop.png");
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: center top;
 	}
 
 	.title {
@@ -299,82 +301,24 @@ footer {
 		z-index: 15;
 	}
 
-	.burger {
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		justify-content: center;
-		background-image: url("{{ site.baseurl }}/assets/img/largescrolltop.png");
-		background-repeat: no-repeat;
-		background-size: 100%;
-		background-position: center top;
-		width: 96%;
-		height: auto;
-		margin: 0 auto;
-		padding: 0;
-		z-index: 20;
-	}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
 
-	.dd {
-		display: flex;
-		flex-direction: row;
-		list-style-type: none;
-		margin: 0;
-		padding: 0;
-	}
+.dropdown-content {
+  display: none;
+  right: 0;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
 
-	.dd>li {
-		margin: 0 1rem;
-		overflow: hidden;
-	}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
-	.dd-button-container {
-		display: none;
-		height: 100%;
-		width: 30px;
-		cursor: pointer;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
-
-	#dd-toggle {
-		display: none;
-	}
-
-	.dd-button,
-	.dd-button::before,
-	.dd-button::after {
-		display: block;
-		background-color: #fff;
-		position: absolute;
-		height: 4px;
-		width: 30px;
-		transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
-		border-radius: 2px;
-	}
-
-	.dd-button::before {
-		content: '';
-		margin-top: -8px;
-	}
-
-	.dd-button::after {
-		content: '';
-		margin-top: 8px;
-	}
-
-	#dd-toggle:checked+.dd-button-container .dd-button::before {
-		margin-top: 0px;
-		transform: rotate(405deg);
-	}
-
-	#dd-toggle:checked+.dd-button-container .dd-button {
-		background: rgba(255, 255, 255, 0);
-	}
-
-	#dd-toggle:checked+.dd-button-container .dd-button::after {
-		margin-top: 0px;
-		transform: rotate(-405deg);
-	}
 }
