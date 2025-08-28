@@ -247,7 +247,7 @@ screen and (max-width: 1080px) {
 		top: 0;
 		left: 0;
 		width: auto;
-		height: 14%;
+		height: 120px;
 		border: 1 dashed gray;
 		background-image: url("{{ site.baseurl }}/assets/img/largescrolltop.png");
 		background-repeat: no-repeat;
@@ -258,7 +258,7 @@ screen and (max-width: 1080px) {
 
 	.title {
 		float: right;
-		height: 60px;
+		height: 6%;
 		margin: 2% 10%;
 	}
 
@@ -280,7 +280,7 @@ screen and (max-width: 1080px) {
 		margin: 0;
 		float: none;
 		padding: 0 0 50px 0;
-		top: 50px;
+		top: 100px;
 		width: auto;
 		height: auto;
 		border: 1px dashed gray;
@@ -292,7 +292,7 @@ screen and (max-width: 1080px) {
 		z-index: 1;
 		width: auto;
 		height: auto;
-		top: auto;
+		top: 100px;
 		margin: 60px;
 		padding: 0px;
 		-webkit-mask-image: none;
