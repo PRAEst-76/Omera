@@ -245,6 +245,7 @@ screen and (max-width: 1080px) {
 		width: 100%;
 		height: auto;
 		border: none;
+		background-color: black;
 		background-image: url("{{ site.baseurl }}/assets/img/largescrolltop.png");
 		background-repeat: no-repeat;
 		background-size: 100%;
@@ -258,6 +259,7 @@ screen and (max-width: 1080px) {
 	}
 
 	.wrapper {
+		width: auto;
 		top: 0px;
 		position: static;
 		background-size: 95%;
