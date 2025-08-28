@@ -11,8 +11,8 @@ layout: default
 {% if page.categories contains 'ruleset' %}
 <h4><a href="{{ site.baseurl }}{{ page.url }}">
     {{ page.title }}
-  </a>
-<span class="byline">{{ page.description }}</span></h4>
+  </a></h4>
+<p class="indent">{{ page.description }}</p>
 {% endif %}
 {% endfor %}
 </div>

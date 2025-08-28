@@ -2,6 +2,8 @@
 layout: page
 title: Frequently Asked Questions
 categories: FAQ
+version: 0.1
+date: 2025-08-28
 ---
 *Why D&D? Why not one of the other popular rules systems like Pathfinder?*
 
