@@ -70,7 +70,7 @@ ol {
 }
 
 a {
-	color: #493C33;
+	color: steelblue;
   text-shadow:
     -1px -1px 0 silver,
      0   -1px 0 silver,
@@ -83,16 +83,16 @@ a {
 }
 
 a:hover {
-	color: #493C33;
+	color: steelblue;
   text-shadow:
-    -1px -1px 0 slategray,
-     0   -1px 0 slategray,
-     1px -1px 0 slategray,
-     1px  0   0 slategray,
-     1px  1px 0 slategray,
-     0    1px 0 slategray,
-    -1px  1px 0 slategray,
-    -1px  0   0 slategray;
+    -1px -1px 0 whitesmoke,
+     0   -1px 0 whitesmoke,
+     1px -1px 0 whitesmoke,
+     1px  0   0 whitesmoke,
+     1px  1px 0 whitesmoke,
+     0    1px 0 whitesmoke,
+    -1px  1px 0 whitesmoke,
+    -1px  0   0 whitesmoke;
 }
 
 .postDate {
