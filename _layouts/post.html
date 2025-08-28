@@ -5,14 +5,12 @@ layout: default
 <h1>Updates</h1>
 <h2>{{ page.title }}<br/>
   <span class="byline">
-    <small>
       {{ page.date | date: "%-d %B %Y" }}
-    </small>
   </span>
   </h2>
 
   {{ content }}
-  <hr>
+  
   {% if page.author %}
   <h4 class="byline">{{ page.author | join: " - " }}
     {% endif %}</h4>
