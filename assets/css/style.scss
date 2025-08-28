@@ -248,7 +248,7 @@ screen and (max-width: 1080px) {
 		border: 1 dashed gray;
 		background-image: url("{{ site.baseurl }}/assets/img/largescrolltop.png");
 		background-repeat: no-repeat;
-		background-size: 100%;
+		background-size: auto 14%;
 		background-position: center top;
 		z-index: 2;
 	}
