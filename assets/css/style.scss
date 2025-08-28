@@ -246,8 +246,6 @@ footer {
 		width: auto;
 		height: auto;
 		border: none;
-		background-size: 95%;
-		background-attachment: scroll;
 	}
 
 	.title {
@@ -311,6 +309,7 @@ footer {
 		background-size: 100%;
 		background-position: center top;
 		width: 96%;
+		height: auto;
 		margin: 0 auto;
 		padding: 0;
 		z-index: 20;
