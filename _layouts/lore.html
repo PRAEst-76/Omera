@@ -8,11 +8,10 @@ layout: default
   {% assign page-order = site.pages | sort: 'chapter' %}
   {% for page in page-order %}
   {% if page.categories contains 'lore' %}
-  <h4><a href="{{ site.baseurl }}{{ page.url }}">
-      {{ page.title }}
-    </a>
-    <span class="byline">{{ page.description }}</span>
-  </h4>
+  <h3><a href="{{ site.baseurl }}{{ page.url }}">
+      {{ page.title }}<small>v{{ page.version }}</small>
+    </a></h3>
+  <p class="indent">{{ page.description }}</p>
   {% endif %}
   {% endfor %}
 </div>

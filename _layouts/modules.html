@@ -8,10 +8,10 @@ layout: default
   {% assign page-order = site.pages | sort: 'chapter' %}
   {% for page in page-order %}
   {% if page.categories contains 'modules' %}
-  <h4><a href="{{ site.baseurl }}{{ page.url }}">
+  <h3><a href="{{ site.baseurl }}{{ page.url }}">
       {{ page.title }}<small>v{{ page.version }}</small>
-    </a></h4>
-  <p class="" postDate">{{ page.description }}</p>
+    </a></h3>
+  <p class="indent">{{ page.description }}</p>
   {% endif %}
   {% endfor %}
 </div>

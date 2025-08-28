@@ -9,10 +9,10 @@ layout: default
 {% assign page-order = site.pages | sort: 'chapter' %}
 {% for page in page-order %}
 {% if page.categories contains 'ruleset' %}
-<h3><a href="{{ site.baseurl }}{{ page.url }}">
-    {{ page.title }}
-  </a></h3>
-<p>{{ page.description }}</p>
+  <h3><a href="{{ site.baseurl }}{{ page.url }}">
+      {{ page.title }}<small>v{{ page.version }}</small>
+    </a></h3>
+  <p class="indent">{{ page.description }}</p>
 {% endif %}
 {% endfor %}
 </div>
