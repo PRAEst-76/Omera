@@ -239,13 +239,13 @@ screen and (max-width: 1080px) {
 	header {
 		position: fixed;
 		float: none;
-		margin: 0 auto;
+		margin: 0;
 		padding: 0px;
 		top: 0;
-		width: 100%;
-		height: auto;
-		border: none;
-		background-color: black;
+		left: 0;
+		width: auto;
+		height: 50px;
+		border: 1 dashed gray;
 		background-image: url("{{ site.baseurl }}/assets/img/largescrolltop.png");
 		background-repeat: no-repeat;
 		background-size: 100%;
@@ -255,11 +255,12 @@ screen and (max-width: 1080px) {
 
 	.title {
 		float: right;
+		height: 60px;
 		margin: 2% 10%;
 	}
 
 	.wrapper {
-		width: auto;
+		width: 100%;
 		top: 0px;
 		position: static;
 		background-size: 95%;
@@ -279,7 +280,7 @@ screen and (max-width: 1080px) {
 		top: 50px;
 		width: auto;
 		height: auto;
-		border: none;
+		border: 1px dashed gray;
 		z-index: 1;
 	}
 
