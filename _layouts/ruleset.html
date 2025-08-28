@@ -6,13 +6,18 @@ layout: default
 
 {{ content }}
 <div class="indent">
-{% assign page-order = site.pages | sort: 'chapter' %}
-{% for page in page-order %}
-{% if page.categories contains 'ruleset' %}
-  <h3><a href="{{ site.baseurl }}{{ page.url }}">
-      {{ page.title }}<small>v{{ page.version }}</small>
-    </a></h3>
-  <p>{{ page.description }}</p>
-{% endif %}
-{% endfor %}
+  {% assign page-order = site.pages | sort: 'chapter' %}
+  {% for page in page-order %}
+  {% if page.categories contains 'ruleset' %}
+  <h3>
+    <a href="{{ site.baseurl }}{{ page.url }}">
+      {{ page.title }}
+    </a>
+    <small>
+      v{{ page.version }}<br />
+      {{ page.description }}
+    </small>
+  </h3>
+  {% endif %}
+  {% endfor %}
 </div>

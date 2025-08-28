@@ -1,5 +1,14 @@
-
-## The Lost Kingdom of Omera
+---
+layout: page
+title: Readme
+chapter: 4
+description: The main project Readme.txt
+version: 0.5
+date: 2025-08-28
+author: PRAEst76
+tags: Readme.md
+---
+# The Lost Kingdom of Omera
 
 An attempt to create a D&D campaign for very young players (ie, my six year old daughter and her friends). Simple text and aids, child-friendly storylines, focus on puzzle solving and lateral thinking and little combat. Combat should be largly avoidable. Players should receive XP for puzzle solving and completing quests and not combat.
 
