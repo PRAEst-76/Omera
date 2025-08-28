@@ -1,11 +1,13 @@
 <header>
+			{% if site.logo %}
+			<div class="title">
+		<a href="{{ site.url }}{{ site.baseurl }}">
+			<img src="{{site.logo | relative_url}}" alt="Logo" />
+		</a>
+		</div>
+		{% endif %}
 	<div class="dropdown">
 		<img class="seal" src="{{ site.baseurl }}/images/seal.png" alt="Menu" />
-		{% if site.logo %}
-		<a href="{{ site.url }}{{ site.baseurl }}">
-			<img class="title" src="{{site.logo | relative_url}}" alt="Logo" />
-		</a>
-		{% endif %}
 	</div>
 		<div class="dropdown-content">
 			<h3><a href="{{ site.baseurl }}/updates">Updates</a><br /><br />
