@@ -75,6 +75,7 @@ a {
                 background-clip: text;
                 color: transparent;
 				text-shadow: 2px 2px #8a7261;
+				-webkit-text-stroke: 2px #493C33;
 				font-weight: bold;
 			}
 a:hover {
@@ -83,6 +84,7 @@ a:hover {
 				background-clip: text;
 				color: transparent;
 				text-shadow: 2px 2px #947b69;
+				-webkit-text-stroke: 2px #493C33;
 				font-weight: bold;
 			}
 .postDate {
