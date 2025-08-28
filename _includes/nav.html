@@ -23,6 +23,10 @@
 		<a href="{{ site.url }}{{ site.baseurl }}"><img class="title" src="{{site.logo | relative_url}}" alt="Logo" /></a>
 		{% endif %}
 		<p>{{ site.description | default: site.github.project_tagline }}</p>
+		    <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+    <div class='menu-button'></div>
+  </label>
 		<div class="toc">
 			<h3><a href="{{ site.baseurl }}/updates">Updates</a><br /><br />
 				<a href="{{ site.baseurl }}/ruleset">The Ruleset</a><br />
