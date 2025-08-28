@@ -72,6 +72,8 @@ ol {
 a {
 	background: linear-gradient(to top, #352713, #63605b #d3d0c7, #4d4944);
 	-webkit-background-clip: text;
+	-webkit-text-stroke: 5px black;
+	paint-order: stroke fill;
 	background-clip: text;
 	color: transparent;
 	font-weight: bold;
@@ -80,10 +82,13 @@ a {
 a:hover {
 	background: linear-gradient(to top, #50483d, #686561 #f8f8f7, #807b74);
 	-webkit-background-clip: text;
+	-webkit-text-stroke: 5px black;
+	paint-order: stroke fill;
 	background-clip: text;
 	color: transparent;
 	font-weight: bold;
-}CSS fixes
+}
+
 .postDate {
 	font-size: small;
 	color: #493C33;
