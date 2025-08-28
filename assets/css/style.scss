@@ -222,8 +222,7 @@ footer {
 	}
 }
 
-@media print,
-screen and (max-width: 1080px) {
+@media print, screen and (max-width: 1080px) {
 	.menu {
 		display: none;
 	}
@@ -306,15 +305,15 @@ screen and (max-width: 1080px) {
 		display: flex;
 		flex-direction: row;
 		align-items: center;
-		justify-content: space-between;
+		justify-content: center;
 		background-image: url("{{ site.baseurl }}/assets/img/largescrolltop.png");
 		background-repeat: no-repeat;
 		background-size: 100%;
 		background-position: center top;
-		color: #FFF;
 		width: 96%;
 		margin: 0 auto;
 		padding: 0;
+		z-index: 20;
 	}
 
 	.dd {
