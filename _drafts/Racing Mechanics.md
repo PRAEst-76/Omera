@@ -21,17 +21,28 @@ So here goes: characters are racing down a river current, in barrels. they have 
 
 The race will be short, given the length of the river between the starting point (a makeshift bridge near the back of the cave) and the end point (the shallows at the opening to the cave outside). This also stops it getting too tedious. I was thinking perhaps three or four rounds.
 
-The current and eddies can be managed with rice rolls each round. 
+The map is divided into hexagons for this. Each hexagon is about five feet. The river itself is Approx 6x50.
 
-So...
+Each player rolls a D6. This is how many hexagons they can move. The DM makes a secret D6 roll for the river for each player.
 
-Round One
-    River - 1d6
-        1 - Weak Left
-        2 - Weak Right
-        3 - Left
-        4 - Right
-        5 - Strong Left
-        6 - Strong Right
+The players then moves their barrels. The DM loks up the river flow and eddies table, this will determine how the river affects their move. The DM will then change their final position accordingly.
 
+| Dice roll      | Column 2      |
+| ------------- | ------------- |
+| 1 | weak left |  move barrel one hex to the left |
+| 2 | weak right | move barrel one hex to the right |
+| 3 | flow | move barrel one hex ahead |
+| 4 | ebb | move barrel one hex back |
+| 5 | strong left | move barrel two hexes to the left |
+| 6 | strong right | move barrel two hexes to the right |
+
+Any barrels that collide with each other or hit the bank need to make a dex check or go back one hex.
+
+On each turn after the "river" move, a player who has can quickly decide to use their oar to avoid the consequences or advance one more hex. They will need to clearly state which outcome they desire. They will need to perform a strength check. If they succeed they will either advance or remain where they intended depending on what they announced they wanted to achieve wiht the oar. A failure means they remain where they are after the river move and are unable to use the oar again on the following turn. If the river move would cause a collision and they announce they will try to advance, the the strength check is made at a disadvantage. A failure that results in a collision means they go back one hex and cannot use the oar again for the next turn.
+
+Any dex check that is a critial failure means the barrel capsizes and the player goes back one hex and misses the next turn.
+
+Any strength check that rolls a critical failure, loses their oar and has the option to either continue without it or retrive it, which has the same penalty as a critical dex failure.
+
+The winner is the first person to get to the shallows beyond the cave river exit.
 

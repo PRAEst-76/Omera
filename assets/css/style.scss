@@ -213,14 +213,17 @@ footer {
 	bottom: 0px;
 }
 
-@media screen and (min-width: 801px) {
+@media screen and (min-width: 1081px) {
 	.burger {
+		display: none;
+	}
+		#dd-toggle {
 		display: none;
 	}
 }
 
 @media print,
-screen and (max-width: 800px) {
+screen and (max-width: 1080px) {
 	.menu {
 		display: none;
 	}
@@ -327,10 +330,12 @@ screen and (max-width: 800px) {
 		justify-content: space-between;
 		background-image: url("{{ site.baseurl }}/assets/img/largescrolltop.png");
 		background-repeat: no-repeat;
+		background-size: 100%;
 		background-position: center top;
 		color: #FFF;
-		height: 50px;
-		padding: 1em;
+		width: 96%;
+		margin: 0 auto;
+		padding: 0;
 	}
 
 	.dd {
