@@ -3,11 +3,8 @@ layout: default
 ---
 <h1>{{ page.categories | capitalize }}</h1>
 <h2>
-  {{ page.title }} <small>{{ page.version }}</small>
-  </h2>
-  <h4 class="byline">
-    by {{ page.author }}
-  </span>
-</h4>
+  {{ page.title }}<small>v{{ page.version }}<br />
+    by {{ page.author }}</small>
+</h2>
 
 {{ content }}
