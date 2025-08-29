@@ -304,7 +304,7 @@ screen and (max-width: 1080px) {
 		position: fixed;
 		margin: 0;
 		padding: 0;
-		bottom: 50px;
+		bottom: 0px;
 		border: none;
 		background-size: 98%;
 		background-image: url("{{ site.baseurl }}/assets/img/largescrollbottom.png");
