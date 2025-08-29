@@ -228,10 +228,29 @@ screen and (max-width: 1080px) {
 	}
 
 	body {
-		margin: auto;
+		margin: 0;
 		top: 0;
 		background-image: none;
 	}
+
+.funkertop {
+	background-color: black;
+	top: 0;
+	position: fixed;
+	width: 100%;
+	height: 30px;
+	z-index: 0;
+	}
+
+.funkerbottom {
+	background-color: black;
+	bottom: 0;
+	position: fixed;
+	width: 100%;
+	height: 30px;
+	z-index: -1;
+	}
+
 
 	header {
 		position: fixed;
@@ -251,9 +270,10 @@ screen and (max-width: 1080px) {
 	}
 
 	.title {
+		position: absolute;
+		float: right
 		height: 60px;
 		width: auto;
-		right: 20px;
 	}
 
 	.burger {
@@ -276,23 +296,6 @@ screen and (max-width: 1080px) {
 		background-attachment: scroll;
 		z-index: -5;
 		border: none;
-	}
-.funkertop {
-	background-color: black;
-	top: 0;
-	position: fixed;
-	width: 100%;
-	height: 30px;
-	z-index: 0;
-	}
-
-.funkerbottom {
-	background-color: black;
-	bottom: 0;
-	position: fixed;
-	width: 100%;
-	height: 30px;
-	z-index: -1;
 	}
 
 	section {
@@ -343,8 +346,8 @@ screen and (max-width: 1080px) {
 	}
 
 	.dropdown {
-		position: relative;
-		float: right;
+		position: absolute;
+		float: left;
 		background: none;
 		margin: 0;
 		padding: 0;
@@ -376,7 +379,6 @@ screen and (max-width: 1080px) {
 		width: 50px;
 		height: 50px;
 		top: 20px;
-		position: fixed;
 		margin: 0;
 		padding: 0;
 		background: none;
