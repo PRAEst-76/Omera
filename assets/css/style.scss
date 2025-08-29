@@ -265,7 +265,8 @@ screen and (max-width: 1080px) {
 	}
 
 	.wrapper {
-		width: 500;
+		width: 500px;
+		margin: auto;
 		top: 0px;
 		position: static;
 		background-size: 500px auto;
@@ -283,7 +284,7 @@ screen and (max-width: 1080px) {
 		float: none;
 		padding: 0 0 50px 0;
 		top: 100px;
-		width: auto;
+		width: 500px;
 		height: auto;
 		border: 0px dashed gray;
 		z-index: 1;
