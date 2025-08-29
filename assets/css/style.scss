@@ -216,7 +216,7 @@ footer {
 }
 
 @media screen and (min-width: 1081px) {
-	.burger {
+	.burger .funkertop .funkerbottom {
 		display: none;
 	}
 }
@@ -271,7 +271,7 @@ screen and (max-width: 1080px) {
 
 	.title {
 		position: absolute;
-		float: right
+		float: right;
 		height: 60px;
 		width: auto;
 	}
