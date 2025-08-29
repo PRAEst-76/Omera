@@ -260,7 +260,7 @@ screen and (max-width: 1080px) {
 		top: 0;
 		left: 0;
 		width: 100%;
-		height: 90px;
+		height: 87px;
 		border: 0 dashed gray;
 		background-image: url("{{ site.baseurl }}/assets/img/largescrolltop.png");
 		background-repeat: no-repeat;
@@ -279,9 +279,8 @@ screen and (max-width: 1080px) {
 	.burger {
 		width: 400px;
 		z-index: 30;
-		top: 10px;
+		top: 0;
 		position: fixed;
-		margin: auto;
 	}
 
 	.wrapper {
@@ -300,10 +299,10 @@ screen and (max-width: 1080px) {
 
 	section {
 		position: static;
-		margin: 100px 0;
+		margin: 80px 0;
 		float: none;
-		padding: 0 0 50px 0;
-		top: 120px;
+		padding: 0;
+		top: 80px;
 		width: 500px;
 		height: auto;
 		border: 0px dashed gray;
@@ -335,7 +334,7 @@ screen and (max-width: 1080px) {
 		background-image: url("{{ site.baseurl }}/assets/img/largescrollbottom.png");
 		background-repeat: no-repeat;
 		background-position: center bottom;
-		z-index: 10;
+		z-index: 30;
 	}
 
 	.boilerplate {
