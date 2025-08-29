@@ -221,7 +221,8 @@ footer {
 	}
 }
 
-@media print, screen and (max-width: 1080px) {
+@media print,
+screen and (max-width: 1080px) {
 	.menu {
 		display: none;
 	}
@@ -258,7 +259,6 @@ footer {
 		float: right;
 		height: 60px;
 		width: auto;
-		margin: 2% 10%;
 	}
 
 	.burger {
@@ -309,15 +309,19 @@ footer {
 		position: fixed;
 		margin: auto;
 		padding: 0;
-		height: 150px;
+		height: auto;
 		width: 98%;
 		bottom: 0px;
 		border: none;
 		background-size: 98%;
 		background-image: url("{{ site.baseurl }}/assets/img/largescrollbottom.png");
 		background-repeat: no-repeat;
-		background-position: center top;
+		background-position: center bottom;
 		z-index: 15;
+	}
+
+	.boilerplate {
+		font-size: xx-small;
 	}
 
 	.dropdown {
@@ -349,5 +353,7 @@ footer {
 		height: 50px;
 		margin: 0;
 		padding: 0;
+		background: none;
+		border: none;
 	}
 }
