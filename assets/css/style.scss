@@ -361,7 +361,7 @@ screen and (max-width: 1080px) {
 	}
 
 	/* Show the dropdown menu on hover */
-	.dropdown:hover .dropdown:active .dropdown-content {
+	.dropdown:hover .dropdown-content {
 		display: block;
 	}
 
@@ -372,7 +372,7 @@ screen and (max-width: 1080px) {
 
 	.seal {
 		width: 40px;
-		height: auto;
+		height: 40px;
 		margin: 0;
 		padding: 0;
 	}
