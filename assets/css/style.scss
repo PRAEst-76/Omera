@@ -324,6 +324,7 @@ screen and (max-width: 1080px) {
 	.dropdown {
 		position: relative;
 		display: inline-block;
+		z-index: 20;
 	}
 
 	.dropdown-content {
