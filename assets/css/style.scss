@@ -216,7 +216,7 @@ footer {
 }
 
 @media screen and (min-width: 1081px) {
-	.burger .funkertop .funkerbottom {
+	.burger, .funkertop, .funkerbottom, .dropdown, .seal {
 		display: none;
 	}
 }
