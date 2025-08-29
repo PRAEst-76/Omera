@@ -241,7 +241,7 @@ footer {
 		left: 0;
 		width: 100%;
 		height: 87px;
-		border: 1px dashed gray;
+		border: 0 dashed gray;
 		background-image: url("{{ site.baseurl }}/assets/img/largescrolltop.png");
 		background-repeat: no-repeat;
 		background-size: 500px 87px;
@@ -264,7 +264,7 @@ footer {
 
 	.burger {
 		width: 400px;
-		border: 1px dashed red;
+		border: 0 dashed red;
 		z-index: 30;
 		top: 0;
 		margin: auto;

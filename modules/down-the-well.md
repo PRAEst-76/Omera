@@ -8,7 +8,6 @@ categories: modules
 version: 0.2
 date: 2025-08-27
 ---
-## Down the Well
 
 ![Map of The Well](maps/thewell.player.png)
 
