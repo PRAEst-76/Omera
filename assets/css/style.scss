@@ -242,7 +242,7 @@ screen and (max-width: 1080px) {
 	header {
 		position: fixed;
 		float: none;
-		margin: 0;
+		margin: auto;
 		padding: 0px;
 		top: 0;
 		left: 0;
@@ -251,7 +251,7 @@ screen and (max-width: 1080px) {
 		border: 1 dashed gray;
 		background-image: url("{{ site.baseurl }}/assets/img/largescrolltop.png");
 		background-repeat: no-repeat;
-		background-size: auto 98%;
+		background-size: 98%;
 		background-position: center top;
 		z-index: 2;
 	}
