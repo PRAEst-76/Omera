@@ -8,34 +8,30 @@
 		{% endif %}
 		<!-- <img class="seal" src="{{ site.baseurl }}/images/seal.png" alt="Menu" /> -->
 		<div class="dropdown">
-			<button class="dropbtn">
-				<img class="seal" src="{{ site.url }}{{ site.baseurl }}/assets/img/seal_110px.png" alt="Menu" />
-			</button>
+			<img class="seal" src="{{ site.url }}{{ site.baseurl }}/assets/img/seal_110px.png" alt="Menu" />
 			<div class="dropdown-content">
-				<div class="dropdown-content">
-					<a href="{{ site.baseurl }}/updates">Updates</a>
-					<a href="{{ site.baseurl }}/ruleset">The Ruleset</a>
-					<a href="{{ site.baseurl }}/modules">The Modules</a>
-					<a href="{{ site.baseurl }}/lore">The Lore</a>
-					<a href="{{ site.baseurl }}/notes">Notes</a>
-					<a href="{{ site.baseurl }}/todo">To-do</a>
-					<a href="{{ site.baseurl }}/resources">Resources</a>
-					<a href="{{ site.baseurl }}/faq">FAQ</a>
-					{% if site.github.is_project_page %}
-					<a href="{{ site.github.repository_url }}" target="_blank">GitHub Repository</a>
-					{% endif %}
-					{% if site.github.is_user_page %}
-					<a href="{{ site.github.owner_url }}">View My GitHub Profile</a>
-					{% endif %}
+				<a href="{{ site.baseurl }}/updates">Updates</a>
+				<a href="{{ site.baseurl }}/ruleset">The Ruleset</a>
+				<a href="{{ site.baseurl }}/modules">The Modules</a>
+				<a href="{{ site.baseurl }}/lore">The Lore</a>
+				<a href="{{ site.baseurl }}/notes">Notes</a>
+				<a href="{{ site.baseurl }}/todo">To-do</a>
+				<a href="{{ site.baseurl }}/resources">Resources</a>
+				<a href="{{ site.baseurl }}/faq">FAQ</a>
+				{% if site.github.is_project_page %}
+				<a href="{{ site.github.repository_url }}" target="_blank">GitHub Repository</a>
+				{% endif %}
+				{% if site.github.is_user_page %}
+				<a href="{{ site.github.owner_url }}">View My GitHub Profile</a>
+				{% endif %}
 
-					{% if site.show_downloads %}
-					<ul class="downloads">
-						<li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
-						<li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
-						<li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
-					</ul>
-					{% endif %}
-				</div>
+				{% if site.show_downloads %}
+				<ul class="downloads">
+					<li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
+					<li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
+					<li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
+				</ul>
+				{% endif %}
 			</div>
 		</div>
 

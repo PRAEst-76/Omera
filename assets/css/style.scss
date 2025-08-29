@@ -230,11 +230,6 @@ screen and (max-width: 1080px) {
 	body {
 		margin: 0;
 		top: 0;
-		background-size: 500px auto;
-		background-image: url("{{ site.baseurl }}/assets/img/largescrollmiddle.png");
-		background-repeat: repeat-y;
-		background-position: center top;
-		background-attachment: scroll;
 		z-index: 1;
 	}
 
@@ -256,7 +251,6 @@ screen and (max-width: 1080px) {
 	}
 
 	.title {
-		float: right;
 		height: 60px;
 		width: auto;
 		right: 20px;
@@ -272,12 +266,12 @@ screen and (max-width: 1080px) {
 		width: 500;
 		top: 0px;
 		position: static;
-		background-size: 95%;
-		background-image: none;
-		background-repeat: no-repeat;
+		background-size: 500px auto;
+		background-image: url("{{ site.baseurl }}/assets/img/largescrollmiddle.png");
+		background-repeat: repeat-y;
 		background-position: center top;
 		background-attachment: scroll;
-		z-index: 10;
+		z-index: 2;
 		border: none;
 	}
 
