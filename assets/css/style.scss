@@ -240,8 +240,6 @@ screen and (max-width: 1080px) {
 
 	header {
 		position: fixed;
-		-webkit-mask-image: linear-gradient(to bottom, black 100%, transparent 0%, transparent 0%, transparent 0%);
-		mask-image: linear-gradient(to bottom, black 100%, transparent 0%, transparent 0%, transparent 0%);
 		float: none;
 		margin: auto;
 		padding: 0px;
@@ -249,7 +247,7 @@ screen and (max-width: 1080px) {
 		left: 0;
 		width: 100%;
 		height: auto;
-		border: 1 dashed gray;
+		border: 0 dashed gray;
 		background-image: url("{{ site.baseurl }}/assets/img/largescrolltop.png");
 		background-repeat: no-repeat;
 		background-size: 98%;
@@ -259,7 +257,7 @@ screen and (max-width: 1080px) {
 
 	.title {
 		float: right;
-		height: 50px;
+		height: 60px;
 		margin: 2% 10%;
 	}
 
@@ -289,7 +287,7 @@ screen and (max-width: 1080px) {
 		top: 100px;
 		width: auto;
 		height: auto;
-		border: 1px dashed gray;
+		border: 0px dashed gray;
 		z-index: 1;
 	}
 
