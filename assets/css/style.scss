@@ -301,12 +301,12 @@ screen and (max-width: 1080px) {
 	}
 
 	footer {
-		position: static;
+		position: fixed;
 		margin: 0;
 		padding: 0;
 		bottom: 50px;
 		border: none;
-		background-size: 95%;
+		background-size: 98%;
 		background-image: url("{{ site.baseurl }}/assets/img/largescrollbottom.png");
 		background-repeat: no-repeat;
 		background-position: center bottom;
