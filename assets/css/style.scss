@@ -1,8 +1,10 @@
 ---
 ---
+
 @import "{{ site.theme }}";
 
 @import url(https://fonts.googleapis.com/css?family=Bona+Nova);
+
 @import url(https://fonts.googleapis.com/css?family=Averia+Serif+Libre);
 
 @font-face {
@@ -304,8 +306,8 @@ screen and (max-width: 1080px) {
 		position: fixed;
 		margin: 0;
 		padding: 0;
-height: auto;
-width: 100%;
+		height: auto;
+		width: 100%;
 		bottom: 0px;
 		border: none;
 		background-size: 98%;
