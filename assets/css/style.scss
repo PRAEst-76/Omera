@@ -231,7 +231,7 @@ screen and (max-width: 1080px) {
 		overflow-y: scroll;
 		margin: 0;
 		top: 0;
-		background-size: 95;
+		background-size: 95%;
 		background-image: url("{{ site.baseurl }}/assets/img/largescrollmiddle.png");
 		background-repeat: repeat-y;
 		background-position: center bottom;
