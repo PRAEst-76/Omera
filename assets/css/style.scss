@@ -299,11 +299,11 @@ screen and (max-width: 1080px) {
 
 	section {
 		position: static;
-		margin: 80px 0;
+		margin: auto;
 		float: none;
 		padding: 0;
 		top: 80px;
-		width: 500px;
+		width: 100%;
 		height: auto;
 		border: 0px dashed gray;
 		z-index: 1;
@@ -311,8 +311,8 @@ screen and (max-width: 1080px) {
 
 	.content {
 		position: static;
-		z-index: 2;
-		width: auto;
+		z-index: 5;
+		width: 500px;
 		height: auto;
 		top: 100px;
 		margin: 60px;
