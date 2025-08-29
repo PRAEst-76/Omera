@@ -221,8 +221,7 @@ footer {
 	}
 }
 
-@media print,
-screen and (max-width: 1080px) {
+@media print, screen and (max-width: 1080px) {
 	.menu {
 		display: none;
 	}
@@ -309,7 +308,7 @@ screen and (max-width: 1080px) {
 		position: fixed;
 		margin: auto;
 		padding: 0;
-		height: auto;
+		height: 150px;
 		width: 98%;
 		bottom: 0px;
 		border: none;
