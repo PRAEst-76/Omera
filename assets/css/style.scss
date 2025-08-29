@@ -330,6 +330,7 @@ width: 100%;
 .burger {
   position: relative;
   display: inline-block;
+  z-index: 30;
 }
 
 /* Dropdown Content (Hidden by Default) */
