@@ -230,7 +230,7 @@ screen and (max-width: 1080px) {
 	body {
 		margin: 0;
 		top: 0;
-		background-size: 95%;
+		background-size: 500px auto;
 		background-image: url("{{ site.baseurl }}/assets/img/largescrollmiddle.png");
 		background-repeat: repeat-y;
 		background-position: center top;
@@ -245,8 +245,8 @@ screen and (max-width: 1080px) {
 		padding: 0px;
 		top: 0;
 		left: 0;
-		width: 100%;
-		height: auto;
+		width: 500px;
+		height: 90px;
 		border: 0 dashed gray;
 		background-image: url("{{ site.baseurl }}/assets/img/largescrolltop.png");
 		background-repeat: no-repeat;
@@ -268,7 +268,7 @@ screen and (max-width: 1080px) {
 	}
 
 	.wrapper {
-		width: 100%;
+		width: 500;
 		top: 0px;
 		position: static;
 		background-size: 95%;
@@ -309,11 +309,11 @@ screen and (max-width: 1080px) {
 		position: fixed;
 		margin: auto;
 		padding: 0;
-		height: auto;
-		width: 98%;
+		height: 95px;
+		width: 500px;
 		bottom: 0px;
 		border: none;
-		background-size: 98%;
+		background-size: 500px auto;
 		background-image: url("{{ site.baseurl }}/assets/img/largescrollbottom.png");
 		background-repeat: no-repeat;
 		background-position: center bottom;
@@ -326,6 +326,11 @@ screen and (max-width: 1080px) {
 
 	.dropdown {
 		position: relative;
+		background: none;
+		display: inline-block;
+		margin: 0;
+		padding: 0;
+		border: none;
 	}
 
 	.dropdown-content {
