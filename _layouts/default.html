@@ -12,6 +12,7 @@
     		<![endif]-->
 	{% include head-custom.html %}
 </head>
+
 <body>
 	<div class="wrapper">
 		{% include nav.html %}
@@ -20,8 +21,10 @@
 				{% include content.html %}
 			</div>
 		</section>
+		{% include footer.html %}
+		<script src="{{ "/assets/js/scale.fix.js" | relative_url }}">
+		</script>
 	</div>
-	{% include footer.html %}
-	<script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
 </body>
+
 </html>

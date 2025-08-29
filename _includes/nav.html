@@ -4,12 +4,13 @@
 
 		</div>
 		{% if site.logo %}
+		<div class="title">
 		<a href="{{ site.url }}{{ site.baseurl }}">
-			<img class="title" src="{{site.logo | relative_url}}" alt="Logo" />
+			<img src="{{site.logo | relative_url}}" alt="Logo" />
 		</a>
+		</div>
 
 		{% endif %}
-		<!-- <img class="seal" src="{{ site.baseurl }}/images/seal.png" alt="Menu" /> -->
 		<div class="dropdown">
 			<img class="seal" src="{{ site.url }}{{ site.baseurl }}/assets/img/seal_110px.png" alt="Menu" />
 			<div class="dropdown-content">
@@ -52,7 +53,7 @@
 			</p>
 			<div class="toc">
 				<h3>
-					<a href="{{ site.baseurl }}/updates">Updates</a><br /><br />
+					<a href="{{ site.baseurl }}/updates">Updates</a><br />
 					<a href="{{ site.baseurl }}/ruleset">The Ruleset</a><br />
 					<a href="{{ site.baseurl }}/modules">The Modules</a><br />
 					<a href="{{ site.baseurl }}/lore">The Lore</a><br /><br />
@@ -61,10 +62,10 @@
 					<a href="{{ site.baseurl }}/resources">Resources</a><br />
 					<a href="{{ site.baseurl }}/faq">FAQ</a><br /><br />
 					{% if site.github.is_project_page %}
-					<a href="{{ site.github.repository_url }}" target="_blank">GitHub Repository</a><br /><br />
+					<a href="{{ site.github.repository_url }}" target="_blank">GitHub Repository</a><br />
 					{% endif %}
 					{% if site.github.is_user_page %}
-					<a href="{{ site.github.owner_url }}">View My GitHub Profile</a><br /><br />
+					<a href="{{ site.github.owner_url }}">View My GitHub Profile</a>
 					{% endif %}
 				</h3>
 				{% if site.show_downloads %}
