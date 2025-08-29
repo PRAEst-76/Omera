@@ -270,7 +270,7 @@ screen and (max-width: 1080px) {
 	}
 
 	.title {
-		position: absolute;
+		position: fixed;
 		float: right;
 		height: 60px;
 		width: auto;
@@ -310,12 +310,12 @@ screen and (max-width: 1080px) {
 	}
 
 	.content {
-		position: static;
+		position: relative;
 		z-index: 5;
 		width: 500px;
 		height: auto;
 		top: 100px;
-		margin: 60px;
+		margin: auto;
 		padding: 0px;
 		-webkit-mask-image: none;
 		mask-image: none;
@@ -345,7 +345,7 @@ screen and (max-width: 1080px) {
 	}
 
 	.dropdown {
-		position: absolute;
+		position: fixed;
 		float: left;
 		background: none;
 		margin: 0;
