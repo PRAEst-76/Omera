@@ -23,6 +23,8 @@ The race will be short, given the length of the river between the starting point
 
 The map is divided into hexagons for this. Each hexagon is about five feet. The river itself is Approx 6x50.
 
+![Cave river race map]({{ site.url }}{{ site.baseurl }}/modules/maps/cave_river_race_map.png)
+
 Each player rolls a D6. This is how many hexagons they can move. The DM makes a secret D6 roll for the river for each player.
 
 The players then moves their barrels. The DM loks up the river flow and eddies table, this will determine how the river affects their move. The DM will then change their final position accordingly.
@@ -48,6 +50,8 @@ Of course, players can attempt to deliberately ram another players barrel, this 
 
 The winner is the first person to get to the shallows beyond the cave river exit.
 
-I've not been able to test this yet, so it may not work in practice. As with everything else I'd value feedback and suggestions.
+I've not been able to test this yet, so it may not work in practice. As with everything else I'd value feedback and suggestions...
 
-![Cave river race map]({{ site.url }}{{ site.baseurl }}/modules/maps/cave_river_race_map.png)
+[Report an issue](https://github.com/PRAEst-76/Omera/issues/new?title=Racing+Mechanics)
+
+
