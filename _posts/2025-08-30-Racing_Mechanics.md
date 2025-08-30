@@ -6,7 +6,7 @@ tags: racing mechanics
 date: 2025-08-30
 categories: updates
 ---
-I've written a part of a quest where characters have to do some barrel racing down an underwater river. I did this without knowing how i would manage it, so I've started researching how others have managed racing.
+I've written a part of a quest where characters have to do some barrel racing down an underwater river. I did this without knowing how I would manage it, so I've started researching how others have managed racing.
 
 [D&D Beyond Forum: Racing Mechanics?](https://www.dndbeyond.com/forums/dungeons-dragons-discussion/dungeon-masters-only/71526-racing-mechanics)
 
@@ -38,16 +38,18 @@ First players and DM make the standard initiative rolls to determine who goes fi
 
 Each player rolls a D6. This is how many hexagons they can move. The DM makes a secret D6 roll for the river for each player.
 
-The players then moves their barrels. The DM looks up the river flow and eddies table, this will determine how the river affects their move. The DM will then change their final position accordingly.
+The players then moves their barrels. The DM looks up the river flow and eddies table, this will determine how the river affects their move. The DM will then change their final position accordingly. The rolls corrispond to the sides of the finishing hex clockwise from north.
+
+![movement with 1d6]({{ site.url}}{{site.baseurl }}/images/rivermove.png)
 
 | Dice roll | Current influence | Barrel adjustment                     |
 |:---------:|:------------------|:--------------------------------------|
-|     1     | weak left         | move barrel one hex to the left       |
-|     2     | weak right        | move barrel one hex to the right      |
-|     3     | flow              | move barrel one hex ahead             |
-|     4     | ebb               | move barrel one hex back              |
-|     5     | strong left       | move barrel two hexes to the left     |
-|     6     | strong right      | move barrel two hexes to the right    |
+|     1     | weak starboard    | move barrel to the top right hex      |
+|     2     | ebb               | move barrel to the middle right hex   |
+|     3     | weak port         | move barrel to bottom right hex       |
+|     4     | strong starboard  | move barrel to bottom left hex        |
+|     5     | flow              | move barrel to middle left hex        |
+|     6     | strong port       | move barrel to top left hex           |
 
 Any barrels that collide with each other or hit the bank need to make a dex check or go back one hex.
 
