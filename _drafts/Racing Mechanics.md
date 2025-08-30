@@ -31,7 +31,7 @@ Each player rolls a D6. This is how many hexagons they can move. The DM makes a 
 The players then moves their barrels. The DM looks up the river flow and eddies table, this will determine how the river affects their move. The DM will then change their final position accordingly.
 
 | Dice roll      | Flow bias     |  effect |
-| ------------- | ------------- |:-------|
+|:-------------:|:------------- |:-------|
 | 1 | weak left |  move barrel one hex to the left |
 | 2 | weak right | move barrel one hex to the right |
 | 3 | flow | move barrel one hex ahead |
