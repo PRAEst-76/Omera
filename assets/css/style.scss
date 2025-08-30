@@ -240,11 +240,11 @@ footer {
 		top: -10px;
 		left: 0;
 		width: 100%;
-		height: 87px;
+		height: 84px;
 		border: 0 dashed gray;
 		background-image: url("{{ site.baseurl }}/assets/img/largescrolltop.png");
 		background-repeat: no-repeat;
-		background-size: 500px 87px;
+		background-size: 480px 84px;
 		background-position: center top;
 		z-index: 30;
 	}
@@ -277,7 +277,7 @@ footer {
 		margin: auto;
 		top: 0px;
 		position: static;
-		background-size: 500px auto;
+		background-size: 480px auto;
 		background-image: url("{{ site.baseurl }}/assets/img/largescrollmiddle.png");
 		background-repeat: repeat-y;
 		background-position: center top;
@@ -303,8 +303,8 @@ footer {
 		z-index: 5;
 		width: 420px;
 		height: auto;
-		margin: 40px auto;
-		padding: 50px 0 50px 0;
+		margin: 40px auto 150px;
+		padding: 0;
 		-webkit-mask-image: none;
 		mask-image: none;
 		overflow-y: scroll;
@@ -314,11 +314,11 @@ footer {
 		position: fixed;
 		margin: auto;
 		padding: 0;
-		height: 95px;
+		height: 91px;
 		width: 100%;
 		bottom: -10px;
 		border: none;
-		background-size: 500px auto;
+		background-size: 480px 91px;
 		background-image: url("{{ site.baseurl }}/assets/img/largescrollbottom.png");
 		background-repeat: no-repeat;
 		background-position: center bottom;
