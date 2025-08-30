@@ -3,9 +3,9 @@ layout: post
 title: Racing Mechanics
 author: Peter Adams
 tags: racing mechanics
+date: 2025-08-30
 categories: updates
 ---
-## {{ post.title }}
 
 I've written a part of a quest where characters have to do some barrel racing down an underwater river. I did this without knowing how i would manage it, so I've started researching how others have managed racing.
 
@@ -53,5 +53,3 @@ The winner is the first person to get to the shallows beyond the cave river exit
 I've not been able to test this yet, so it may not work in practice. As with everything else I'd value feedback and suggestions...
 
 [Report an issue](https://github.com/PRAEst-76/Omera/issues/new?title=Racing+Mechanics)
-
-
