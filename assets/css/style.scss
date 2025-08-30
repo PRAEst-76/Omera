@@ -301,7 +301,7 @@ footer {
 	.content {
 		position: relative;
 		z-index: 5;
-		width: 90%;
+		width: 420px;
 		height: auto;
 		margin: 40px auto;
 		padding: 50px 0 50px 0;
@@ -314,11 +314,11 @@ footer {
 		position: fixed;
 		margin: auto;
 		padding: 0;
-		height: 95px;
+		height: 91px;
 		width: 100%;
 		bottom: -10px;
 		border: none;
-		background-size: 500px auto;
+		background-size: 480px 91px;
 		background-image: url("{{ site.baseurl }}/assets/img/largescrollbottom.png");
 		background-repeat: no-repeat;
 		background-position: center bottom;
