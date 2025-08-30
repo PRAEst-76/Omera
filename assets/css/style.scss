@@ -277,7 +277,7 @@ footer {
 		margin: auto;
 		top: 0px;
 		position: static;
-		background-size: px auto;
+		background-size: 480px auto;
 		background-image: url("{{ site.baseurl }}/assets/img/largescrollmiddle.png");
 		background-repeat: repeat-y;
 		background-position: center top;
@@ -301,7 +301,7 @@ footer {
 	.content {
 		position: relative;
 		z-index: 5;
-		width: 420px;
+		width: 90%;
 		height: auto;
 		margin: 40px auto;
 		padding: 50px 0 50px 0;
