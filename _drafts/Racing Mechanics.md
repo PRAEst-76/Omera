@@ -6,7 +6,6 @@ tags: racing mechanics
 date: 2025-08-30
 categories: updates
 ---
-
 I've written a part of a quest where characters have to do some barrel racing down an underwater river. I did this without knowing how i would manage it, so I've started researching how others have managed racing.
 
 [D&D Beyond Forum: Racing Mechanics?](https://www.dndbeyond.com/forums/dungeons-dragons-discussion/dungeon-masters-only/71526-racing-mechanics)
