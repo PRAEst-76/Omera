@@ -6,10 +6,6 @@ tags: racing mechanics
 date: 2025-08-30
 categories: updates
 ---
-<<<<<<< HEAD
-
-=======
->>>>>>> 52966d31262cb8d080ba595a5eb9717b9912d69e
 I've written a part of a quest where characters have to do some barrel racing down an underwater river. I did this without knowing how i would manage it, so I've started researching how others have managed racing.
 
 [D&D Beyond Forum: Racing Mechanics?](https://www.dndbeyond.com/forums/dungeons-dragons-discussion/dungeon-masters-only/71526-racing-mechanics)
@@ -44,7 +40,6 @@ Each player rolls a D6. This is how many hexagons they can move. The DM makes a 
 
 The players then moves their barrels. The DM looks up the river flow and eddies table, this will determine how the river affects their move. The DM will then change their final position accordingly.
 
-<<<<<<< HEAD
 | Dice roll | Current influence | Barrel adjustment                     |
 |:---------:|:------------------|:--------------------------------------|
 |     1     | weak left         | move barrel one hex to the left       |
@@ -53,16 +48,6 @@ The players then moves their barrels. The DM looks up the river flow and eddies 
 |     4     | ebb               | move barrel one hex back              |
 |     5     | strong left       | move barrel two hexes to the left     |
 |     6     | strong right      | move barrel two hexes to the right    |
-=======
-| Dice roll      | Flow bias     |  effect |
-|:-------------:|:------------- |:-------|
-| 1 | weak left |  move barrel one hex to the left |
-| 2 | weak right | move barrel one hex to the right |
-| 3 | flow | move barrel one hex ahead |
-| 4 | ebb | move barrel one hex back |
-| 5 | strong left | move barrel two hexes to the left |
-| 6 | strong right | move barrel two hexes to the right |
->>>>>>> 52966d31262cb8d080ba595a5eb9717b9912d69e
 
 Any barrels that collide with each other or hit the bank need to make a dex check or go back one hex.
 
