@@ -24,9 +24,11 @@ The map is divided into hexagons for this. Each hexagon is about five feet. The 
 
 ![Cave river race map]({{ site.url }}{{ site.baseurl }}/modules/maps/cave_river_race_map.png)
 
+First players and DM make the standard initiative rolls to determine who goes first.
+
 Each player rolls a D6. This is how many hexagons they can move. The DM makes a secret D6 roll for the river for each player.
 
-The players then moves their barrels. The DM loks up the river flow and eddies table, this will determine how the river affects their move. The DM will then change their final position accordingly.
+The players then moves their barrels. The DM looks up the river flow and eddies table, this will determine how the river affects their move. The DM will then change their final position accordingly.
 
 | Dice roll      | Column 2      |
 | ------------- | ------------- |
