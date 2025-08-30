@@ -48,6 +48,6 @@ Of course, players can attempt to deliberately ram another players barrel, this 
 
 The winner is the first person to get to the shallows beyond the cave river exit.
 
-I've
+I've not been able to test this yet, so it may not work in practice. As with everything else I'd value feedback and suggestions.
 
 ![Cave river race map]({{ site.url }}{{ site.baseurl }}/modules/maps/cave_river_race_map.png)
