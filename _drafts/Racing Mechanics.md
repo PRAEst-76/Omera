@@ -38,7 +38,7 @@ The players then moves their barrels. The DM loks up the river flow and eddies t
 
 Any barrels that collide with each other or hit the bank need to make a dex check or go back one hex.
 
-On each turn after the "river" move, a player who has can quickly decide to use their oar to avoid the consequences or advance one more hex. They will need to clearly state which outcome they desire. They will need to perform a strength check. If they succeed they will either advance or remain where they intended depending on what they announced they wanted to achieve wiht the oar. A failure means they remain where they are after the river move and are unable to use the oar again on the following turn. If the river move would cause a collision and they announce they will try to advance, the the strength check is made at a disadvantage. A failure that results in a collision means they go back one hex and cannot use the oar again for the next turn.
+On each turn after the "river" move, a player who has can quickly decide to use their oar to avoid the consequences or advance one more hex. They will need to clearly state which outcome they desire. They will need to perform a strength check. If they succeed they will either advance or remain where they intended depending on what they announced they wanted to achieve with the oar. A failure means they remain where they are after the river move and are unable to use the oar again on the following turn. If the river move would cause a collision and they announce they will try to advance, the the strength check is made at a disadvantage. A failure that results in a collision means they go back one hex and cannot use the oar again for the next turn.
 
 Any dex check that is a critial failure means the barrel capsizes and the player goes back one hex and misses the next turn.
 
@@ -47,5 +47,7 @@ Any strength check that rolls a critical failure, loses their oar and has the op
 Of course, players can attempt to deliberately ram another players barrel, this will be treated as a standard collision except the "rammer" rolls with advantage.
 
 The winner is the first person to get to the shallows beyond the cave river exit.
+
+I've
 
 ![Cave river race map]({{ site.url }}{{ site.baseurl }}/modules/maps/cave_river_race_map.png)
