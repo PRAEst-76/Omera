@@ -8,6 +8,8 @@ categories: updates
 ---
 I've written a part of a quest where characters have to do some barrel racing down an underwater river. I did this without knowing how I would manage it, so I've started researching how others have managed racing.
 
+<!--more-->
+
 [D&D Beyond Forum: Racing Mechanics?](https://www.dndbeyond.com/forums/dungeons-dragons-discussion/dungeon-masters-only/71526-racing-mechanics)
 
 [r/DMAcademy:  Does anyone know of any good racing mechanics for 5e?](https://www.reddit.com/r/DMAcademy/comments/x96b0o/does_anyone_know_of_any_good_racing_mechanics_for/)
