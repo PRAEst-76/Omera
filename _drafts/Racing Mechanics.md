@@ -44,7 +44,7 @@ Any dex check that is a critial failure means the barrel capsizes and the player
 
 Any strength check that rolls a critical failure, loses their oar and has the option to either continue without it or retrive it, which has the same penalty as a critical dex failure.
 
-Of course, players can attempt to deliberately ram another players barrel, 
+Of course, players can attempt to deliberately ram another players barrel, this will be treated as a standard collision except the "rammer" rolls with advantage.
 
 The winner is the first person to get to the shallows beyond the cave river exit.
 
