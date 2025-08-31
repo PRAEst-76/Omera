@@ -2,6 +2,7 @@
 layout: post
 title: Character Sheet
 author: Peter Adams (PRAEst76)
+date: 2025-08-20
 categories: updates
 tags:  characters mechanics
 ---
