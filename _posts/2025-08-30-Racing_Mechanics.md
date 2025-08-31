@@ -51,7 +51,7 @@ First players and DM make the standard initiative rolls to determine who goes fi
 
 Each player rolls a D6. This is how many hexagons they can move. The DM makes a secret D6 roll for the river for each player.
 
-The players then moves their barrels. The DM looks up the river flow and eddies table, this will determine how the river affects their move. The DM will then change their final position accordingly. The rolls corrispond to the sides of the finishing hex clockwise from north. ![movement with 1d6]({{ site.url}}{{site.baseurl }}/images/rivermove.png)
+![movement with 1d6]({{ site.url}}{{site.baseurl }}/images/rivermove.png)The players then moves their barrels. The DM looks up the river flow and eddies table, this will determine how the river affects their move. The DM will then change their final position accordingly. The rolls corrispond to the sides of the finishing hex clockwise from north. 
 
 ### Flow & Eddies Table
 
