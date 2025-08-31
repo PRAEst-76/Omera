@@ -15,17 +15,16 @@ layout: default
 {{ content }}
 
 <h4 class="byline">
-
   {% if page.author %}
-  {{ page.author | join: " - " }}
+  {{ page.author | join: " - " }}<br>
   {% endif %}
 
   {% if page.date %}
-  <i>Posted: {{ page.update }}</i>
+  <i>Posted: {{ page.update }}</i><br>
   {% endif %}
 
   {% if page.update %}
-  <i>(Updated: {{ page.update }})</i>
+  <i>(Updated: {{ page.update }})</i><be>
   {% endif %}
 
   <a href="https://github.com/PRAEst-76/Omera/issues/new?title={{ page.title | replace:' ','+' }}">
