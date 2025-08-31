@@ -2,6 +2,7 @@
 layout: post
 title: Opening up the Repository
 author: Peter Adams (PRAEst76)
+date: 2025-08-16
 category: updates
 ---
 ![Loot Cards]({{ site.url }}{{ site.baseurl }}/images/a-group-of-d-d-characters-opening-a-treasure-chest-in-official-art-from-the-game-1519975887.jpg)
