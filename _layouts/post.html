@@ -14,21 +14,28 @@ layout: default
 
 {{ content }}
 
-
 <h4 class="byline">
-	
-	{% if page.author %}
-  {{ page.author | join: " - " }}
-    {% endif %}
-    
-<br />   
 
-    	{% if page.update %}
-<I>Updated: {{ page.update }}</I>
-    {% endif %}
-    
- <br />    
- 
-  <a href="https://github.com/PRAEst-76/Omera/issues/new?title={{ page.title | replace:' ','+' }}">Report an issue</a>
-  
+  {% if page.author %}
+  {{ page.author | join: " - " }}
+  {% endif %}
+
+  <br />
+
+  {% if page.date %}
+  <i>Posted: {{ page.update }}</i>
+  {% endif %}
+
+  <br />
+
+  {% if page.update %}
+  <i>Updated: {{ page.update }}</i>
+  {% endif %}
+
+  <br />
+
+  <a href="https://github.com/PRAEst-76/Omera/issues/new?title={{ page.title | replace:' ','+' }}">
+    Report an issue
+  </a>
+
 </h4>
