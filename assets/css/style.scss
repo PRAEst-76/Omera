@@ -345,6 +345,14 @@ footer {
 		border: none;
 	}
 
+	.dropdown hr {
+		width: 40%;
+		margin: 0;
+		padding: 0;
+		border: 0;
+		border-top: 1px solid #493c33;
+	}
+
 	.dropdown-content {
 		display: none;
 		position: absolute;
