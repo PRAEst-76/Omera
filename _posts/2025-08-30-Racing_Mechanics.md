@@ -47,11 +47,11 @@ The map is divided into hexagons for this. Each hexagon is about five feet. The 
 
 ### Movement
 
-First players and DM make the standard initiative rolls to determine who goes first.
+First the players (and the DM, if any NPCs are involved) make the standard initiative rolls to determine who goes first.
 
-Each player rolls a D6. This is how many hexagons they can move. The DM makes a secret D6 roll for the river for each player.
+Each player rolls a D6. This is how many hexagons they can move. The DM makes a secret D6 roll on behalf of the river for each player.
 
-The players then moves their barrels. The DM looks up the river flow and eddies table, this will determine how the river affects their move. The DM will then change their final position accordingly. The rolls corrispond to the sides of the finishing hex clockwise from north. 
+The players then moves their barrels. The DM looks up the river flow and eddies table, this will determine how the river affects each player's move. The DM will then change their final position accordingly. The rolls corrispond to the sides of the finishing hex clockwise from north. 
 
 ![movement with 1d6]({{ site.url}}{{site.baseurl }}/images/rivermove.png)
 
@@ -66,9 +66,9 @@ The players then moves their barrels. The DM looks up the river flow and eddies 
 |     5     | flow              | move barrel to middle left hex        |
 |     6     | strong port       | move barrel to top left hex           |
 
-### Dex Check
+### Collisions
 
-Any barrels that collide with each other or hit the bank need to make a dex check or ~~go back one hex~~ roll on the table again. This may result in multiple rolls and the barrels bouncing all over the place. This is quite chaotic, but fits the mood of the race..
+Any barrels that collide with each other or hit the bank need to make a dex check or ~~go back one hex~~ roll on the table again; This may well result in multiple rolls on the table and the barrels bouncing all over the place. This is quite chaotic, but intentional as it fits the mood of the race...
 
 ### Oarsmanship
 
@@ -86,7 +86,7 @@ Of course, players can attempt to deliberately ram another players barrel, this 
 
 ### Ending the Race
 
-The winner is the first person to get to the shallows beyond the cave river exit.
+The winner is the first person to get to the finish line, which in this case are the shallows beyond the cave river exit.
 
 I've not been able to test this yet, so it may not work in practice. As with everything else I'd value feedback and suggestions...
 
