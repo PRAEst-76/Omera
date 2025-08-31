@@ -7,8 +7,6 @@ date: 2025-08-30
 update: 2025-08-31
 categories: updates
 ---
-![Goblins on barrels]({{ site.url }}{{ site.baseurl }}/images/originals/barrel_riders.jpg)
-
 I've written a part of a quest where characters have to do some barrel racing down an underwater river. I did this without knowing how I would manage it, so I've started researching how others have managed racing.
 
 <!--more-->
