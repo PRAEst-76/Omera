@@ -16,13 +16,19 @@ layout: default
 
 
 <h4 class="byline">
+	
 	{% if page.author %}
   {{ page.author | join: " - " }}
     {% endif %}
     
+<br />   
+
     	{% if page.update %}
- <I> Updated: {{ page.update }}</I>
+__Updated: {{ page.update }}__
     {% endif %}
     
+ <br />    
+ 
   [Report an issue](https://github.com/PRAEst-76/Omera/issues/new?title={{ page.title }})
+  
 </h4>
