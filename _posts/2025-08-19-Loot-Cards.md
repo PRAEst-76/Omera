@@ -2,6 +2,7 @@
 layout: post
 title: Loot Cards
 author: Peter Adams (PRAEst76)
+date: 2025-08-19
 categories: updates
 tags: lootcards items mechanics
 ---
