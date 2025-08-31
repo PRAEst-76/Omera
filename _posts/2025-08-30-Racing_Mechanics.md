@@ -41,7 +41,7 @@ The race will be short, given the length of the river between the starting point
 
 The map is divided into hexagons for this. Each hexagon is about five feet. The river itself is Approx 6x50.
 
-![Cave river race map]({{ site.url }}{{ site.baseurl }}/modules/maps/cave_river_race_map.png)
+![Cave river race map]({{ site.url }}{{ site.baseurl }}/modules/maps/cave_river_race_map_thumb.png)
 
 [Cave river race map]({{ site.url }}{{ site.baseurl }}/modules/maps/cave_river_race_map.png)
 
@@ -51,9 +51,7 @@ First players and DM make the standard initiative rolls to determine who goes fi
 
 Each player rolls a D6. This is how many hexagons they can move. The DM makes a secret D6 roll for the river for each player.
 
-The players then moves their barrels. The DM looks up the river flow and eddies table, this will determine how the river affects their move. The DM will then change their final position accordingly. The rolls corrispond to the sides of the finishing hex clockwise from north.
-
-![movement with 1d6]({{ site.url}}{{site.baseurl }}/images/rivermove.png)
+The players then moves their barrels. The DM looks up the river flow and eddies table, this will determine how the river affects their move. The DM will then change their final position accordingly. The rolls corrispond to the sides of the finishing hex clockwise from north. ![movement with 1d6]({{ site.url}}{{site.baseurl }}/images/rivermove.png)
 
 ### Flow & Eddies Table
 
