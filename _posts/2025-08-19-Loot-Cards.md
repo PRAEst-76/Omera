@@ -17,3 +17,4 @@ I've initially started on a low level pack for the first module. Basic stuff lvl
 [Canva Link for Card Pack One](https://www.canva.com/design/DAGwKx_J5Fk/vtpJrH37aBqG3ktHuO6mGw/edit?utm_content=DAGwKx_J5Fk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 Note: Canva lets you export to PDF with crop-marks and bleed, however Canva doesn't support crop-marks and bleed, so it just sticks them wherever. Thus, I have left an area around each card to allow for cropping. I may add proper crop marks in the future for people who wish to print these out.
+

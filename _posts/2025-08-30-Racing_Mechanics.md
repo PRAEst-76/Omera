@@ -9,7 +9,7 @@ categories: updates
 ---
 ![barrels]({{ site.url }}{{ site.baseurl }}/images/barrelmap.jpg)
 
-I've written a part of a quest where characters have to do some barrel racing down an underwater river. I did this without knowing how I would manage it, so I've started researching how others have managed racing.
+I've written a part of a quest where characters have to do some barrel racing down an underwater river. I did this without actually knowing how I would impliment it, so I've started frantically researching how others have managed racing in tabletop RPGs...
 
 <!--more-->
 
@@ -17,7 +17,9 @@ I've written a part of a quest where characters have to do some barrel racing do
 
  [r/DMAcademy:  Does anyone know of any good racing mechanics for 5e?](https://www.reddit.com/r/DMAcademy/comments/x96b0o/does_anyone_know_of_any_good_racing_mechanics_for/)
 
-The gist seems to be to use a modified chase mechanics. What are chase mechanics I hear you ask? Well, I've had no idea. Never chased or been chased in a desktop roleplaying session. Or if I have I've done it without knowing and probably performed very poorly.
+The gist seems to be to use a modified chase mechanics. What are chase mechanics I hear you ask? Well, I've no idea. Never chased or been chased in a desktop roleplaying session. Or if I have I've done it without knowing and probably performed very poorly.
+
+Anyway...
 
  [D&D Beyond: Dungeon Master's Guide - Running the Chase](https://www.dndbeyond.com/sources/dnd/dmg-2014/running-the-game#Chases) (Paywalled)
 
@@ -29,7 +31,7 @@ The gist seems to be to use a modified chase mechanics. What are chase mechanics
 
 From what I've discovered the standard chase rules in D&D are considered to be quite dull and people usually have to improvise to make it interesting.
 
-I didn't feel any of the suggestions fit my situation, which is not a chase, but a race. So I've chucked something together. It may or may not need more work:
+I didn't feel any of the suggestions fit my situation, which is not a chase, but a race. So I've chucked something together. It may or may not need more work.
 
 So here goes:
 
@@ -59,14 +61,14 @@ The players then moves their barrels. The DM looks up the river flow and eddies 
 
 ### Flow & Eddies Table
 
-| Dice roll | Current influence | Barrel adjustment                     |
-|:---------:|:------------------|:--------------------------------------|
-|     1     | weak starboard    | move barrel to the top right hex      |
-|     2     | ebb               | move barrel to the middle right hex   |
-|     3     | weak port         | move barrel to bottom right hex       |
-|     4     | strong starboard  | move barrel to bottom left hex        |
-|     5     | flow              | move barrel to middle left hex        |
-|     6     | strong port       | move barrel to top left hex           |
+| Dice roll | Barrel adjustment                     |
+|:---------:|:--------------------------------------|
+|     1     | move barrel to the top right hex      |
+|     2     | move barrel to the middle right hex   |
+|     3     | move barrel to bottom right hex       |
+|     4     | move barrel to bottom left hex        |
+|     5     | move barrel to middle left hex        |
+|     6     | move barrel to top left hex           |
 
 ### Collisions
 
