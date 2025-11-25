@@ -21,9 +21,9 @@ I aim to:
 
 ## How to Play
 
-Game is loosely based on D&D 5th Ed will heavily simplified rules.
+Game is loosely based on D&D 5th Ed with heavily simplified rules (more akin to a loose intepretation of the old D&D Basic system).
 
-Players will all start in the tiny village of Harwich. They are little more than adventurous village kids and will have little knowledge of the world. Some fanciful backstory will be given in the form of stories from the Storyteller character.
+Players will all start in the tiny village of Harwich. They are little more than adventurous village kids and will have little knowledge of the world. Some fanciful backstory will be given in the form of stories from a village Storyteller character.
 
 They start will no weapons or armour initially and will do basic quests given by townsfolk to raise money and experience.
 
