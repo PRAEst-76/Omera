@@ -21,7 +21,7 @@ I aim to:
 
 ## How to Play
 
-Game is loosely based on D&D 5th Ed with heavily simplified rules (more akin to a loose intepretation of the old D&D Basic system).
+Game is based on [D&D 5th Edition](https://www.dndbeyond.com/sources/dnd/basic-rules-2014) with heavily simplified rules (more akin to a loose intepretation of the old [D&D Basic system](https://en.wikipedia.org/wiki/Dungeons_%26_Dragons_Basic_Set#1983_revision), which was the first version I played).
 
 Players will all start in the tiny village of Harwich. They are little more than adventurous village kids and will have little knowledge of the world. Some fanciful backstory will be given in the form of stories from a village Storyteller character.
 
