@@ -22,7 +22,7 @@ Most of these are here for my own guidence, though they may be of use to others 
 
 ## Map Creation
 
-[Watabou's Procgen Arcana](https://watabou.itch.io) - Excellent open resource suite for generating random dungeon and area maps with markup. Regularly updated.
+[Watabou's Procgen Arcana](https://watabou.itch.io) - This guy is doing the laird's work. Excellent open resource suite for generating random dungeon and area maps with markup. Regularly updated with new generators added quicker than I can use them.
 
 [donjon.bin.sh](https://donjon.bin.sh) - Many random generation resources.
 
